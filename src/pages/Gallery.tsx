@@ -22,7 +22,7 @@ import semmozhi2 from "@/assets/semozhi poonga/img2.jpeg";
 import srivari3 from "@/assets/Srivari villas/img3_comp.jpg";
 import abhasa2 from "@/assets/abhasa images/img2.jpeg";
 import gunjan1 from "@/assets/Gunjan Builders/img1.webp";
-import moongil3 from "@/assets/moogil kadu/img3.png";
+import moongil3 from "@/assets/moogil kadu/moogil_3_comp.jpg";
 import serviceVertical from "@/assets/services/vertical/vertical.jpg";
 import serviceGazebo from "@/assets/services/gazebo/unnamed.webp";
 import serviceTerrace from "@/assets/services/terrace/terrace-garden.jpg";

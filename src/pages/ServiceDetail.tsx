@@ -22,7 +22,7 @@ import terrace5 from "@/assets/services/terrace/Eco-Friendly-Green-Roof-Terrace-
 import terrace6 from "@/assets/services/terrace/why-arent-rooftop-decks-popular-in-new-suburbs-with-the-v0-3kq14w6tlp5g1.webp";
 
 // Lawn Assets
-import lawnCover from "@/assets/services/lawn/image.png";
+import lawnCover from "@/assets/services/lawn/lawn_hero.jpg";
 import lawn1 from "@/assets/services/lawn/IMG_20240130_170122.jpg";
 import lawn2 from "@/assets/services/lawn/IMG_20240130_170703.jpg";
 import lawn3 from "@/assets/services/lawn/2f8a4a14a423f91ff4eb410ec9f284cf.jpg";
@@ -38,7 +38,7 @@ import vertical5 from "@/assets/services/vertical/vertical-gardens-500x500.webp"
 
 // Water Feature Assets
 import waterCover from "@/assets/services/water/image.jpg";
-import water1 from "@/assets/services/water/20130517_122536.jpg";
+import water1 from "@/assets/services/water/water_detail_1.jpg";
 import water2 from "@/assets/services/water/09984fdac77e445b39667ed277b7c446.jpg";
 import water3 from "@/assets/services/water/10e08f2355646a09222b017b34ecd579.jpg";
 import water4 from "@/assets/services/water/b174943b676c10089baa1595d0ce6f45.jpg";
@@ -57,12 +57,12 @@ import commercial3 from "@/assets/services/commercial/520aa288191abe973aeab1be9e
 import commercial4 from "@/assets/services/commercial/f845f560025c4880396d282570bb139d.jpg";
 
 // Maintenance Assets
-import maintenanceCover from "@/assets/services/maintenance/image.png";
-import maintenance1 from "@/assets/services/maintenance/IMG_20240130_170101.jpg";
-import maintenance3 from "@/assets/services/maintenance/IMG_20240130_170117.jpg";
-import maintenance4 from "@/assets/services/maintenance/IMG_20240130_170703.jpg";
-import maintenance5 from "@/assets/services/maintenance/IMG_20240130_170739.jpg";
-import maintenancePark from "@/assets/services/maintenance/Afternoon park with sprinklers and pergolas.png";
+import maintenanceCover from "@/assets/services/maintenance/main_hero.jpg";
+import maintenance1 from "@/assets/services/maintenance/main_detail_1.jpg";
+import maintenance3 from "@/assets/services/maintenance/main_detail_2.jpg";
+import maintenance4 from "@/assets/services/maintenance/main_detail_3.jpg";
+import maintenance5 from "@/assets/services/maintenance/main_detail_4.jpg";
+import maintenancePark from "@/assets/services/maintenance/park_detail_1.jpg";
 
 const imageMap: Record<string, string> = {
   "landscape-1": landscape1,
