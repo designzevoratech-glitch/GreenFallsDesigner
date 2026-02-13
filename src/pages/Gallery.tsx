@@ -93,7 +93,7 @@ const Gallery = () => {
             </div>
 
             <Dialog open={!!selectedImage} onOpenChange={() => setSelectedImage(null)}>
-                <DialogContent className="max-w-4xl p-0 bg-transparent border-none shadow-none">
+                <DialogContent className="max-w-4xl p-0 bg-transparent border-none shadow-none" data-lenis-prevent>
                     {selectedImage && (
                         <img
                             src={selectedImage}

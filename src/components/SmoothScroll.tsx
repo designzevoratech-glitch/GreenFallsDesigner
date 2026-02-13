@@ -1,11 +1,15 @@
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import Lenis from 'lenis';
+import { useLocation } from 'react-router-dom';
 
 interface SmoothScrollProps {
     children: React.ReactNode;
 }
 
 const SmoothScroll = ({ children }: SmoothScrollProps) => {
+    const { pathname } = useLocation();
+    const lenisRef = useRef<Lenis | null>(null);
+
     useEffect(() => {
         const lenis = new Lenis({
             duration: 1.2,
@@ -18,6 +22,8 @@ const SmoothScroll = ({ children }: SmoothScrollProps) => {
             infinite: false,
         });
 
+        lenisRef.current = lenis;
+
         function raf(time: number) {
             lenis.raf(time);
             requestAnimationFrame(raf);
@@ -27,8 +33,15 @@ const SmoothScroll = ({ children }: SmoothScrollProps) => {
 
         return () => {
             lenis.destroy();
+            lenisRef.current = null;
         };
     }, []);
+
+    useEffect(() => {
+        if (lenisRef.current) {
+            lenisRef.current.scrollTo(0, { immediate: true });
+        }
+    }, [pathname]);
 
     return <>{children}</>;
 };

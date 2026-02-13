@@ -76,7 +76,7 @@ const Blog = () => {
             </div>
 
             <Dialog open={!!selectedBlog} onOpenChange={() => setSelectedBlog(null)}>
-                <DialogContent className="max-w-3xl h-[80vh] p-0 overflow-hidden flex flex-col">
+                <DialogContent className="max-w-3xl h-[80vh] p-0 overflow-hidden flex flex-col" data-lenis-prevent>
                     {selectedBlog && (
                         <>
                             <div className="relative h-64 shrink-0">
