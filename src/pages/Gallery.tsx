@@ -6,7 +6,7 @@ import { Dialog, DialogContent } from "@/components/ui/dialog";
 
 // Import images directly (reusing assets for gallery)
 // Authentic Project & Service Assets
-import semmozhi4 from "@/assets/semozhi poonga/img4.jpeg";
+import semmozhi4 from "@/assets/semozhi poonga/img4_comp.jpg";
 import semmozhi6 from "@/assets/semozhi poonga/img6.jpeg";
 import srivari1 from "@/assets/Srivari villas/img1_comp.jpg";
 import srivari4 from "@/assets/Srivari villas/img4_comp.jpg";
@@ -18,7 +18,7 @@ import gunjan3 from "@/assets/Gunjan Builders/img3_comp.jpg";
 import moongil1 from "@/assets/moogil kadu/img1_comp.jpg";
 import landscapePremium from "@/assets/services/landscape/landscape_hero.jpg";
 import terracePremium from "@/assets/services/terrace/terrace_detail_1.jpg";
-import semmozhi2 from "@/assets/semozhi poonga/img2.jpeg";
+import semmozhi2 from "@/assets/semozhi poonga/img2_comp.jpg";
 import srivari3 from "@/assets/Srivari villas/img3_comp.jpg";
 import abhasa2 from "@/assets/abhasa images/img2.jpeg";
 import gunjan1 from "@/assets/Gunjan Builders/img1.webp";

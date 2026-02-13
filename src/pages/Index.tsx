@@ -4,7 +4,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { Check, Star, ArrowRight, Phone } from "lucide-react";
 import SectionHeading from "@/components/SectionHeading";
 import SEO from "@/components/SEO";
-import heroImg from "@/assets/hero-garden.jpg";
+import heroImg from "@/assets/hero_garden_comp.jpg";
 import serviceLandscape from "@/assets/services/landscape/landscape_hero.jpg";
 import serviceTerrace from "@/assets/services/terrace/terrace-garden.jpg";
 import serviceLawn from "@/assets/services/lawn/lawn_index.jpg";
