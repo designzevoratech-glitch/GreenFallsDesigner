@@ -3,11 +3,10 @@ import heroImg from "@/assets/hero_garden_comp.jpg";
 import serviceLandscape from "@/assets/services/landscape/landscape_hero.jpg";
 import serviceTerrace from "@/assets/services/terrace/terrace-garden.jpg";
 import serviceLawn from "@/assets/services/lawn/lawn_index.jpg";
-import serviceCommercial from "@/assets/services/commercial/commercial_hero.jpg";
+import serviceGazebo from "@/assets/services/gazebo/unnamed.webp";
+import serviceCommercial from "@/assets/services/commercial/dabf29889e115df79cb4a220c9a37905.jpg";
 import semmozhi4 from "@/assets/semozhi poonga/img4_comp.jpg";
-import serviceGazebo from "@/assets/services/gazebo/gazebo_hero.jpg";
-import serviceRock from "@/assets/services/water/image.jpg";
-import serviceVertical from "@/assets/services/vertical/vertical_hero.jpg";
+import serviceVertical from "@/assets/services/vertical/vertical.jpg";
 import serviceWater from "@/assets/services/water/image.jpg";
 
 export const blogs = [
@@ -62,7 +61,7 @@ export const blogs = [
     {
         id: 7,
         title: "Common Garden Mistakes Homeowners Make",
-        image: serviceRock,
+        image: serviceWater,
         category: "Gardening Tips",
         date: "January 20, 2026",
         content: "Creating a beautiful garden requires more than just planting flowers and watering them regularly. Many homeowners unknowingly make simple mistakes that affect plant health, growth, and overall garden appearance. Understanding these common errors can help you maintain a thriving and long-lasting garden.\n\nOne of the most frequent mistakes is overwatering. While plants need water to survive, excessive watering can lead to root rot, fungal diseases, and weak root systems. It is important to understand the specific water requirements of each plant rather than following a fixed schedule. Similarly, underwatering can stress plants and stunt their growth.\n\nAnother common issue is choosing the wrong plants for the local climate or soil type. Not all plants thrive in every environment. Selecting plants that are unsuitable for your region can result in poor growth and high maintenance costs. Proper research or professional guidance ensures better plant selection.\n\nPoor soil preparation is another major factor. Healthy soil enriched with compost and proper nutrients provides a strong foundation for plant growth. Ignoring drainage systems can also cause waterlogging and damage roots.\n\nOvercrowding plants is a mistake many beginners make. Plants need adequate space for sunlight, airflow, and root expansion. Without spacing, diseases spread more easily.\n\nBy avoiding these common mistakes and planning carefully, homeowners can enjoy a healthier, greener, and more sustainable garden for years to come."
