@@ -7,40 +7,40 @@ import { projects } from "@/lib/projects-data";
 import SEO from "@/components/SEO";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
-import projectSemmozhi from "@/assets/project-semmozhi.jpg";
-import serviceCommercial from "@/assets/services/commercial/dabf29889e115df79cb4a220c9a37905.jpg";
-import serviceLandscape from "@/assets/services/landscape/landscape_hero.jpg";
-import serviceLawn from "@/assets/services/lawn/lawn_index.jpg";
-import serviceTerrace from "@/assets/services/terrace/terrace-garden.jpg";
-import heroImg from "@/assets/hero_garden_comp.jpg";
-import semmozhi1 from "@/assets/semozhi poonga/img1.jpeg";
-import semmozhi2 from "@/assets/semozhi poonga/img2_comp.jpg";
-import semmozhi3 from "@/assets/semozhi poonga/img3.jpeg";
-import semmozhi4 from "@/assets/semozhi poonga/img4_comp.jpg";
-import semmozhi5 from "@/assets/semozhi poonga/img5.jpeg";
-import semmozhi6 from "@/assets/semozhi poonga/img6.jpeg";
-import abhasa1 from "@/assets/abhasa images/img1.jpeg";
-import abhasa2 from "@/assets/abhasa images/img2.jpeg";
-import abhasa3 from "@/assets/abhasa images/img3_comp.jpg";
-import abhasa4jpg from "@/assets/abhasa images/img4.jpeg";
-import abhasa4png from "@/assets/abhasa images/img4.png";
-import abhasa5 from "@/assets/abhasa images/img5_comp.jpg";
-import moongil1 from "@/assets/moogil kadu/img1_comp.jpg";
-import moongil2 from "@/assets/moogil kadu/img2_comp.jpg";
-import moongil3 from "@/assets/moogil kadu/moogil_3_comp.jpg";
-import moongil4 from "@/assets/moogil kadu/img4_comp.jpg";
+import projectSemmozhi from "@/assets/project-semmozhi.webp";
+import serviceCommercial from "@/assets/services/commercial/dabf29889e115df79cb4a220c9a37905.webp";
+import serviceLandscape from "@/assets/services/landscape/landscape_hero.webp";
+import serviceLawn from "@/assets/services/lawn/lawn_index.webp";
+import serviceTerrace from "@/assets/services/terrace/terrace-garden.webp";
+import heroImg from "@/assets/hero_garden_comp.webp";
+import semmozhi1 from "@/assets/semozhi poonga/img1.webp";
+import semmozhi2 from "@/assets/semozhi poonga/img2_comp.webp";
+import semmozhi3 from "@/assets/semozhi poonga/img3.webp";
+import semmozhi4 from "@/assets/semozhi poonga/img4_comp.webp";
+import semmozhi5 from "@/assets/semozhi poonga/img5.webp";
+import semmozhi6 from "@/assets/semozhi poonga/img6.webp";
+import abhasa1 from "@/assets/abhasa images/img1.webp";
+import abhasa2 from "@/assets/abhasa images/img2.webp";
+import abhasa3 from "@/assets/abhasa images/img3_comp.webp";
+import abhasa4jpg from "@/assets/abhasa images/img4.webp";
+import abhasa4png from "@/assets/abhasa images/img4.webp";
+import abhasa5 from "@/assets/abhasa images/img5_comp.webp";
+import moongil1 from "@/assets/moogil kadu/img1_comp.webp";
+import moongil2 from "@/assets/moogil kadu/img2_comp.webp";
+import moongil3 from "@/assets/moogil kadu/moogil_3_comp.webp";
+import moongil4 from "@/assets/moogil kadu/img4_comp.webp";
 import moongilVideo from "@/assets/moogil kadu/video_comp.mp4";
 import gunjan1 from "@/assets/Gunjan Builders/img1.webp";
 import gunjan2 from "@/assets/Gunjan Builders/img2.webp";
-import gunjan3 from "@/assets/Gunjan Builders/img3_comp.jpg";
+import gunjan3 from "@/assets/Gunjan Builders/img3_comp.webp";
 import gunjan4 from "@/assets/Gunjan Builders/img4.webp";
-import ktvr1 from "@/assets/KTVR Knowledge Park For Ad Technology/img1.jpg";
-import ktvr2 from "@/assets/KTVR Knowledge Park For Ad Technology/img2.png";
-import ktvr3 from "@/assets/KTVR Knowledge Park For Ad Technology/img3.png";
-import srivari1 from "@/assets/Srivari villas/img1_comp.jpg";
-import srivari2 from "@/assets/Srivari villas/img2_comp.jpg";
-import srivari3 from "@/assets/Srivari villas/img3_comp.jpg";
-import srivari4 from "@/assets/Srivari villas/img4_comp.jpg";
+import ktvr1 from "@/assets/KTVR Knowledge Park For Ad Technology/img1.webp";
+import ktvr2 from "@/assets/KTVR Knowledge Park For Ad Technology/img2.webp";
+import ktvr3 from "@/assets/KTVR Knowledge Park For Ad Technology/img3.webp";
+import srivari1 from "@/assets/Srivari villas/img1_comp.webp";
+import srivari2 from "@/assets/Srivari villas/img2_comp.webp";
+import srivari3 from "@/assets/Srivari villas/img3_comp.webp";
+import srivari4 from "@/assets/Srivari villas/img4_comp.webp";
 import srivari5 from "@/assets/Srivari villas/srivari.avif";
 
 const imageMap: Record<string, string> = {
@@ -117,6 +117,7 @@ const ProjectDetail = () => {
                 description={`Explore ${project.name}, a signature landscaping project by Green Falls Garden Designer in Coimbatore. ${project.description.substring(0, 100)}...`}
                 canonical={`/projects/${slug}`}
                 keywords={`${project.name} coimbatore, landscaping project tamil nadu, garden design showcase, green falls portfolio`}
+                preloadImage={featuredImg}
                 schema={{
                     "@context": "https://schema.org",
                     "@type": "CreativeWork",

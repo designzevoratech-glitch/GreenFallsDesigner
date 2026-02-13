@@ -6,9 +6,9 @@ import SectionHeading from "@/components/SectionHeading";
 import { useToast } from "@/hooks/use-toast";
 
 import PageHeader from "@/components/PageHeader";
-import heroImg from "@/assets/hero_garden_comp.jpg";
-import serviceLandscape from "@/assets/services/landscape/landscape_hero.jpg";
-import serviceTerrace from "@/assets/services/terrace/terrace-garden.jpg";
+import heroImg from "@/assets/hero_garden_comp.webp";
+import serviceLandscape from "@/assets/services/landscape/landscape_hero.webp";
+import serviceTerrace from "@/assets/services/terrace/terrace-garden.webp";
 
 const Contact = () => {
   const { toast } = useToast();

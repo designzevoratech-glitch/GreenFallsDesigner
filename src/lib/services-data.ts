@@ -127,14 +127,14 @@ export const services: Service[] = [
 
 export const getServiceImage = (imageKey: string): string => {
   const imageMap: Record<string, string> = {
-    landscape: "/service-landscape.jpg",
-    terrace: "/service-terrace.jpg",
-    lawn: "/service-lawn.jpg",
-    vertical: "/service-vertical.jpg",
-    water: "/service-water.jpg",
-    rock: "/service-rock.jpg",
-    gazebo: "/service-gazebo.jpg",
-    commercial: "/service-commercial.jpg",
+    landscape: "/service-landscape.webp",
+    terrace: "/service-terrace.webp",
+    lawn: "/service-lawn.webp",
+    vertical: "/service-vertical.webp",
+    water: "/service-water.webp",
+    rock: "/service-rock.webp",
+    gazebo: "/service-gazebo.webp",
+    commercial: "/service-commercial.webp",
   };
   return imageMap[imageKey] || imageMap.landscape;
 };

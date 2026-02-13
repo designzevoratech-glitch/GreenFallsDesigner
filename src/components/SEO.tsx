@@ -5,10 +5,11 @@ interface SEOProps {
     description: string;
     keywords?: string;
     canonical?: string;
+    preloadImage?: string;
     schema?: any;
 }
 
-const SEO = ({ title, description, keywords, canonical, schema }: SEOProps) => {
+const SEO = ({ title, description, keywords, canonical, preloadImage, schema }: SEOProps) => {
     useEffect(() => {
         // Update Document Title
         const fullTitle = `${title} | Green Falls Garden Designer Coimbatore`;
@@ -50,6 +51,23 @@ const SEO = ({ title, description, keywords, canonical, schema }: SEOProps) => {
                 linkCanonical.setAttribute("href", fullUrl);
                 document.head.appendChild(linkCanonical);
             }
+        }
+
+        // Update Preload Image
+        if (preloadImage) {
+            let linkPreload = document.querySelector('link[rel="preload"][as="image"]');
+            if (linkPreload) {
+                linkPreload.setAttribute("href", preloadImage);
+            } else {
+                linkPreload = document.createElement("link");
+                linkPreload.setAttribute("rel", "preload");
+                linkPreload.setAttribute("as", "image");
+                linkPreload.setAttribute("href", preloadImage);
+                document.head.appendChild(linkPreload);
+            }
+        } else {
+            const existingPreload = document.querySelector('link[rel="preload"][as="image"]');
+            if (existingPreload) existingPreload.remove();
         }
 
         // Update Schema (JSON-LD)

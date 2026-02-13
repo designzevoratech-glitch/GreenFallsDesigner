@@ -8,61 +8,61 @@ import SEO from "@/components/SEO";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
 // Landscape Design Assets
-import landscape1 from "@/assets/services/landscape/landscape_hero.jpg";
-import landscape2 from "@/assets/services/landscape/IMG_20250416_081157.jpg";
-import landscape5 from "@/assets/services/landscape/WhatsApp Image 2026-02-10 at 11.43.44 AM.jpeg";
-import landscape6 from "@/assets/services/landscape/191cdf3e499007a7b1c15c04a9098352.jpg";
+import landscape1 from "@/assets/services/landscape/landscape_hero.webp";
+import landscape2 from "@/assets/services/landscape/IMG_20250416_081157.webp";
+import landscape5 from "@/assets/services/landscape/WhatsApp Image 2026-02-10 at 11.43.44 AM.webp";
+import landscape6 from "@/assets/services/landscape/191cdf3e499007a7b1c15c04a9098352.webp";
 
 // Terrace Garden Assets
-import terrace1 from "@/assets/services/terrace/terrace-garden.jpg";
-import terrace2 from "@/assets/services/terrace/terrace_detail_2.jpg";
-import terrace3 from "@/assets/services/terrace/terrace_detail_1.jpg";
-import terrace4 from "@/assets/services/terrace/9e7c2235145b02d138a00170a19896d9.jpg";
-import terrace5 from "@/assets/services/terrace/Eco-Friendly-Green-Roof-Terrace-Garden-Design.jpg";
+import terrace1 from "@/assets/services/terrace/terrace-garden.webp";
+import terrace2 from "@/assets/services/terrace/terrace_detail_2.webp";
+import terrace3 from "@/assets/services/terrace/terrace_detail_1.webp";
+import terrace4 from "@/assets/services/terrace/9e7c2235145b02d138a00170a19896d9.webp";
+import terrace5 from "@/assets/services/terrace/Eco-Friendly-Green-Roof-Terrace-Garden-Design.webp";
 import terrace6 from "@/assets/services/terrace/why-arent-rooftop-decks-popular-in-new-suburbs-with-the-v0-3kq14w6tlp5g1.webp";
 
 // Lawn Assets
-import lawnCover from "@/assets/services/lawn/lawn_hero.jpg";
-import lawn1 from "@/assets/services/lawn/IMG_20240130_170122.jpg";
-import lawn2 from "@/assets/services/lawn/IMG_20240130_170703.jpg";
-import lawn3 from "@/assets/services/lawn/2f8a4a14a423f91ff4eb410ec9f284cf.jpg";
-import lawn4 from "@/assets/services/lawn/191cdf3e499007a7b1c15c04a9098352.jpg";
-import lawn5 from "@/assets/services/lawn/lawn_hero.jpg";
+import lawnCover from "@/assets/services/lawn/lawn_hero.webp";
+import lawn1 from "@/assets/services/lawn/IMG_20240130_170122.webp";
+import lawn2 from "@/assets/services/lawn/IMG_20240130_170703.webp";
+import lawn3 from "@/assets/services/lawn/2f8a4a14a423f91ff4eb410ec9f284cf.webp";
+import lawn4 from "@/assets/services/lawn/191cdf3e499007a7b1c15c04a9098352.webp";
+import lawn5 from "@/assets/services/lawn/lawn_hero.webp";
 
 // Vertical Garden Assets
-import vertical1 from "@/assets/services/vertical/vertical.jpg";
-import vertical2 from "@/assets/services/vertical/IMG_20200721_164910.jpg";
-import vertical3 from "@/assets/services/vertical/Vertical-Green-Wall-Terrace-Garden-Design.jpg";
-import vertical4 from "@/assets/services/vertical/istockphoto-635949984-612x612.jpg";
+import vertical1 from "@/assets/services/vertical/vertical.webp";
+import vertical2 from "@/assets/services/vertical/IMG_20200721_164910.webp";
+import vertical3 from "@/assets/services/vertical/Vertical-Green-Wall-Terrace-Garden-Design.webp";
+import vertical4 from "@/assets/services/vertical/istockphoto-635949984-612x612.webp";
 import vertical5 from "@/assets/services/vertical/vertical-gardens-500x500.webp";
 
 // Water Feature Assets
-import waterCover from "@/assets/services/water/image.jpg";
-import water1 from "@/assets/services/water/water_detail_1.jpg";
-import water2 from "@/assets/services/water/09984fdac77e445b39667ed277b7c446.jpg";
-import water3 from "@/assets/services/water/10e08f2355646a09222b017b34ecd579.jpg";
-import water4 from "@/assets/services/water/b174943b676c10089baa1595d0ce6f45.jpg";
+import waterCover from "@/assets/services/water/image.webp";
+import water1 from "@/assets/services/water/water_detail_1.webp";
+import water2 from "@/assets/services/water/09984fdac77e445b39667ed277b7c446.webp";
+import water3 from "@/assets/services/water/10e08f2355646a09222b017b34ecd579.webp";
+import water4 from "@/assets/services/water/b174943b676c10089baa1595d0ce6f45.webp";
 
 
 // Gazebo Assets
 import gazebo1 from "@/assets/services/gazebo/unnamed.webp";
-import gazebo2 from "@/assets/services/gazebo/unnamed (1).jpg";
+import gazebo2 from "@/assets/services/gazebo/unnamed (1).webp";
 import gazebo3 from "@/assets/services/gazebo/unnamed (2).webp";
 import gazebo4 from "@/assets/services/gazebo/unnamed (3).webp";
 
 // Commercial Assets
-import commercial1 from "@/assets/services/commercial/dabf29889e115df79cb4a220c9a37905.jpg";
-import commercial2 from "@/assets/services/commercial/0567b2ac406a06595a2d2a84c467788d.jpg";
-import commercial3 from "@/assets/services/commercial/520aa288191abe973aeab1be9eea2242.jpg";
-import commercial4 from "@/assets/services/commercial/f845f560025c4880396d282570bb139d.jpg";
+import commercial1 from "@/assets/services/commercial/dabf29889e115df79cb4a220c9a37905.webp";
+import commercial2 from "@/assets/services/commercial/0567b2ac406a06595a2d2a84c467788d.webp";
+import commercial3 from "@/assets/services/commercial/520aa288191abe973aeab1be9eea2242.webp";
+import commercial4 from "@/assets/services/commercial/f845f560025c4880396d282570bb139d.webp";
 
 // Maintenance Assets
-import maintenanceCover from "@/assets/services/maintenance/main_hero.jpg";
-import maintenance1 from "@/assets/services/maintenance/main_detail_1.jpg";
-import maintenance3 from "@/assets/services/maintenance/main_detail_2.jpg";
-import maintenance4 from "@/assets/services/maintenance/main_detail_3.jpg";
-import maintenance5 from "@/assets/services/maintenance/main_detail_4.jpg";
-import maintenancePark from "@/assets/services/maintenance/park_detail_1.jpg";
+import maintenanceCover from "@/assets/services/maintenance/main_hero.webp";
+import maintenance1 from "@/assets/services/maintenance/main_detail_1.webp";
+import maintenance3 from "@/assets/services/maintenance/main_detail_2.webp";
+import maintenance4 from "@/assets/services/maintenance/main_detail_3.webp";
+import maintenance5 from "@/assets/services/maintenance/main_detail_4.webp";
+import maintenancePark from "@/assets/services/maintenance/park_detail_1.webp";
 
 const imageMap: Record<string, string> = {
   "landscape-1": landscape1,

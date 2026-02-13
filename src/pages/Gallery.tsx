@@ -6,26 +6,26 @@ import { Dialog, DialogContent } from "@/components/ui/dialog";
 
 // Import images directly (reusing assets for gallery)
 // Authentic Project & Service Assets
-import semmozhi4 from "@/assets/semozhi poonga/img4_comp.jpg";
-import semmozhi6 from "@/assets/semozhi poonga/img6.jpeg";
-import srivari1 from "@/assets/Srivari villas/img1_comp.jpg";
-import srivari4 from "@/assets/Srivari villas/img4_comp.jpg";
-import lawnCover from "@/assets/services/lawn/lawn_index.jpg";
-import waterCover from "@/assets/services/water/image.jpg";
-import maintenanceCover from "@/assets/services/maintenance/main_hero.jpg";
-import abhasa5 from "@/assets/abhasa images/img5_comp.jpg";
-import gunjan3 from "@/assets/Gunjan Builders/img3_comp.jpg";
-import moongil1 from "@/assets/moogil kadu/img1_comp.jpg";
-import landscapePremium from "@/assets/services/landscape/landscape_hero.jpg";
-import terracePremium from "@/assets/services/terrace/terrace_detail_1.jpg";
-import semmozhi2 from "@/assets/semozhi poonga/img2_comp.jpg";
-import srivari3 from "@/assets/Srivari villas/img3_comp.jpg";
-import abhasa2 from "@/assets/abhasa images/img2.jpeg";
+import semmozhi4 from "@/assets/semozhi poonga/img4_comp.webp";
+import semmozhi6 from "@/assets/semozhi poonga/img6.webp";
+import srivari1 from "@/assets/Srivari villas/img1_comp.webp";
+import srivari4 from "@/assets/Srivari villas/img4_comp.webp";
+import lawnCover from "@/assets/services/lawn/lawn_index.webp";
+import waterCover from "@/assets/services/water/image.webp";
+import maintenanceCover from "@/assets/services/maintenance/main_hero.webp";
+import abhasa5 from "@/assets/abhasa images/img5_comp.webp";
+import gunjan3 from "@/assets/Gunjan Builders/img3_comp.webp";
+import moongil1 from "@/assets/moogil kadu/img1_comp.webp";
+import landscapePremium from "@/assets/services/landscape/landscape_hero.webp";
+import terracePremium from "@/assets/services/terrace/terrace_detail_1.webp";
+import semmozhi2 from "@/assets/semozhi poonga/img2_comp.webp";
+import srivari3 from "@/assets/Srivari villas/img3_comp.webp";
+import abhasa2 from "@/assets/abhasa images/img2.webp";
 import gunjan1 from "@/assets/Gunjan Builders/img1.webp";
-import moongil3 from "@/assets/moogil kadu/moogil_3_comp.jpg";
-import serviceVertical from "@/assets/services/vertical/vertical.jpg";
+import moongil3 from "@/assets/moogil kadu/moogil_3_comp.webp";
+import serviceVertical from "@/assets/services/vertical/vertical.webp";
 import serviceGazebo from "@/assets/services/gazebo/unnamed.webp";
-import serviceTerrace from "@/assets/services/terrace/terrace-garden.jpg";
+import serviceTerrace from "@/assets/services/terrace/terrace-garden.webp";
 
 const galleryImages = [
     semmozhi4, srivari1, lawnCover, abhasa5,

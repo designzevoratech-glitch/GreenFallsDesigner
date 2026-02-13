@@ -8,9 +8,9 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } f
 import { ScrollArea } from "@/components/ui/scroll-area";
 
 import PageHeader from "@/components/PageHeader";
-import heroImg from "@/assets/hero_garden_comp.jpg";
-import serviceLandscape from "@/assets/service-landscape.jpg";
-import serviceWater from "@/assets/service-water.jpg";
+import heroImg from "@/assets/hero_garden_comp.webp";
+import serviceLandscape from "@/assets/service-landscape.webp";
+import serviceWater from "@/assets/service-water.webp";
 
 const Blog = () => {
     const [selectedBlog, setSelectedBlog] = useState<typeof blogs[0] | null>(null);

@@ -5,18 +5,18 @@ import PageHeader from "@/components/PageHeader";
 import SEO from "@/components/SEO";
 import { projects } from "@/lib/projects-data";
 
-import projectSemmozhi from "@/assets/project-semmozhi.jpg";
-import serviceCommercial from "@/assets/service-commercial.jpg";
-import serviceLandscape from "@/assets/service-landscape.jpg";
-import serviceLawn from "@/assets/services/lawn/lawn_index.jpg";
-import heroImg from "@/assets/hero_garden_comp.jpg";
-import serviceTerrace from "@/assets/service-terrace.jpg";
-import semmozhi4 from "@/assets/semozhi poonga/img4_comp.jpg";
-import abhasa1 from "@/assets/abhasa images/img1.jpeg";
-import moongil1 from "@/assets/moogil kadu/img1_comp.jpg";
+import projectSemmozhi from "@/assets/project-semmozhi.webp";
+import serviceCommercial from "@/assets/service-commercial.webp";
+import serviceLandscape from "@/assets/service-landscape.webp";
+import serviceLawn from "@/assets/services/lawn/lawn_index.webp";
+import heroImg from "@/assets/hero_garden_comp.webp";
+import serviceTerrace from "@/assets/service-terrace.webp";
+import semmozhi4 from "@/assets/semozhi poonga/img4_comp.webp";
+import abhasa1 from "@/assets/abhasa images/img1.webp";
+import moongil1 from "@/assets/moogil kadu/img1_comp.webp";
 import gunjan1 from "@/assets/Gunjan Builders/img1.webp";
-import ktvr1 from "@/assets/KTVR Knowledge Park For Ad Technology/img1.jpg";
-import srivari1 from "@/assets/Srivari villas/img1_comp.jpg";
+import ktvr1 from "@/assets/KTVR Knowledge Park For Ad Technology/img1.webp";
+import srivari1 from "@/assets/Srivari villas/img1_comp.webp";
 
 const imageMap: Record<string, string> = {
   "project-semmozhi": projectSemmozhi,

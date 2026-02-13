@@ -1,6 +1,7 @@
 import { useEffect, useCallback, useRef } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import { motion, useScroll, useTransform } from "framer-motion";
+import SEO from "./SEO";
 
 interface PageHeaderProps {
     title: string;
@@ -34,6 +35,11 @@ const PageHeader = ({ title, subtitle, images }: PageHeaderProps) => {
 
     return (
         <section ref={containerRef} className="relative h-[70vh] min-h-[500px] flex items-center overflow-hidden">
+            <SEO
+                title={title}
+                description={subtitle}
+                preloadImage={images[0]}
+            />
             {/* Background Carousel */}
             <motion.div
                 style={{ y }}

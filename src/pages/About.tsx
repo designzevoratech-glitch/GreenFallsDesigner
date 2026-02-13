@@ -3,10 +3,10 @@ import SectionHeading from "@/components/SectionHeading";
 import { Award, TreePine, Users, GraduationCap } from "lucide-react";
 import PageHeader from "@/components/PageHeader";
 import SEO from "@/components/SEO";
-import heroImg from "@/assets/hero_garden_comp.jpg";
-import semmozhi4 from "@/assets/semozhi poonga/img4_comp.jpg";
-import serviceLandscape from "@/assets/services/landscape/landscape_hero.jpg";
-import founderImg from "@/assets/founder.jpg";
+import heroImg from "@/assets/hero_garden_comp.webp";
+import semmozhi4 from "@/assets/semozhi poonga/img4_comp.webp";
+import serviceLandscape from "@/assets/services/landscape/landscape_hero.webp";
+import founderImg from "@/assets/founder.webp";
 
 const highlights = [
   { icon: TreePine, label: "50+ Years Experience" },

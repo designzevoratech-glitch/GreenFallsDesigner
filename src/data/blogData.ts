@@ -1,13 +1,13 @@
 
-import heroImg from "@/assets/hero_garden_comp.jpg";
-import serviceLandscape from "@/assets/services/landscape/landscape_hero.jpg";
-import serviceTerrace from "@/assets/services/terrace/terrace-garden.jpg";
-import serviceLawn from "@/assets/services/lawn/lawn_index.jpg";
+import heroImg from "@/assets/hero_garden_comp.webp";
+import serviceLandscape from "@/assets/services/landscape/landscape_hero.webp";
+import serviceTerrace from "@/assets/services/terrace/terrace-garden.webp";
+import serviceLawn from "@/assets/services/lawn/lawn_index.webp";
 import serviceGazebo from "@/assets/services/gazebo/unnamed.webp";
-import serviceCommercial from "@/assets/services/commercial/dabf29889e115df79cb4a220c9a37905.jpg";
-import semmozhi4 from "@/assets/semozhi poonga/img4_comp.jpg";
-import serviceVertical from "@/assets/services/vertical/vertical.jpg";
-import serviceWater from "@/assets/services/water/image.jpg";
+import serviceCommercial from "@/assets/services/commercial/dabf29889e115df79cb4a220c9a37905.webp";
+import semmozhi4 from "@/assets/semozhi poonga/img4_comp.webp";
+import serviceVertical from "@/assets/services/vertical/vertical.webp";
+import serviceWater from "@/assets/services/water/image.webp";
 
 export const blogs = [
     {
