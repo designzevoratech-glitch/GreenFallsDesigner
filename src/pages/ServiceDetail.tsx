@@ -8,15 +8,15 @@ import SEO from "@/components/SEO";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
 // Landscape Design Assets
-import landscape1 from "@/assets/services/landscape/IMG_20231128_131032.jpg";
+import landscape1 from "@/assets/services/landscape/landscape_hero.jpg";
 import landscape2 from "@/assets/services/landscape/IMG_20250416_081157.jpg";
 import landscape5 from "@/assets/services/landscape/WhatsApp Image 2026-02-10 at 11.43.44 AM.jpeg";
 import landscape6 from "@/assets/services/landscape/191cdf3e499007a7b1c15c04a9098352.jpg";
 
 // Terrace Garden Assets
 import terrace1 from "@/assets/services/terrace/terrace-garden.jpg";
-import terrace2 from "@/assets/services/terrace/we-do-terrace-garden-and-all-outdoor-works-in-bangalore-v0-6q826fwpgw6g1.jpg";
-import terrace3 from "@/assets/services/terrace/we-do-terrace-garden-and-all-outdoor-works-in-bangalore-v0-q2vhnhwpgw6g1.jpg";
+import terrace2 from "@/assets/services/terrace/terrace_detail_2.jpg";
+import terrace3 from "@/assets/services/terrace/terrace_detail_1.jpg";
 import terrace4 from "@/assets/services/terrace/9e7c2235145b02d138a00170a19896d9.jpg";
 import terrace5 from "@/assets/services/terrace/Eco-Friendly-Green-Roof-Terrace-Garden-Design.jpg";
 import terrace6 from "@/assets/services/terrace/why-arent-rooftop-decks-popular-in-new-suburbs-with-the-v0-3kq14w6tlp5g1.webp";
@@ -27,7 +27,7 @@ import lawn1 from "@/assets/services/lawn/IMG_20240130_170122.jpg";
 import lawn2 from "@/assets/services/lawn/IMG_20240130_170703.jpg";
 import lawn3 from "@/assets/services/lawn/2f8a4a14a423f91ff4eb410ec9f284cf.jpg";
 import lawn4 from "@/assets/services/lawn/191cdf3e499007a7b1c15c04a9098352.jpg";
-import lawn5 from "@/assets/services/lawn/ChatGPT Image Feb 12, 2026, 09_18_59 PM.png";
+import lawn5 from "@/assets/services/lawn/lawn_hero.jpg";
 
 // Vertical Garden Assets
 import vertical1 from "@/assets/services/vertical/vertical.jpg";
@@ -37,7 +37,7 @@ import vertical4 from "@/assets/services/vertical/istockphoto-635949984-612x612.
 import vertical5 from "@/assets/services/vertical/vertical-gardens-500x500.webp";
 
 // Water Feature Assets
-import waterCover from "@/assets/services/water/image.png";
+import waterCover from "@/assets/services/water/image.jpg";
 import water1 from "@/assets/services/water/20130517_122536.jpg";
 import water2 from "@/assets/services/water/09984fdac77e445b39667ed277b7c446.jpg";
 import water3 from "@/assets/services/water/10e08f2355646a09222b017b34ecd579.jpg";

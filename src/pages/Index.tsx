@@ -5,12 +5,12 @@ import { Check, Star, ArrowRight, Phone } from "lucide-react";
 import SectionHeading from "@/components/SectionHeading";
 import SEO from "@/components/SEO";
 import heroImg from "@/assets/hero-garden.jpg";
-import serviceLandscape from "@/assets/services/landscape/IMG_20231128_131032.jpg";
+import serviceLandscape from "@/assets/services/landscape/landscape_hero.jpg";
 import serviceTerrace from "@/assets/services/terrace/terrace-garden.jpg";
-import serviceLawn from "@/assets/services/lawn/image.png";
+import serviceLawn from "@/assets/services/lawn/lawn_index.jpg";
 import serviceCommercial from "@/assets/services/commercial/dabf29889e115df79cb4a220c9a37905.jpg";
 import semmozhi4 from "@/assets/semozhi poonga/img4.jpeg";
-import srivari1 from "@/assets/Srivari villas/img1.jpg";
+import srivari1 from "@/assets/Srivari villas/img1_comp.jpg";
 import gunjan1 from "@/assets/Gunjan Builders/img1.webp";
 import ktvr1 from "@/assets/KTVR Knowledge Park For Ad Technology/img1.jpg";
 
@@ -227,6 +227,7 @@ const Index = () => {
                   alt="Beautiful residential garden design project in Coimbatore"
                   title="Residential Garden Design"
                   loading="lazy"
+                  decoding="async"
                   className="rounded-lg shadow-lg w-full h-64 object-cover transform translate-y-8 transform-gpu will-change-transform"
                 />
                 <motion.img
@@ -266,6 +267,7 @@ const Index = () => {
                       alt={`${s.title} service by Green Falls Garden Designer`}
                       title={s.title}
                       loading="lazy"
+                      decoding="async"
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out will-change-transform transform-gpu"
                     />
                   </div>
@@ -304,6 +306,8 @@ const Index = () => {
                 <img
                   src={semmozhi4}
                   alt="Semmozhi Poonga – Iconic botanical garden project in Coimbatore by Green Falls"
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 ease-out will-change-transform transform-gpu"
                 />
                 <div className="absolute top-6 right-6 z-10">
@@ -331,7 +335,7 @@ const Index = () => {
                 className="relative group rounded-3xl overflow-hidden aspect-square transform-gpu will-change-transform"
               >
                 <Link to="/projects/srivari-villas" className="block w-full h-full">
-                  <img src={srivari1} alt="Srivari Villas" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 ease-out transform-gpu" />
+                  <img src={srivari1} alt="Srivari Villas" loading="lazy" decoding="async" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 ease-out transform-gpu" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent p-6 flex flex-col justify-end">
                     <h4 className="text-white font-bold text-lg lg:text-xl leading-tight">Srivari Villas</h4>
                     <p className="text-white/70 text-xs mt-1 font-medium">Coimbatore</p>
@@ -347,7 +351,7 @@ const Index = () => {
                 className="relative group rounded-3xl overflow-hidden aspect-square transform-gpu will-change-transform"
               >
                 <Link to="/projects/gunjan-builders" className="block w-full h-full">
-                  <img src={gunjan1} alt="Gunjan Builders" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 ease-out transform-gpu" />
+                  <img src={gunjan1} alt="Gunjan Builders" loading="lazy" decoding="async" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 ease-out transform-gpu" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent p-6 flex flex-col justify-end">
                     <h4 className="text-white font-bold text-lg lg:text-xl leading-tight">Gunjan Builders</h4>
                     <p className="text-white/70 text-xs mt-1 font-medium">Coimbatore</p>
@@ -364,7 +368,7 @@ const Index = () => {
                 className="sm:col-span-2 relative group rounded-3xl overflow-hidden aspect-[2/1] transform-gpu will-change-transform"
               >
                 <Link to="/projects/ktvr-knowledge-park" className="block w-full h-full">
-                  <img src={ktvr1} alt="KTVR Knowledge Park" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 ease-out transform-gpu" />
+                  <img src={ktvr1} alt="KTVR Knowledge Park" loading="lazy" decoding="async" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 ease-out transform-gpu" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent p-8 flex flex-col justify-end">
                     <h4 className="text-white font-bold text-xl lg:text-2xl leading-tight">KTVR Knowledge Park</h4>
                     <p className="text-white/70 text-sm mt-2 font-medium">Institutional Campus - Coimbatore</p>

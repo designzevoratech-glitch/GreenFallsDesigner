@@ -5,7 +5,7 @@ import PageHeader from "@/components/PageHeader";
 import SEO from "@/components/SEO";
 import heroImg from "@/assets/hero-garden.jpg";
 import semmozhi4 from "@/assets/semozhi poonga/img4.jpeg";
-import serviceLandscape from "@/assets/service-landscape.jpg";
+import serviceLandscape from "@/assets/services/landscape/landscape_hero.jpg";
 import founderImg from "@/assets/founder.jpg";
 
 const highlights = [

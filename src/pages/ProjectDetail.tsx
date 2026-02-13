@@ -21,26 +21,26 @@ import semmozhi5 from "@/assets/semozhi poonga/img5.jpeg";
 import semmozhi6 from "@/assets/semozhi poonga/img6.jpeg";
 import abhasa1 from "@/assets/abhasa images/img1.jpeg";
 import abhasa2 from "@/assets/abhasa images/img2.jpeg";
-import abhasa3 from "@/assets/abhasa images/img3.png";
+import abhasa3 from "@/assets/abhasa images/img3_comp.jpg";
 import abhasa4jpg from "@/assets/abhasa images/img4.jpeg";
 import abhasa4png from "@/assets/abhasa images/img4.png";
-import abhasa5 from "@/assets/abhasa images/img5.png";
-import moongil1 from "@/assets/moogil kadu/img1.png";
-import moongil2 from "@/assets/moogil kadu/img2.png";
+import abhasa5 from "@/assets/abhasa images/img5_comp.jpg";
+import moongil1 from "@/assets/moogil kadu/img1_comp.jpg";
+import moongil2 from "@/assets/moogil kadu/img2_comp.jpg";
 import moongil3 from "@/assets/moogil kadu/img3.png";
-import moongil4 from "@/assets/moogil kadu/img4.png";
+import moongil4 from "@/assets/moogil kadu/img4_comp.jpg";
 import moongilVideo from "@/assets/moogil kadu/video.mp4";
 import gunjan1 from "@/assets/Gunjan Builders/img1.webp";
 import gunjan2 from "@/assets/Gunjan Builders/img2.webp";
-import gunjan3 from "@/assets/Gunjan Builders/img3.jpg";
+import gunjan3 from "@/assets/Gunjan Builders/img3_comp.jpg";
 import gunjan4 from "@/assets/Gunjan Builders/img4.webp";
 import ktvr1 from "@/assets/KTVR Knowledge Park For Ad Technology/img1.jpg";
 import ktvr2 from "@/assets/KTVR Knowledge Park For Ad Technology/img2.png";
 import ktvr3 from "@/assets/KTVR Knowledge Park For Ad Technology/img3.png";
-import srivari1 from "@/assets/Srivari villas/img1.jpg";
-import srivari2 from "@/assets/Srivari villas/img2.jpg";
-import srivari3 from "@/assets/Srivari villas/img3.jpg";
-import srivari4 from "@/assets/Srivari villas/img4.jpg";
+import srivari1 from "@/assets/Srivari villas/img1_comp.jpg";
+import srivari2 from "@/assets/Srivari villas/img2_comp.jpg";
+import srivari3 from "@/assets/Srivari villas/img3_comp.jpg";
+import srivari4 from "@/assets/Srivari villas/img4_comp.jpg";
 import srivari5 from "@/assets/Srivari villas/srivari.avif";
 
 const imageMap: Record<string, string> = {
@@ -255,6 +255,8 @@ const ProjectDetail = () => {
                                     <img
                                         src={imageMap[project.images[2]] || projectSemmozhi}
                                         alt="Showcase 3"
+                                        loading="lazy"
+                                        decoding="async"
                                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                                     />
                                 </motion.div>
@@ -268,6 +270,8 @@ const ProjectDetail = () => {
                                     <img
                                         src={imageMap[project.images[3]] || projectSemmozhi}
                                         alt="Showcase 4"
+                                        loading="lazy"
+                                        decoding="async"
                                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                                     />
                                 </motion.div>
@@ -285,6 +289,8 @@ const ProjectDetail = () => {
                                 <img
                                     src={imageMap[project.images[0]] || projectSemmozhi}
                                     alt="Gunjan Showcase 1"
+                                    loading="lazy"
+                                    decoding="async"
                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                                 />
                             </motion.div>
@@ -300,6 +306,8 @@ const ProjectDetail = () => {
                                 <img
                                     src={imageMap[project.images[1]] || projectSemmozhi}
                                     alt="Gunjan Showcase 2"
+                                    loading="lazy"
+                                    decoding="async"
                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                                 />
                             </motion.div>
@@ -315,6 +323,8 @@ const ProjectDetail = () => {
                                 <img
                                     src={imageMap[project.images[2]] || projectSemmozhi}
                                     alt="Gunjan Showcase 3"
+                                    loading="lazy"
+                                    decoding="async"
                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                                 />
                             </motion.div>
@@ -330,6 +340,8 @@ const ProjectDetail = () => {
                                 <img
                                     src={imageMap[project.images[3]] || projectSemmozhi}
                                     alt="Gunjan Showcase 4"
+                                    loading="lazy"
+                                    decoding="async"
                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                                 />
                             </motion.div>
@@ -346,6 +358,8 @@ const ProjectDetail = () => {
                                 <img
                                     src={imageMap[project.images[0]] || projectSemmozhi}
                                     alt="KTVR Showcase 1"
+                                    loading="lazy"
+                                    decoding="async"
                                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
@@ -362,6 +376,8 @@ const ProjectDetail = () => {
                                 <img
                                     src={imageMap[project.images[1]] || projectSemmozhi}
                                     alt="KTVR Showcase 2"
+                                    loading="lazy"
+                                    decoding="async"
                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                                 />
                             </motion.div>
@@ -377,6 +393,8 @@ const ProjectDetail = () => {
                                 <img
                                     src={imageMap[project.images[2]] || projectSemmozhi}
                                     alt="KTVR Showcase 3"
+                                    loading="lazy"
+                                    decoding="async"
                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                                 />
                             </motion.div>
@@ -393,6 +411,8 @@ const ProjectDetail = () => {
                                 <img
                                     src={imageMap[project.images[0]] || projectSemmozhi}
                                     alt="Srivari Showcase 1"
+                                    loading="lazy"
+                                    decoding="async"
                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none" />
@@ -409,6 +429,8 @@ const ProjectDetail = () => {
                                 <img
                                     src={imageMap[project.images[1]] || projectSemmozhi}
                                     alt="Srivari Showcase 2"
+                                    loading="lazy"
+                                    decoding="async"
                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                                 />
                             </motion.div>
@@ -424,6 +446,8 @@ const ProjectDetail = () => {
                                 <img
                                     src={imageMap[project.images[2]] || projectSemmozhi}
                                     alt="Srivari Showcase 3"
+                                    loading="lazy"
+                                    decoding="async"
                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                                 />
                             </motion.div>
@@ -439,6 +463,8 @@ const ProjectDetail = () => {
                                 <img
                                     src={imageMap[project.images[3]] || projectSemmozhi}
                                     alt="Srivari Showcase 4"
+                                    loading="lazy"
+                                    decoding="async"
                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                                 />
                             </motion.div>
@@ -454,6 +480,8 @@ const ProjectDetail = () => {
                                 <img
                                     src={imageMap[project.images[4]] || projectSemmozhi}
                                     alt="Srivari Showcase 5"
+                                    loading="lazy"
+                                    decoding="async"
                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                                 />
                             </motion.div>
