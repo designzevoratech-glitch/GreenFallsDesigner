@@ -26,13 +26,26 @@ import moongil3 from "@/assets/moogil kadu/moogil_3_comp.webp";
 import serviceVertical from "@/assets/services/vertical/vertical.webp";
 import serviceGazebo from "@/assets/services/gazebo/unnamed.webp";
 import serviceTerrace from "@/assets/services/terrace/terrace-garden.webp";
+import ktvr1 from "@/assets/KTVR Knowledge Park For Ad Technology/img1.webp";
+import ktvr2 from "@/assets/KTVR Knowledge Park For Ad Technology/img2.webp";
+import srivari2 from "@/assets/Srivari villas/img2_comp.webp";
+import abhasa1 from "@/assets/abhasa images/img1.webp";
+import abhasa4 from "@/assets/abhasa images/img4.webp";
+import gunjan2 from "@/assets/Gunjan Builders/img2.webp";
+import semmozhi1 from "@/assets/semozhi poonga/img1.webp";
+import semmozhi3 from "@/assets/semozhi poonga/img3.webp";
+import serviceCommercial from "@/assets/services/commercial/dabf29889e115df79cb4a220c9a37905.webp";
+import serviceLandscape2 from "@/assets/services/landscape/IMG_20250416_081157.webp";
 
 const galleryImages = [
     semmozhi4, srivari1, lawnCover, abhasa5,
     gunjan3, waterCover, maintenanceCover, srivari4,
     moongil1, semmozhi6, landscapePremium, terracePremium,
     semmozhi2, srivari3, abhasa2, gunjan1,
-    moongil3, serviceVertical, serviceGazebo, serviceTerrace
+    moongil3, serviceVertical, serviceGazebo, serviceTerrace,
+    ktvr1, ktvr2, srivari2, abhasa1,
+    abhasa4, gunjan2, semmozhi1, semmozhi3,
+    serviceCommercial, serviceLandscape2
 ];
 
 import PageHeader from "@/components/PageHeader";
