@@ -8,7 +8,7 @@ import heroImg from "@/assets/hero_garden_comp.jpg";
 import serviceLandscape from "@/assets/services/landscape/landscape_hero.jpg";
 import serviceTerrace from "@/assets/services/terrace/terrace-garden.jpg";
 import serviceLawn from "@/assets/services/lawn/lawn_index.jpg";
-import serviceCommercial from "@/assets/services/commercial/commercial_hero.jpg";
+import serviceCommercial from "@/assets/services/commercial/dabf29889e115df79cb4a220c9a37905.jpg";
 import semmozhi4 from "@/assets/semozhi poonga/img4_comp.jpg";
 import srivari1 from "@/assets/Srivari villas/img1_comp.jpg";
 import gunjan1 from "@/assets/Gunjan Builders/img1.webp";

@@ -8,7 +8,7 @@ import SEO from "@/components/SEO";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
 import projectSemmozhi from "@/assets/project-semmozhi.jpg";
-import serviceCommercial from "@/assets/services/commercial/commercial_hero.jpg";
+import serviceCommercial from "@/assets/services/commercial/dabf29889e115df79cb4a220c9a37905.jpg";
 import serviceLandscape from "@/assets/services/landscape/landscape_hero.jpg";
 import serviceLawn from "@/assets/services/lawn/lawn_index.jpg";
 import serviceTerrace from "@/assets/services/terrace/terrace-garden.jpg";
