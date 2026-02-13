@@ -1,14 +1,14 @@
 
-import heroImg from "@/assets/hero-garden.jpg";
-import serviceLandscape from "@/assets/service-landscape.jpg";
-import serviceTerrace from "@/assets/service-terrace.jpg";
-import serviceLawn from "@/assets/service-lawn.jpg";
-import serviceCommercial from "@/assets/service-commercial.jpg";
-import semmozhi4 from "@/assets/semozhi poonga/img4.jpeg";
-import serviceGazebo from "@/assets/service-gazebo.jpg";
-import serviceRock from "@/assets/service-rock.jpg";
-import serviceVertical from "@/assets/service-vertical.jpg";
-import serviceWater from "@/assets/service-water.jpg";
+import heroImg from "@/assets/hero_garden_comp.jpg";
+import serviceLandscape from "@/assets/services/landscape/landscape_hero.jpg";
+import serviceTerrace from "@/assets/services/terrace/terrace-garden.jpg";
+import serviceLawn from "@/assets/services/lawn/lawn_index.jpg";
+import serviceCommercial from "@/assets/services/commercial/commercial_hero.jpg";
+import semmozhi4 from "@/assets/semozhi poonga/img4_comp.jpg";
+import serviceGazebo from "@/assets/services/gazebo/gazebo_hero.jpg";
+import serviceRock from "@/assets/services/water/image.jpg";
+import serviceVertical from "@/assets/services/vertical/vertical_hero.jpg";
+import serviceWater from "@/assets/services/water/image.jpg";
 
 export const blogs = [
     {

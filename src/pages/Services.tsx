@@ -6,14 +6,14 @@ import SEO from "@/components/SEO";
 import { services } from "@/lib/services-data";
 
 // Authentic Service Thumbnails
-import serviceLandscape from "@/assets/services/landscape/IMG_20231128_131032.jpg";
+import serviceLandscape from "@/assets/services/landscape/landscape_hero.jpg";
 import serviceTerrace from "@/assets/services/terrace/terrace-garden.jpg";
-import serviceLawn from "@/assets/services/lawn/image.png";
+import serviceLawn from "@/assets/services/lawn/lawn_index.jpg";
 import serviceVertical from "@/assets/services/vertical/vertical.jpg";
-import serviceWater from "@/assets/services/water/image.png";
+import serviceWater from "@/assets/services/water/image.jpg";
 import serviceGazebo from "@/assets/services/gazebo/unnamed.webp";
 import serviceCommercial from "@/assets/services/commercial/dabf29889e115df79cb4a220c9a37905.jpg";
-import serviceMaintenance from "@/assets/services/maintenance/image.png";
+import serviceMaintenance from "@/assets/services/maintenance/main_hero.jpg";
 
 const imageMap: Record<string, string> = {
   "landscape-1": serviceLandscape,

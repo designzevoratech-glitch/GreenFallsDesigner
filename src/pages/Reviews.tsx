@@ -16,9 +16,9 @@ const reviews = [
 ];
 
 import PageHeader from "@/components/PageHeader";
-import heroImg from "@/assets/hero-garden.jpg";
-import serviceLawn from "@/assets/service-lawn.jpg";
-import semmozhi4 from "@/assets/semozhi poonga/img4.jpeg";
+import heroImg from "@/assets/hero_garden_comp.jpg";
+import serviceLawn from "@/assets/services/lawn/lawn_index.jpg";
+import semmozhi4 from "@/assets/semozhi poonga/img4_comp.jpg";
 
 const Reviews = () => {
   return (

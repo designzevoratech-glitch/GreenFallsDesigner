@@ -8,7 +8,7 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } f
 import { ScrollArea } from "@/components/ui/scroll-area";
 
 import PageHeader from "@/components/PageHeader";
-import heroImg from "@/assets/hero-garden.jpg";
+import heroImg from "@/assets/hero_garden_comp.jpg";
 import serviceLandscape from "@/assets/service-landscape.jpg";
 import serviceWater from "@/assets/service-water.jpg";
 
