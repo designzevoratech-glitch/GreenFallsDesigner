@@ -106,7 +106,9 @@ const Index = () => {
           className="absolute inset-0 transform-gpu will-change-transform"
         >
           <img
-            src={heroImg}
+            src="/hero_desktop.webp"
+            srcSet="/hero_mobile.webp 800w, /hero_desktop.webp 1600w"
+            sizes="100vw"
             alt="Green Falls Garden Designer – Professional Landscaping Services in Coimbatore, Tamil Nadu"
             title="Green Falls Garden Designer Hero"
             loading="eager"
