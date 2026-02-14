@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Core Pages -->
+  <url>
+    <loc>https://greenfallsgardendesigner.com/</loc>
+    <lastmod>2026-02-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://greenfallsgardendesigner.com/about</loc>
+    <lastmod>2026-02-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://greenfallsgardendesigner.com/services</loc>
+    <lastmod>2026-02-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://greenfallsgardendesigner.com/projects</loc>
+    <lastmod>2026-02-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://greenfallsgardendesigner.com/reviews</loc>
+    <lastmod>2026-02-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://greenfallsgardendesigner.com/gallery</loc>
+    <lastmod>2026-02-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://greenfallsgardendesigner.com/blog</loc>
+    <lastmod>2026-02-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://greenfallsgardendesigner.com/contact</loc>
+    <lastmod>2026-02-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Service Detail Pages -->
+  <url><loc>https://greenfallsgardendesigner.com/services/landscape-design</loc><lastmod>2026-02-12</lastmod><priority>0.8</priority></url>
+  <url><loc>https://greenfallsgardendesigner.com/services/terrace-garden</loc><lastmod>2026-02-12</lastmod><priority>0.8</priority></url>
+  <url><loc>https://greenfallsgardendesigner.com/services/lawn-installation</loc><lastmod>2026-02-12</lastmod><priority>0.8</priority></url>
+  <url><loc>https://greenfallsgardendesigner.com/services/vertical-garden</loc><lastmod>2026-02-12</lastmod><priority>0.7</priority></url>
+  <url><loc>https://greenfallsgardendesigner.com/services/water-features</loc><lastmod>2026-02-12</lastmod><priority>0.7</priority></url>
+  <url><loc>https://greenfallsgardendesigner.com/services/gazebo-garden</loc><lastmod>2026-02-12</lastmod><priority>0.7</priority></url>
+  <url><loc>https://greenfallsgardendesigner.com/services/commercial-landscaping</loc><lastmod>2026-02-12</lastmod><priority>0.7</priority></url>
+  <url><loc>https://greenfallsgardendesigner.com/services/garden-maintenance</loc><lastmod>2026-02-12</lastmod><priority>0.7</priority></url>
+
+  <!-- Project Detail Pages -->
+  <url><loc>https://greenfallsgardendesigner.com/projects/semmozhi-poonga</loc><lastmod>2026-02-12</lastmod><priority>0.9</priority></url>
+  <url><loc>https://greenfallsgardendesigner.com/projects/moongilkaadu</loc><lastmod>2026-02-12</lastmod><priority>0.8</priority></url>
+  <url><loc>https://greenfallsgardendesigner.com/projects/abhasa</loc><lastmod>2026-02-12</lastmod><priority>0.8</priority></url>
+  <url><loc>https://greenfallsgardendesigner.com/projects/gunjan-builders</loc><lastmod>2026-02-12</lastmod><priority>0.8</priority></url>
+  <url><loc>https://greenfallsgardendesigner.com/projects/ktvr-knowledge-park</loc><lastmod>2026-02-12</lastmod><priority>0.8</priority></url>
+  <url><loc>https://greenfallsgardendesigner.com/projects/srivari-villas</loc><lastmod>2026-02-12</lastmod><priority>0.8</priority></url>
+</urlset>
