@@ -59,15 +59,42 @@ const SEO = ({ title, description, keywords, canonical, preloadImage, schema }: 
             if (linkPreload) {
                 linkPreload.setAttribute("href", preloadImage);
             } else {
-                linkPreload = document.createElement("link");
-                linkPreload.setAttribute("rel", "preload");
-                linkPreload.setAttribute("as", "image");
-                linkPreload.setAttribute("href", preloadImage);
-                document.head.appendChild(linkPreload);
+                const link = document.createElement("link");
+                link.rel = "preload";
+                link.as = "image";
+                link.href = preloadImage;
+                document.head.appendChild(link);
             }
         } else {
             const existingPreload = document.querySelector('link[rel="preload"][as="image"]');
             if (existingPreload) existingPreload.remove();
+        }
+
+        // Update Open Graph Tags
+        const updateMeta = (property: string, content: string) => {
+            let element = document.querySelector(`meta[property="${property}"]`);
+            if (!element) {
+                element = document.createElement("meta");
+                element.setAttribute("property", property);
+                document.head.appendChild(element);
+            }
+            element.setAttribute("content", content);
+        };
+
+        updateMeta("og:title", fullTitle);
+        updateMeta("og:description", description);
+        updateMeta("og:type", "website");
+
+        if (canonical) {
+            const fullUrl = canonical.startsWith('http') ? canonical : `https://greenfallsgardendesigner.com${canonical}`;
+            updateMeta("og:url", fullUrl);
+        }
+
+        if (preloadImage) {
+            updateMeta("og:image", preloadImage.startsWith('http') ? preloadImage : `https://greenfallsgardendesigner.com${preloadImage}`);
+        } else {
+            // Fallback default share image if none provided
+            updateMeta("og:image", "https://greenfallsgardendesigner.com/og-image.jpg");
         }
 
         // Update Schema (JSON-LD)

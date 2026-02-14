@@ -5,14 +5,14 @@ import { Check, Star, ArrowRight, Phone } from "lucide-react";
 import SectionHeading from "@/components/SectionHeading";
 import SEO from "@/components/SEO";
 import heroImg from "@/assets/hero_garden_comp.webp";
-import serviceLandscape from "@/assets/services/landscape/img4.png";
-import serviceTerrace from "@/assets/services/terrace/img3.png";
-import serviceLawn from "@/assets/services/lawn/img1.png";
+import serviceLandscape from "@/assets/services/landscape/img4.webp";
+import serviceTerrace from "@/assets/services/terrace/img3.webp";
+import serviceLawn from "@/assets/services/lawn/img1.webp";
 import serviceCommercial from "@/assets/services/commercial/img1.webp";
 import semmozhi4 from "@/assets/semozhi poonga/img4_comp.webp";
 import semmozhi2 from "@/assets/semozhi poonga/img2_comp.webp";
 import srivari1 from "@/assets/Srivari villas/img1_comp.webp";
-import gunjan5 from "@/assets/Gunjan Builders/img5.png";
+import gunjan5 from "@/assets/Gunjan Builders/img5.webp";
 import ktvr1 from "@/assets/KTVR Knowledge Park For Ad Technology/img1.webp";
 
 const trustItems = [

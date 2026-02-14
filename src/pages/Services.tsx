@@ -6,14 +6,14 @@ import SEO from "@/components/SEO";
 import { services } from "@/lib/services-data";
 
 // Authentic Service Thumbnails
-import serviceLandscape from "@/assets/services/landscape/img4.png";
-import serviceTerrace from "@/assets/services/terrace/img3.png";
-import serviceLawn from "@/assets/services/lawn/img1.png";
-import serviceVertical from "@/assets/services/vertical/img3.png";
-import serviceWater from "@/assets/services/water/img3.png";
-import serviceGazebo from "@/assets/services/gazebo/img1.png";
+import serviceLandscape from "@/assets/services/landscape/img4.webp";
+import serviceTerrace from "@/assets/services/terrace/img3.webp";
+import serviceLawn from "@/assets/services/lawn/img1.webp";
+import serviceVertical from "@/assets/services/vertical/img3.webp";
+import serviceWater from "@/assets/services/water/img3.webp";
+import serviceGazebo from "@/assets/services/gazebo/img1.webp";
 import serviceCommercial from "@/assets/services/commercial/img1.webp";
-import serviceMaintenance from "@/assets/services/maintenance/img1.png";
+import serviceMaintenance from "@/assets/services/maintenance/img1.webp";
 import serviceRock from "@/assets/services/rockgarden/img1.jpg";
 import serviceCascade from "@/assets/services/cascade/img2.jpg";
 
@@ -100,7 +100,7 @@ const Services = () => {
                   <div className="aspect-[4/3] overflow-hidden">
                     <img
                       src={imageMap[s.image] || imageMap["landscape-1"]}
-                      alt={`${s.title} – Professional landscaping service in Coimbatore, Tamil Nadu`}
+                      alt={`${s.title} - Landscape design service in Coimbatore by Green Falls Garden Designer`}
                       title={`${s.title} by Green Falls`}
                       loading="lazy"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"

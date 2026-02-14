@@ -62,6 +62,6 @@ export const projects: Project[] = [
     name: "Maheshwari Marbles",
     slug: "maheshwari-marbles",
     description: "Nestled in Coimbatore, the landscape design for Maheshwari Marbles reflects a sophisticated blend of industrial elegance and natural tranquility. Our team at Green Falls Garden Designer crafted a green oasis that complements the stone aesthetics of the property. The project features manicured lawns, sculptural plant arrangements, and soothing water elements that create a refreshing contrast to the marble structures. By integrating resilient native species and artistic hardscaping, we've transformed the commercial space into a welcoming and vibrant environment that leaves a lasting impression on visitors.",
-    images: ["maheshwari-1", "maheshwari-2", "maheshwari-3", "maheshwari-5", "maheshwari-6", "maheshwari-7", "maheshwari-8", "maheshwari-9", "maheshwari-10", "maheshwari-11", "maheshwari-12"],
+    images: ["maheshwari-1", "maheshwari-2", "maheshwari-3", "maheshwari-5", "maheshwari-6", "maheshwari-7", "maheshwari-8", "maheshwari-12"],
   },
 ];

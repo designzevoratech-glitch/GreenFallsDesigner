@@ -17,12 +17,12 @@ import moongil1 from "@/assets/moogil kadu/img1_comp.webp";
 import moongil2 from "@/assets/moogil kadu/img2_comp.webp";
 import moongil3 from "@/assets/moogil kadu/img3.webp";
 import moongil4 from "@/assets/moogil kadu/img4_comp.webp";
-import moongil7 from "@/assets/moogil kadu/im7.png";
+import moongil7 from "@/assets/moogil kadu/im7.webp";
 import gunjan1 from "@/assets/Gunjan Builders/img1.webp";
-import gunjan5 from "@/assets/Gunjan Builders/img5.png";
+import gunjan5 from "@/assets/Gunjan Builders/img5.webp";
 import ktvr1 from "@/assets/KTVR Knowledge Park For Ad Technology/img1.webp";
 import srivari1 from "@/assets/Srivari villas/img1_comp.webp";
-import abhasaSowri1 from "@/assets/abhasa sowripalayam/img1.png";
+import abhasaSowri1 from "@/assets/abhasa sowripalayam/img1.webp";
 import aswath1 from "@/assets/Aswath assocites/img1.webp";
 import maheshwari1 from "@/assets/Maheshwari marbles/img1.webp";
 
@@ -55,9 +55,6 @@ const imageMap: Record<string, string> = {
   "maheshwari-6": maheshwari1,
   "maheshwari-7": maheshwari1,
   "maheshwari-8": maheshwari1,
-  "maheshwari-9": maheshwari1,
-  "maheshwari-10": maheshwari1,
-  "maheshwari-11": maheshwari1,
   "maheshwari-12": maheshwari1,
 };
 
@@ -95,7 +92,7 @@ const Projects = () => {
                   <div className="aspect-[4/3] overflow-hidden relative">
                     <img
                       src={imageMap[p.images[0]] || projectSemmozhi}
-                      alt={`${p.name} landscape gardening project Coimbatore Tamil Nadu Green Falls Garden Designer`}
+                      alt={`${p.name} - Landscape design project in Coimbatore by Green Falls Garden Designer`}
                       title={`${p.name} - Professional Garden Design & Landscaping Coimbatore`}
                       loading="lazy"
                       decoding="async"

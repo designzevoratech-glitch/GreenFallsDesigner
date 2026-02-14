@@ -19,15 +19,15 @@ import semmozhi3 from "@/assets/semozhi poonga/img3.webp";
 import semmozhi4 from "@/assets/semozhi poonga/img4_comp.webp";
 import semmozhi5 from "@/assets/semozhi poonga/img5.webp";
 import semmozhi6 from "@/assets/semozhi poonga/img6.webp";
-import semmozhi7 from "@/assets/semozhi poonga/img7.png";
-import semmozhi8 from "@/assets/semozhi poonga/img8.png";
-import semmozhi9 from "@/assets/semozhi poonga/img9.png";
-import semmozhi10 from "@/assets/semozhi poonga/img10.png";
-import semmozhi11 from "@/assets/semozhi poonga/img11.png";
-import semmozhi12 from "@/assets/semozhi poonga/img12.png";
-import semmozhi13 from "@/assets/semozhi poonga/img13.png";
-import semmozhi14 from "@/assets/semozhi poonga/img14.png";
-import semmozhi15 from "@/assets/semozhi poonga/img15.png";
+import semmozhi7 from "@/assets/semozhi poonga/img7.webp";
+import semmozhi8 from "@/assets/semozhi poonga/img8.webp";
+import semmozhi9 from "@/assets/semozhi poonga/img9.webp";
+import semmozhi10 from "@/assets/semozhi poonga/img10.webp";
+import semmozhi11 from "@/assets/semozhi poonga/img11.webp";
+import semmozhi12 from "@/assets/semozhi poonga/img12.webp";
+import semmozhi13 from "@/assets/semozhi poonga/img13.webp";
+import semmozhi14 from "@/assets/semozhi poonga/img14.webp";
+import semmozhi15 from "@/assets/semozhi poonga/img15.webp";
 import abhasa1 from "@/assets/abhasa images/img1.webp";
 import abhasa2 from "@/assets/abhasa images/img2.webp";
 import abhasa3 from "@/assets/abhasa images/img3_comp.webp";
@@ -37,44 +37,44 @@ import abhasa6 from "@/assets/abhasa images/img6.webp";
 import abhasa7 from "@/assets/abhasa images/img7.webp";
 import abhasa8 from "@/assets/abhasa images/img8.webp";
 import abhasa9 from "@/assets/abhasa images/img9.webp";
-import abhasa10 from "@/assets/abhasa images/img10.png";
+import abhasa10 from "@/assets/abhasa images/img10.webp";
 import moongil1 from "@/assets/moogil kadu/img1_comp.webp";
 import moongil2 from "@/assets/moogil kadu/img2_comp.webp";
 import moongil3 from "@/assets/moogil kadu/moogil_3_comp.webp";
 import moongil4 from "@/assets/moogil kadu/img4_comp.webp";
-import moongil7 from "@/assets/moogil kadu/im7.png";
+import moongil7 from "@/assets/moogil kadu/im7.webp";
 import moongilVideo from "@/assets/moogil kadu/video_comp.mp4";
 import gunjan1 from "@/assets/Gunjan Builders/img1.webp";
 import gunjan2 from "@/assets/Gunjan Builders/img2.webp";
 import gunjan3 from "@/assets/Gunjan Builders/img3_comp.webp";
 import gunjan4 from "@/assets/Gunjan Builders/img4.webp";
-import gunjan5 from "@/assets/Gunjan Builders/img5.png";
-import gunjan6 from "@/assets/Gunjan Builders/img6.png";
-import gunjan7 from "@/assets/Gunjan Builders/img7.png";
-import gunjan8 from "@/assets/Gunjan Builders/img8.png";
+import gunjan5 from "@/assets/Gunjan Builders/img5.webp";
+import gunjan6 from "@/assets/Gunjan Builders/img6.webp";
+import gunjan7 from "@/assets/Gunjan Builders/img7.webp";
+import gunjan8 from "@/assets/Gunjan Builders/img8.webp";
 import ktvr1 from "@/assets/KTVR Knowledge Park For Ad Technology/img1.webp";
 import ktvr2 from "@/assets/KTVR Knowledge Park For Ad Technology/img2.webp";
 import ktvr3 from "@/assets/KTVR Knowledge Park For Ad Technology/img3.webp";
-import ktvr4 from "@/assets/KTVR Knowledge Park For Ad Technology/img4.png";
-import ktvr5 from "@/assets/KTVR Knowledge Park For Ad Technology/img5.png";
-import ktvr6 from "@/assets/KTVR Knowledge Park For Ad Technology/img6.png";
-import ktvr7 from "@/assets/KTVR Knowledge Park For Ad Technology/img7.png";
-import ktvr8 from "@/assets/KTVR Knowledge Park For Ad Technology/img8.png";
+import ktvr4 from "@/assets/KTVR Knowledge Park For Ad Technology/img4.webp";
+import ktvr5 from "@/assets/KTVR Knowledge Park For Ad Technology/img5.webp";
+import ktvr6 from "@/assets/KTVR Knowledge Park For Ad Technology/img6.webp";
+import ktvr7 from "@/assets/KTVR Knowledge Park For Ad Technology/img7.webp";
+import ktvr8 from "@/assets/KTVR Knowledge Park For Ad Technology/img8.webp";
 import srivari1 from "@/assets/Srivari villas/img1_comp.webp";
 import srivari2 from "@/assets/Srivari villas/img2_comp.webp";
 import srivari3 from "@/assets/Srivari villas/img3_comp.webp";
 import srivari4 from "@/assets/Srivari villas/img4_comp.webp";
-import srivari5 from "@/assets/Srivari villas/img5.png";
-import srivari6 from "@/assets/Srivari villas/img6.png";
-import srivari7 from "@/assets/Srivari villas/img7.png";
+import srivari5 from "@/assets/Srivari villas/img5.webp";
+import srivari6 from "@/assets/Srivari villas/img6.webp";
+import srivari7 from "@/assets/Srivari villas/img7.webp";
 
 // Abhasa Sowripalayam Assets
-import abhasaSowri1 from "@/assets/abhasa sowripalayam/img1.png";
-import abhasaSowri2 from "@/assets/abhasa sowripalayam/img2.png";
-import abhasaSowri3 from "@/assets/abhasa sowripalayam/img3.png";
-import abhasaSowri4 from "@/assets/abhasa sowripalayam/img4.png";
-import abhasaSowri5 from "@/assets/abhasa sowripalayam/img5.png";
-import abhasaSowri6 from "@/assets/abhasa sowripalayam/img6.png";
+import abhasaSowri1 from "@/assets/abhasa sowripalayam/img1.webp";
+import abhasaSowri2 from "@/assets/abhasa sowripalayam/img2.webp";
+import abhasaSowri3 from "@/assets/abhasa sowripalayam/img3.webp";
+import abhasaSowri4 from "@/assets/abhasa sowripalayam/img4.webp";
+import abhasaSowri5 from "@/assets/abhasa sowripalayam/img5.webp";
+import abhasaSowri6 from "@/assets/abhasa sowripalayam/img6.webp";
 
 // Aswath Associates Assets
 import aswath1 from "@/assets/Aswath assocites/img1.webp";
@@ -92,14 +92,11 @@ import aswath10 from "@/assets/Aswath assocites/img10.webp";
 import maheshwari1 from "@/assets/Maheshwari marbles/img1.webp";
 import maheshwari2 from "@/assets/Maheshwari marbles/img2.webp";
 import maheshwari3 from "@/assets/Maheshwari marbles/img3.webp";
-import maheshwari5 from "@/assets/Maheshwari marbles/img5.png";
-import maheshwari6 from "@/assets/Maheshwari marbles/img6.png";
-import maheshwari7 from "@/assets/Maheshwari marbles/img7.png";
-import maheshwari8 from "@/assets/Maheshwari marbles/img8.png";
-import maheshwari9 from "@/assets/Maheshwari marbles/img9.png";
-import maheshwari10 from "@/assets/Maheshwari marbles/img10_comp.webp";
-import maheshwari11 from "@/assets/Maheshwari marbles/img11_comp.webp";
-import maheshwari12 from "@/assets/Maheshwari marbles/img12.png";
+import maheshwari5 from "@/assets/Maheshwari marbles/img5.webp";
+import maheshwari6 from "@/assets/Maheshwari marbles/img6.webp";
+import maheshwari7 from "@/assets/Maheshwari marbles/img7.webp";
+import maheshwari8 from "@/assets/Maheshwari marbles/img8.webp";
+import maheshwari12 from "@/assets/Maheshwari marbles/img12.webp";
 
 const imageMap: Record<string, string> = {
     "project-semmozhi": projectSemmozhi,
@@ -186,9 +183,6 @@ const imageMap: Record<string, string> = {
     "maheshwari-6": maheshwari6,
     "maheshwari-7": maheshwari7,
     "maheshwari-8": maheshwari8,
-    "maheshwari-9": maheshwari9,
-    "maheshwari-10": maheshwari10,
-    "maheshwari-11": maheshwari11,
     "maheshwari-12": maheshwari12,
 };
 
@@ -308,7 +302,7 @@ const ProjectDetail = () => {
                                 >
                                     <img
                                         src={imageMap[imgKey] || projectSemmozhi}
-                                        alt={`${project.name} gallery image ${i + 1}`}
+                                        alt={`${project.name} - Landscape design project in Coimbatore by Green Falls Garden Designer - Gallery Image ${i + 1}`}
                                         loading="lazy"
                                         decoding="async"
                                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 transform-gpu"
@@ -355,7 +349,7 @@ const ProjectDetail = () => {
                                     >
                                         <img
                                             src={imageMap[project.images[0]] || projectSemmozhi}
-                                            alt="Showcase 1"
+                                            alt={`${project.name} - Landscape design project in Coimbatore by Green Falls Garden Designer - View 1`}
                                             loading="lazy"
                                             decoding="async"
                                             className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 transform-gpu will-change-transform"
@@ -370,7 +364,7 @@ const ProjectDetail = () => {
                                     >
                                         <img
                                             src={imageMap[project.images[1]] || projectSemmozhi}
-                                            alt="Showcase 2"
+                                            alt={`${project.name} - Landscape design project in Coimbatore by Green Falls Garden Designer - View 2`}
                                             loading="lazy"
                                             decoding="async"
                                             className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 transform-gpu will-change-transform"
@@ -389,7 +383,7 @@ const ProjectDetail = () => {
                                     >
                                         <img
                                             src={imageMap[project.images[2]] || projectSemmozhi}
-                                            alt="Showcase 3"
+                                            alt={`${project.name} - Landscape design project in Coimbatore by Green Falls Garden Designer - View 3`}
                                             loading="lazy"
                                             decoding="async"
                                             className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
@@ -404,7 +398,7 @@ const ProjectDetail = () => {
                                     >
                                         <img
                                             src={imageMap[project.images[3]] || projectSemmozhi}
-                                            alt="Showcase 4"
+                                            alt={`${project.name} - Landscape design project in Coimbatore by Green Falls Garden Designer - View 4`}
                                             loading="lazy"
                                             decoding="async"
                                             className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
@@ -427,7 +421,7 @@ const ProjectDetail = () => {
                                         >
                                             <img
                                                 src={imageMap[imgKey] || projectSemmozhi}
-                                                alt={`Showcase extra ${i + 1}`}
+                                                alt={`${project.name} - Landscape design project in Coimbatore by Green Falls Garden Designer - Extra View ${i + 1}`}
                                                 loading="lazy"
                                                 decoding="async"
                                                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
@@ -448,7 +442,7 @@ const ProjectDetail = () => {
                             >
                                 <img
                                     src={imageMap[project.images[0]] || projectSemmozhi}
-                                    alt="Gunjan Showcase 1"
+                                    alt={`${project.name} - Landscape design project in Coimbatore by Green Falls Garden Designer - View 1`}
                                     loading="lazy"
                                     decoding="async"
                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
@@ -465,7 +459,7 @@ const ProjectDetail = () => {
                             >
                                 <img
                                     src={imageMap[project.images[1]] || projectSemmozhi}
-                                    alt="Gunjan Showcase 2"
+                                    alt={`${project.name} - Landscape design project in Coimbatore by Green Falls Garden Designer - View 2`}
                                     loading="lazy"
                                     decoding="async"
                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
@@ -482,7 +476,7 @@ const ProjectDetail = () => {
                             >
                                 <img
                                     src={imageMap[project.images[2]] || projectSemmozhi}
-                                    alt="Gunjan Showcase 3"
+                                    alt={`${project.name} - Landscape design project in Coimbatore by Green Falls Garden Designer - View 3`}
                                     loading="lazy"
                                     decoding="async"
                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
@@ -499,7 +493,7 @@ const ProjectDetail = () => {
                             >
                                 <img
                                     src={imageMap[project.images[3]] || projectSemmozhi}
-                                    alt="Gunjan Showcase 4"
+                                    alt={`${project.name} - Landscape design project in Coimbatore by Green Falls Garden Designer - View 4`}
                                     loading="lazy"
                                     decoding="async"
                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
@@ -520,7 +514,7 @@ const ProjectDetail = () => {
                                         >
                                             <img
                                                 src={imageMap[imgKey] || projectSemmozhi}
-                                                alt={`Gunjan extra ${i + 1}`}
+                                                alt={`${project.name} - Landscape design project in Coimbatore by Green Falls Garden Designer - Extra View ${i + 1}`}
                                                 loading="lazy"
                                                 decoding="async"
                                                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
@@ -543,7 +537,7 @@ const ProjectDetail = () => {
                                 >
                                     <img
                                         src={imageMap[project.images[0]] || projectSemmozhi}
-                                        alt="KTVR Showcase 1"
+                                        alt={`${project.name} - Landscape design project in Coimbatore by Green Falls Garden Designer - View 1`}
                                         loading="lazy"
                                         decoding="async"
                                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
@@ -561,7 +555,7 @@ const ProjectDetail = () => {
                                 >
                                     <img
                                         src={imageMap[project.images[1]] || projectSemmozhi}
-                                        alt="KTVR Showcase 2"
+                                        alt={`${project.name} - Landscape design project in Coimbatore by Green Falls Garden Designer - View 2`}
                                         loading="lazy"
                                         decoding="async"
                                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
@@ -578,7 +572,7 @@ const ProjectDetail = () => {
                                 >
                                     <img
                                         src={imageMap[project.images[2]] || projectSemmozhi}
-                                        alt="KTVR Showcase 3"
+                                        alt={`${project.name} - Landscape design project in Coimbatore by Green Falls Garden Designer - View 3`}
                                         loading="lazy"
                                         decoding="async"
                                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
@@ -600,7 +594,7 @@ const ProjectDetail = () => {
                                         >
                                             <img
                                                 src={imageMap[imgKey] || projectSemmozhi}
-                                                alt={`KTVR extra ${i + 1}`}
+                                                alt={`${project.name} - Landscape design project in Coimbatore by Green Falls Garden Designer - Extra View ${i + 1}`}
                                                 loading="lazy"
                                                 decoding="async"
                                                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
@@ -621,7 +615,7 @@ const ProjectDetail = () => {
                             >
                                 <img
                                     src={imageMap[project.images[0]] || projectSemmozhi}
-                                    alt="Srivari Showcase 1"
+                                    alt={`${project.name} - Landscape design project in Coimbatore by Green Falls Garden Designer - View 1`}
                                     loading="lazy"
                                     decoding="async"
                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
@@ -639,7 +633,7 @@ const ProjectDetail = () => {
                             >
                                 <img
                                     src={imageMap[project.images[1]] || projectSemmozhi}
-                                    alt="Srivari Showcase 2"
+                                    alt={`${project.name} - Landscape design project in Coimbatore by Green Falls Garden Designer - View 2`}
                                     loading="lazy"
                                     decoding="async"
                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
@@ -656,7 +650,7 @@ const ProjectDetail = () => {
                             >
                                 <img
                                     src={imageMap[project.images[2]] || projectSemmozhi}
-                                    alt="Srivari Showcase 3"
+                                    alt={`${project.name} - Landscape design project in Coimbatore by Green Falls Garden Designer - View 3`}
                                     loading="lazy"
                                     decoding="async"
                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
@@ -673,7 +667,7 @@ const ProjectDetail = () => {
                             >
                                 <img
                                     src={imageMap[project.images[3]] || projectSemmozhi}
-                                    alt="Srivari Showcase 4"
+                                    alt={`${project.name} - Landscape design project in Coimbatore by Green Falls Garden Designer - View 4`}
                                     loading="lazy"
                                     decoding="async"
                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
@@ -690,7 +684,7 @@ const ProjectDetail = () => {
                             >
                                 <img
                                     src={imageMap[project.images[4]] || projectSemmozhi}
-                                    alt="Srivari Showcase 5"
+                                    alt={`${project.name} - Landscape design project in Coimbatore by Green Falls Garden Designer - View 5`}
                                     loading="lazy"
                                     decoding="async"
                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
@@ -711,7 +705,7 @@ const ProjectDetail = () => {
                                         >
                                             <img
                                                 src={imageMap[imgKey] || projectSemmozhi}
-                                                alt={`Srivari extra ${i + 1}`}
+                                                alt={`${project.name} - Landscape design project in Coimbatore by Green Falls Garden Designer - Extra View ${i + 1}`}
                                                 loading="lazy"
                                                 decoding="async"
                                                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
@@ -735,7 +729,7 @@ const ProjectDetail = () => {
                                 >
                                     <img
                                         src={imageMap[imgKey] || projectSemmozhi}
-                                        alt={`${project.name} gallery image ${i + 1}`}
+                                        alt={`${project.name} - Landscape design project in Coimbatore by Green Falls Garden Designer - Image ${i + 1}`}
                                         loading="lazy"
                                         decoding="async"
                                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 transform-gpu"
