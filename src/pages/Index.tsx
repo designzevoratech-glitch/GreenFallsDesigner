@@ -61,7 +61,7 @@ const Index = () => {
     <main>
       <SEO
         title="Best Garden Work in Coimbatore"
-        description="Green Falls Garden Designer – Premium garden design and landscaping services in Coimbatore and across Tamil Nadu. Trusted experts for garden work, lawn installation, and terrace gardens since 1975."
+        description="Premium garden design & landscaping experts in Coimbatore. Terrace gardens, lawns, & maintenance since 1975. Serving all Tamil Nadu. Trusted by 500+ clients."
         canonical="/"
         preloadImage={heroImg}
         keywords="garden work in coimbatore, garden designer rs puram coimbatore, landscaping gandhipuram coimbatore, garden design saibaba colony, terrace garden peelamedu, lawn installation race course coimbatore, garden vadavalli singanallur, landscaping pollachi mettupalayam, garden tiruppur erode, best landscaper tamil nadu"

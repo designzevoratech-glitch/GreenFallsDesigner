@@ -12,7 +12,7 @@ interface SEOProps {
 const SEO = ({ title, description, keywords, canonical, preloadImage, schema }: SEOProps) => {
     useEffect(() => {
         // Update Document Title
-        const fullTitle = `${title} | Green Falls Garden Designer Coimbatore`;
+        const fullTitle = `${title} | Green Falls Garden Designer`;
         document.title = fullTitle;
 
         // Update Meta Description
