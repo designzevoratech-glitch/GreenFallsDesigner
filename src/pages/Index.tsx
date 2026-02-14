@@ -5,6 +5,7 @@ import { Check, Star, ArrowRight, Phone } from "lucide-react";
 import SectionHeading from "@/components/SectionHeading";
 import SEO from "@/components/SEO";
 import heroImg from "@/assets/hero_garden_comp.webp";
+<<<<<<< HEAD
 import serviceLandscape from "@/assets/services/landscape/img4.png";
 import serviceTerrace from "@/assets/services/terrace/img3.png";
 import serviceLawn from "@/assets/services/lawn/img1.png";
@@ -12,6 +13,15 @@ import serviceCommercial from "@/assets/services/commercial/dabf29889e115df79cb4
 import semmozhi4 from "@/assets/semozhi poonga/img4_comp.webp";
 import srivari1 from "@/assets/Srivari villas/img1_comp.webp";
 import gunjan5 from "@/assets/Gunjan Builders/img5.png";
+=======
+import serviceLandscape from "@/assets/services/landscape/landscape_hero.webp";
+import serviceTerrace from "@/assets/services/terrace/terrace-garden.webp";
+import serviceLawn from "@/assets/services/lawn/lawn_index.webp";
+import serviceCommercial from "@/assets/services/commercial/dabf29889e115df79cb4a220c9a37905.webp";
+import semmozhi4 from "@/assets/semozhi poonga/img4_comp.webp";
+import srivari1 from "@/assets/Srivari villas/img1_comp.webp";
+import gunjan1 from "@/assets/Gunjan Builders/img1.webp";
+>>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
 import ktvr1 from "@/assets/KTVR Knowledge Park For Ad Technology/img1.webp";
 
 const trustItems = [
@@ -340,7 +350,11 @@ const Index = () => {
                 <Link to="/projects/srivari-villas" className="block w-full h-full">
                   <img src={srivari1} alt="Srivari Villas" loading="lazy" decoding="async" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 ease-out transform-gpu" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent p-6 flex flex-col justify-end">
+<<<<<<< HEAD
                     <h4 className="text-white font-bold text-lg lg:text-xl leading-tight">Srivari Ekantam</h4>
+=======
+                    <h4 className="text-white font-bold text-lg lg:text-xl leading-tight">Srivari Villas</h4>
+>>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
                     <p className="text-white/70 text-xs mt-1 font-medium">Coimbatore</p>
                   </div>
                 </Link>
@@ -353,10 +367,17 @@ const Index = () => {
                 transition={{ delay: 0.1 }}
                 className="relative group rounded-3xl overflow-hidden aspect-square transform-gpu will-change-transform"
               >
+<<<<<<< HEAD
                 <Link to="/projects/gujans-paripalana" className="block w-full h-full">
                   <img src={gunjan5} alt="Gujan's Paripalana" loading="lazy" decoding="async" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 ease-out transform-gpu" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent p-6 flex flex-col justify-end">
                     <h4 className="text-white font-bold text-lg lg:text-xl leading-tight">Gujan's Paripalana</h4>
+=======
+                <Link to="/projects/gunjan-builders" className="block w-full h-full">
+                  <img src={gunjan1} alt="Gunjan Builders" loading="lazy" decoding="async" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 ease-out transform-gpu" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent p-6 flex flex-col justify-end">
+                    <h4 className="text-white font-bold text-lg lg:text-xl leading-tight">Gunjan Builders</h4>
+>>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
                     <p className="text-white/70 text-xs mt-1 font-medium">Coimbatore</p>
                   </div>
                 </Link>

@@ -7,8 +7,13 @@ import { useToast } from "@/hooks/use-toast";
 
 import PageHeader from "@/components/PageHeader";
 import heroImg from "@/assets/hero_garden_comp.webp";
+<<<<<<< HEAD
 import serviceLandscape from "@/assets/services/landscape/img4.png";
 import serviceTerrace from "@/assets/services/terrace/img3.png";
+=======
+import serviceLandscape from "@/assets/services/landscape/landscape_hero.webp";
+import serviceTerrace from "@/assets/services/terrace/terrace-garden.webp";
+>>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
 
 const Contact = () => {
   const { toast } = useToast();

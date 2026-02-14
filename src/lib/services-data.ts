@@ -16,8 +16,13 @@ export const services: Service[] = [
     title: "Landscape Design & Installation",
     shortDesc: "Complete landscape planning and execution for residential and commercial spaces.",
     description: "Our landscape design services combine artistic vision with horticultural expertise. We create stunning outdoor environments that blend seamlessly with Tamil Nadu's tropical climate, incorporating native plants, stone pathways, and custom layouts tailored to your space.",
+<<<<<<< HEAD
     image: "landscape-4",
     galleryImages: ["landscape-4", "landscape-1", "landscape-6", "landscape-2", "landscape-3"],
+=======
+    image: "landscape-1",
+    galleryImages: ["landscape-1", "landscape-2", "landscape-5", "landscape-6"],
+>>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
     keywords: ["landscape design coimbatore", "garden design installation coimbatore", "landscape designer tiruppur", "landscape contractor theni"],
     gallery: [
       { title: "Villa Garden Landscape", description: "Designed a complete garden layout for a 5000 sq ft villa compound with tropical plants, stepping stones, and border plantations suited for Coimbatore climate." },
@@ -30,8 +35,13 @@ export const services: Service[] = [
     title: "Terrace & Rooftop Garden Design",
     shortDesc: "Transform your terrace into a lush green retreat with custom container gardens.",
     description: "We specialize in creating beautiful terrace gardens optimized for Tamil Nadu's climate. Our designs incorporate proper drainage, lightweight containers, and plants that thrive in rooftop conditions, turning unused spaces into green sanctuaries.",
+<<<<<<< HEAD
     image: "terrace-3",
     galleryImages: ["terrace-3", "terrace-6", "terrace-4", "terrace-5", "terrace-1", "terrace-2"],
+=======
+    image: "terrace-1",
+    galleryImages: ["terrace-1", "terrace-2", "terrace-3", "terrace-4", "terrace-5", "terrace-6"],
+>>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
     keywords: ["terrace garden design coimbatore", "rooftop garden coimbatore", "terrace garden designer erode"],
     gallery: [
       { title: "Modern Terrace Garden", description: "Designed rooftop garden with tropical plants suitable for Tamil Nadu climate, incorporating drainage solutions and easy maintenance layouts." },
@@ -44,8 +54,13 @@ export const services: Service[] = [
     title: "Lawn Installation & Turf Laying",
     shortDesc: "Professional lawn installation with quality turf suited for South Indian climate.",
     description: "We provide expert lawn installation services using premium turf varieties that thrive in Coimbatore's climate. From soil preparation to turf laying and aftercare, we ensure your lawn stays lush and green year-round.",
+<<<<<<< HEAD
     image: "lawn-1",
     galleryImages: ["lawn-1", "lawn-5", "lawn-4", "lawn-2", "lawn-3"],
+=======
+    image: "lawn-cover",
+    galleryImages: ["lawn-cover", "lawn-1", "lawn-2", "lawn-3", "lawn-4", "lawn-5"],
+>>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
     keywords: ["lawn installation service coimbatore", "turf laying coimbatore"],
     gallery: [
       { title: "Residential Lawn Installation", description: "Installed premium quality turf for a residential garden with automated irrigation, creating a carpet-like green lawn." },
@@ -58,8 +73,13 @@ export const services: Service[] = [
     title: "Vertical Garden & Green Wall Systems",
     shortDesc: "Living walls that bring nature to limited spaces with innovative vertical planting.",
     description: "Our vertical garden solutions are perfect for urban spaces. Using modular systems and carefully selected plant species, we create stunning living walls for both indoor and outdoor applications.",
+<<<<<<< HEAD
     image: "vertical-3",
     galleryImages: ["vertical-3", "vertical-6", "vertical-2", "vertical-4", "vertical-5", "vertical-1"],
+=======
+    image: "vertical-1",
+    galleryImages: ["vertical-1", "vertical-2", "vertical-3", "vertical-4", "vertical-5"],
+>>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
     keywords: ["vertical garden designer coimbatore", "green wall coimbatore"],
     gallery: [
       { title: "Commercial Building Green Wall", description: "Installed a 200 sq ft living wall on a commercial building facade using drought-resistant tropical plants." },
@@ -72,8 +92,13 @@ export const services: Service[] = [
     title: "Water Features & Garden Fountains",
     shortDesc: "Natural and artificial water features that add tranquility to your garden.",
     description: "We design and install stunning water features including natural rock waterfalls, garden fountains, koi ponds, and stream-style water channels. Each installation is custom-designed to complement your garden's style.",
+<<<<<<< HEAD
     image: "water-1",
     galleryImages: ["water-1", "water-2", "water-3", "water-4", "water-5"],
+=======
+    image: "water-cover",
+    galleryImages: ["water-cover", "water-1", "water-2", "water-3"],
+>>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
     keywords: ["waterfall garden design coimbatore", "garden fountain coimbatore"],
     gallery: [
       { title: "Natural Rock Waterfall", description: "Constructed a multi-tier natural rock waterfall with recirculating pump system and surrounding tropical plants." },
@@ -101,7 +126,11 @@ export const services: Service[] = [
     shortDesc: "Professional landscaping for commercial properties, campuses, and luxury villas.",
     description: "We provide comprehensive landscaping solutions for commercial properties, educational institutions, hotels, and luxury villas. Our team handles large-scale projects with professional precision and aesthetic excellence.",
     image: "commercial-1",
+<<<<<<< HEAD
     galleryImages: ["commercial-1", "commercial-5", "commercial-2", "commercial-6", "commercial-3", "commercial-4"],
+=======
+    galleryImages: ["commercial-1", "commercial-2", "commercial-3", "commercial-4"],
+>>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
     keywords: ["commercial landscaping coimbatore", "villa garden landscaping coimbatore", "commercial landscape tamil nadu"],
     gallery: [
       { title: "College Campus Landscaping", description: "Complete landscaping of a 10-acre college campus with lawns, gardens, pathways, and ornamental tree planting." },
@@ -114,8 +143,13 @@ export const services: Service[] = [
     title: "Garden Maintenance & AMC Services",
     shortDesc: "Regular garden maintenance and annual maintenance contracts for lasting beauty.",
     description: "Our maintenance services ensure your garden stays beautiful year-round. We offer comprehensive AMC packages including lawn mowing, pruning, fertilizing, pest control, and seasonal planting.",
+<<<<<<< HEAD
     image: "maintenance-img1",
     galleryImages: ["maintenance-img1", "maintenance-img3", "maintenance-img2", "maintenance-park", "maintenance-cover", "maintenance-3", "maintenance-4", "maintenance-5"],
+=======
+    image: "maintenance-cover",
+    galleryImages: ["maintenance-cover", "maintenance-park", "maintenance-1", "maintenance-3", "maintenance-4", "maintenance-5"],
+>>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
     keywords: ["garden maintenance coimbatore", "gardening AMC coimbatore"],
     gallery: [
       { title: "Residential Garden Maintenance", description: "Ongoing monthly maintenance of a residential garden including lawn care, pruning, fertilizing, and seasonal planting." },
@@ -123,6 +157,7 @@ export const services: Service[] = [
       { title: "Villa Garden Upkeep", description: "Regular maintenance program for a premium villa garden ensuring consistent beauty throughout all seasons." },
     ],
   },
+<<<<<<< HEAD
   {
     slug: "rock-garden",
     title: "Rock Garden Design",
@@ -151,6 +186,8 @@ export const services: Service[] = [
       { title: "Natural Stone Water Feature", description: "Hand-carved stone cascade designed to look like a natural mountain spring." },
     ],
   },
+=======
+>>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
 ];
 
 export const getServiceImage = (imageKey: string): string => {

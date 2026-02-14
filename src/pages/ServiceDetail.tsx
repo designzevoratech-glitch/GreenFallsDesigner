@@ -8,6 +8,7 @@ import SEO from "@/components/SEO";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
 // Landscape Design Assets
+<<<<<<< HEAD
 import landscape1 from "@/assets/services/landscape/img1.jpeg";
 import landscape2 from "@/assets/services/landscape/img2.png";
 import landscape3 from "@/assets/services/landscape/img3.png";
@@ -59,6 +60,55 @@ import commercial3 from "@/assets/services/commercial/img3.webp";
 import commercial4 from "@/assets/services/commercial/img4.webp";
 import commercial5 from "@/assets/services/commercial/img5.webp";
 import commercial6 from "@/assets/services/commercial/img6.webp";
+=======
+import landscape1 from "@/assets/services/landscape/landscape_hero.webp";
+import landscape2 from "@/assets/services/landscape/IMG_20250416_081157.webp";
+import landscape5 from "@/assets/services/landscape/WhatsApp Image 2026-02-10 at 11.43.44 AM.webp";
+import landscape6 from "@/assets/services/landscape/191cdf3e499007a7b1c15c04a9098352.webp";
+
+// Terrace Garden Assets
+import terrace1 from "@/assets/services/terrace/terrace-garden.webp";
+import terrace2 from "@/assets/services/terrace/terrace_detail_2.webp";
+import terrace3 from "@/assets/services/terrace/terrace_detail_1.webp";
+import terrace4 from "@/assets/services/terrace/9e7c2235145b02d138a00170a19896d9.webp";
+import terrace5 from "@/assets/services/terrace/Eco-Friendly-Green-Roof-Terrace-Garden-Design.webp";
+import terrace6 from "@/assets/services/terrace/why-arent-rooftop-decks-popular-in-new-suburbs-with-the-v0-3kq14w6tlp5g1.webp";
+
+// Lawn Assets
+import lawnCover from "@/assets/services/lawn/lawn_hero.webp";
+import lawn1 from "@/assets/services/lawn/IMG_20240130_170122.webp";
+import lawn2 from "@/assets/services/lawn/IMG_20240130_170703.webp";
+import lawn3 from "@/assets/services/lawn/2f8a4a14a423f91ff4eb410ec9f284cf.webp";
+import lawn4 from "@/assets/services/lawn/191cdf3e499007a7b1c15c04a9098352.webp";
+import lawn5 from "@/assets/services/lawn/lawn_hero.webp";
+
+// Vertical Garden Assets
+import vertical1 from "@/assets/services/vertical/vertical.webp";
+import vertical2 from "@/assets/services/vertical/IMG_20200721_164910.webp";
+import vertical3 from "@/assets/services/vertical/Vertical-Green-Wall-Terrace-Garden-Design.webp";
+import vertical4 from "@/assets/services/vertical/istockphoto-635949984-612x612.webp";
+import vertical5 from "@/assets/services/vertical/vertical-gardens-500x500.webp";
+
+// Water Feature Assets
+import waterCover from "@/assets/services/water/image.webp";
+import water1 from "@/assets/services/water/water_detail_1.webp";
+import water2 from "@/assets/services/water/09984fdac77e445b39667ed277b7c446.webp";
+import water3 from "@/assets/services/water/10e08f2355646a09222b017b34ecd579.webp";
+import water4 from "@/assets/services/water/b174943b676c10089baa1595d0ce6f45.webp";
+
+
+// Gazebo Assets
+import gazebo1 from "@/assets/services/gazebo/unnamed.webp";
+import gazebo2 from "@/assets/services/gazebo/unnamed (1).webp";
+import gazebo3 from "@/assets/services/gazebo/unnamed (2).webp";
+import gazebo4 from "@/assets/services/gazebo/unnamed (3).webp";
+
+// Commercial Assets
+import commercial1 from "@/assets/services/commercial/dabf29889e115df79cb4a220c9a37905.webp";
+import commercial2 from "@/assets/services/commercial/0567b2ac406a06595a2d2a84c467788d.webp";
+import commercial3 from "@/assets/services/commercial/520aa288191abe973aeab1be9eea2242.webp";
+import commercial4 from "@/assets/services/commercial/f845f560025c4880396d282570bb139d.webp";
+>>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
 
 // Maintenance Assets
 import maintenanceCover from "@/assets/services/maintenance/main_hero.webp";
@@ -67,6 +117,7 @@ import maintenance3 from "@/assets/services/maintenance/main_detail_2.webp";
 import maintenance4 from "@/assets/services/maintenance/main_detail_3.webp";
 import maintenance5 from "@/assets/services/maintenance/main_detail_4.webp";
 import maintenancePark from "@/assets/services/maintenance/park_detail_1.webp";
+<<<<<<< HEAD
 import maintenanceImg1 from "@/assets/services/maintenance/img1.png";
 import maintenanceImg2 from "@/assets/services/maintenance/img2.png";
 import maintenanceImg3 from "@/assets/services/maintenance/img3.png";
@@ -84,12 +135,18 @@ import cascade2 from "@/assets/services/cascade/img2.jpg";
 import cascade3 from "@/assets/services/cascade/img3.jpg"; // Corrected from IMG_20250721_194833.jpg
 import cascade4 from "@/assets/services/cascade/img4.png";  // Corrected
 import cascade5 from "@/assets/services/cascade/img5.jpg";  // Corrected
+=======
+>>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
 
 const imageMap: Record<string, string> = {
   "landscape-1": landscape1,
   "landscape-2": landscape2,
+<<<<<<< HEAD
   "landscape-3": landscape3,
   "landscape-4": landscape4,
+=======
+  "landscape-5": landscape5,
+>>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
   "landscape-6": landscape6,
   "terrace-1": terrace1,
   "terrace-2": terrace2,
@@ -108,6 +165,7 @@ const imageMap: Record<string, string> = {
   "vertical-3": vertical3,
   "vertical-4": vertical4,
   "vertical-5": vertical5,
+<<<<<<< HEAD
   "vertical-6": vertical6,
   "water-cover": water1,
   "water-1": water1,
@@ -115,6 +173,12 @@ const imageMap: Record<string, string> = {
   "water-3": water3,
   "water-4": water4,
   "water-5": water5,
+=======
+  "water-cover": waterCover,
+  "water-1": water1,
+  "water-2": water2,
+  "water-3": water3,
+>>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
   "gazebo-1": gazebo1,
   "gazebo-2": gazebo2,
   "gazebo-3": gazebo3,
@@ -123,13 +187,19 @@ const imageMap: Record<string, string> = {
   "commercial-2": commercial2,
   "commercial-3": commercial3,
   "commercial-4": commercial4,
+<<<<<<< HEAD
   "commercial-5": commercial5,
   "commercial-6": commercial6,
   "maintenance-cover": maintenanceCover,
+=======
+  "maintenance-cover": maintenanceCover,
+  "maintenance-park": maintenancePark,
+>>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
   "maintenance-1": maintenance1,
   "maintenance-3": maintenance3,
   "maintenance-4": maintenance4,
   "maintenance-5": maintenance5,
+<<<<<<< HEAD
   "maintenance-park": maintenancePark,
   "maintenance-img1": maintenanceImg1,
   "maintenance-img2": maintenanceImg2,
@@ -144,6 +214,9 @@ const imageMap: Record<string, string> = {
   "cascade-3": cascade3,
   "cascade-4": cascade4,
   "cascade-5": cascade5,
+=======
+  "rock": water3, // Reusing water3 for rock placeholder
+>>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
 };
 
 const videoMap: Record<string, string> = {

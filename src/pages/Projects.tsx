@@ -15,12 +15,17 @@ import semmozhi4 from "@/assets/semozhi poonga/img4_comp.webp";
 import abhasa1 from "@/assets/abhasa images/img1.webp";
 import moongil1 from "@/assets/moogil kadu/img1_comp.webp";
 import gunjan1 from "@/assets/Gunjan Builders/img1.webp";
+<<<<<<< HEAD
 import gunjan5 from "@/assets/Gunjan Builders/img5.png";
 import ktvr1 from "@/assets/KTVR Knowledge Park For Ad Technology/img1.webp";
 import srivari1 from "@/assets/Srivari villas/img1_comp.webp";
 import abhasaSowri1 from "@/assets/abhasa sowripalayam/img1.png";
 import aswath1 from "@/assets/Aswath assocites/img1.webp";
 import maheshwari1 from "@/assets/Maheshwari marbles/img1.webp";
+=======
+import ktvr1 from "@/assets/KTVR Knowledge Park For Ad Technology/img1.webp";
+import srivari1 from "@/assets/Srivari villas/img1_comp.webp";
+>>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
 
 const imageMap: Record<string, string> = {
   "project-semmozhi": projectSemmozhi,
@@ -33,14 +38,20 @@ const imageMap: Record<string, string> = {
   "abhasa-1": abhasa1,
   "moongil-1": moongil1,
   "gunjan-1": gunjan1,
+<<<<<<< HEAD
   "gunjan-5": gunjan5,
+=======
+>>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
   "ktvr-1": ktvr1,
   "srivari-1": srivari1,
   "restro-1": serviceCommercial,
   "villa-1": heroImg,
+<<<<<<< HEAD
   "abhasa-sowri-1": abhasaSowri1,
   "aswath-1": aswath1,
   "maheshwari-1": maheshwari1,
+=======
+>>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
 };
 
 const Projects = () => {
@@ -55,7 +66,11 @@ const Projects = () => {
       <PageHeader
         title="Landscaping Projects in Coimbatore, Tamil Nadu"
         subtitle="Explore our portfolio of curated landscaping excellence—from luxury Srivari villas and sustainable Gunjan communities to iconic public landmarks like Semmozhi Poonga."
+<<<<<<< HEAD
         images={[semmozhi4, abhasa1, gunjan5, srivari1, moongil1, ktvr1]}
+=======
+        images={[semmozhi4, abhasa1, gunjan1, srivari1, moongil1, ktvr1]}
+>>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
       />
 
       <section className="py-20 lg:py-28">
