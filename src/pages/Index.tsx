@@ -338,7 +338,7 @@ const Index = () => {
                 className="relative group rounded-3xl overflow-hidden aspect-square transform-gpu will-change-transform"
               >
                 <Link to="/projects/srivari-villas" className="block w-full h-full">
-                  <img src={srivari1} alt="Srivari Villas" loading="lazy" decoding="async" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 ease-out transform-gpu" />
+                  <img src={srivari1} alt="Srivari Ekantam luxury residential villa landscaping garden design Coimbatore Tamil Nadu" title="Srivari Ekantam - Premium Residential Landscape Architecture" loading="lazy" decoding="async" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 ease-out transform-gpu" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent p-6 flex flex-col justify-end">
                     <h4 className="text-white font-bold text-lg lg:text-xl leading-tight">Srivari Ekantam</h4>
                     <p className="text-white/70 text-xs mt-1 font-medium">Coimbatore</p>
@@ -354,7 +354,7 @@ const Index = () => {
                 className="relative group rounded-3xl overflow-hidden aspect-square transform-gpu will-change-transform"
               >
                 <Link to="/projects/gujans-paripalana" className="block w-full h-full">
-                  <img src={gunjan5} alt="Gujan's Paripalana" loading="lazy" decoding="async" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 ease-out transform-gpu" />
+                  <img src={gunjan5} alt="Gujan's Paripalana retirement community therapeutic garden design landscaping Coimbatore Tamil Nadu" title="Gujan's Paripalana - Senior Living Landscape Design" loading="lazy" decoding="async" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 ease-out transform-gpu" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent p-6 flex flex-col justify-end">
                     <h4 className="text-white font-bold text-lg lg:text-xl leading-tight">Gujan's Paripalana</h4>
                     <p className="text-white/70 text-xs mt-1 font-medium">Coimbatore</p>
@@ -371,7 +371,7 @@ const Index = () => {
                 className="sm:col-span-2 relative group rounded-3xl overflow-hidden aspect-[2/1] transform-gpu will-change-transform"
               >
                 <Link to="/projects/ktvr-knowledge-park" className="block w-full h-full">
-                  <img src={ktvr1} alt="KTVR Knowledge Park" loading="lazy" decoding="async" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 ease-out transform-gpu" />
+                  <img src={ktvr1} alt="KTVR Knowledge Park institutional campus landscaping green spaces garden design Coimbatore Tamil Nadu" title="KTVR Knowledge Park - Educational Campus Landscape Design" loading="lazy" decoding="async" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 ease-out transform-gpu" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent p-8 flex flex-col justify-end">
                     <h4 className="text-white font-bold text-xl lg:text-2xl leading-tight">KTVR Knowledge Park</h4>
                     <p className="text-white/70 text-sm mt-2 font-medium">Institutional Campus - Coimbatore</p>

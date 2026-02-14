@@ -19,7 +19,7 @@ export const projects: Project[] = [
     name: "Moongil Kaadu Restaurant, Vadavalli, Coimbatore",
     slug: "moongilkaadu",
     description: "At Moongil Kaadu Restaurant in Vadavalli, Coimbatore, we crafted a unique dining experience through expert garden design and custom gazebo construction. Our team integrated natural bamboo elements with lush greenery to create an immersive, eco-friendly atmosphere. The highlight of this project is the series of beautifully designed gazebos that offer private, serene dining spaces nestled within nature. By blending rustic charm with professional landscape architecture, we transformed the restaurant's outdoor area into a tranquil retreat that perfectly complements its culinary offerings.",
-    images: ["moongil-6", "moongil-1", "moongil-5", "moongil-2", "moongil-3", "moongil-4"],
+    images: ["moongil-1", "moongil-6", "moongil-5", "moongil-2", "moongil-3", "moongil-4"],
     video: "moongil-video",
   },
   {

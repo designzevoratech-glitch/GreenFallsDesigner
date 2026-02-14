@@ -14,6 +14,11 @@ import serviceTerrace from "@/assets/service-terrace.webp";
 import semmozhi4 from "@/assets/semozhi poonga/img4_comp.webp";
 import abhasa1 from "@/assets/abhasa images/img1.webp";
 import moongil1 from "@/assets/moogil kadu/img1_comp.webp";
+import moongil2 from "@/assets/moogil kadu/img2_comp.webp";
+import moongil3 from "@/assets/moogil kadu/img3.webp";
+import moongil4 from "@/assets/moogil kadu/img4_comp.webp";
+import moongil5 from "@/assets/moogil kadu/img5.png";
+import moongil6 from "@/assets/moogil kadu/img6.jpg";
 import gunjan1 from "@/assets/Gunjan Builders/img1.webp";
 import gunjan5 from "@/assets/Gunjan Builders/img5.png";
 import ktvr1 from "@/assets/KTVR Knowledge Park For Ad Technology/img1.webp";
@@ -32,6 +37,11 @@ const imageMap: Record<string, string> = {
   "semmozhi-4": semmozhi4,
   "abhasa-1": abhasa1,
   "moongil-1": moongil1,
+  "moongil-2": moongil2,
+  "moongil-3": moongil3,
+  "moongil-4": moongil4,
+  "moongil-5": moongil5,
+  "moongil-6": moongil6,
   "gunjan-1": gunjan1,
   "gunjan-5": gunjan5,
   "ktvr-1": ktvr1,
@@ -77,8 +87,8 @@ const Projects = () => {
                   <div className="aspect-[4/3] overflow-hidden relative">
                     <img
                       src={imageMap[p.images[0]] || projectSemmozhi}
-                      alt={`${p.name} – Landscape project in Coimbatore, Tamil Nadu by Green Falls`}
-                      title={`${p.name} Project Garden Design`}
+                      alt={`${p.name} landscape gardening project Coimbatore Tamil Nadu Green Falls Garden Designer`}
+                      title={`${p.name} - Professional Garden Design & Landscaping Coimbatore`}
                       loading="lazy"
                       decoding="async"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out will-change-transform transform-gpu"

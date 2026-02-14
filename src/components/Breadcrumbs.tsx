@@ -13,11 +13,11 @@ interface BreadcrumbsProps {
 const Breadcrumbs = ({ items }: BreadcrumbsProps) => {
     return (
         <nav className="flex mb-6 overflow-x-auto no-scrollbar" aria-label="Breadcrumb">
-            <ol className="flex items-center space-x-2 text-sm text-muted-foreground whitespace-nowrap">
+            <ol className="flex items-center space-x-2 text-sm bg-black/30 backdrop-blur-sm px-4 py-2 rounded-full text-white whitespace-nowrap">
                 <li className="flex items-center">
                     <Link
                         to="/"
-                        className="hover:text-primary transition-colors flex items-center gap-1"
+                        className="hover:text-gold transition-colors flex items-center gap-1"
                     >
                         <Home size={14} />
                         <span className="sr-only">Home</span>
@@ -26,16 +26,16 @@ const Breadcrumbs = ({ items }: BreadcrumbsProps) => {
 
                 {items.map((item, index) => (
                     <li key={index} className="flex items-center space-x-2">
-                        <ChevronRight size={14} className="text-muted-foreground/40 shrink-0" />
+                        <ChevronRight size={14} className="text-white/60 shrink-0" />
                         {item.to ? (
                             <Link
                                 to={item.to}
-                                className="hover:text-primary transition-colors"
+                                className="hover:text-gold transition-colors"
                             >
                                 {item.label}
                             </Link>
                         ) : (
-                            <span className="text-foreground font-medium truncate max-w-[200px] md:max-w-none">
+                            <span className="text-white font-semibold truncate max-w-[200px] md:max-w-none">
                                 {item.label}
                             </span>
                         )}
