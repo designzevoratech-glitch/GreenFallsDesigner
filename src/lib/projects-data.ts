@@ -19,20 +19,20 @@ export const projects: Project[] = [
     name: "Moongil Kaadu Restaurant, Vadavalli, Coimbatore",
     slug: "moongilkaadu",
     description: "At Moongil Kaadu Restaurant in Vadavalli, Coimbatore, we crafted a unique dining experience through expert garden design and custom gazebo construction. Our team integrated natural bamboo elements with lush greenery to create an immersive, eco-friendly atmosphere. The highlight of this project is the series of beautifully designed gazebos that offer private, serene dining spaces nestled within nature. By blending rustic charm with professional landscape architecture, we transformed the restaurant's outdoor area into a tranquil retreat that perfectly complements its culinary offerings.",
-    images: ["moongil-1", "moongil-6", "moongil-5", "moongil-2", "moongil-3", "moongil-4"],
+    images: ["moongil-1", "moongil-7", "moongil-2", "moongil-3", "moongil-4"],
     video: "moongil-video",
   },
   {
     name: "Abhasa Rehab and Wellness Thondamuthur",
     slug: "abhasa",
     description: "Abhasa Rehab and Wellness Thondamuthur is one of Coimbatore's premier luxury wellness destinations, where our landscape design fosters a deeply therapeutic atmosphere. Designed to maximize privacy and tranquility, the outdoor environment features lush tropical greenery, meditation gardens, and serene walking paths that support holistic healing. The landscape integrates native, drought-resistant plants with elegant hardscaping, creating a balanced and sustainable sanctuary nestled in nature. This project exemplifies Green Falls Garden's expertise in creating purpose-driven, restorative landscapes for healthcare and wellness facilities in Tamil Nadu.",
-    images: ["abhasa-1", "abhasa-2", "abhasa-3", "abhasa-4-jpg", "abhasa-4-png", "abhasa-5", "abhasa-6", "abhasa-7", "abhasa-8", "abhasa-9"],
+    images: ["abhasa-1", "abhasa-10", "abhasa-3", "abhasa-5", "abhasa-2", "abhasa-7", "abhasa-4-jpg", "abhasa-8", "abhasa-6", "abhasa-9"],
   },
   {
     name: "Gujan's Paripalana",
     slug: "gujans-paripalana",
     description: "Gujan's Paripalana in Coimbatore is a thoughtfully designed retirement community that prioritizes peace, comfort, and connection with nature. Our landscape master plan created a serene, therapeutic environment essential for senior living. Key features include accessible walking paths, fragrant meditation gardens, and shaded seating areas that encourage social interaction. We focused on low-maintenance, native plantings that provide year-round beauty and a calming atmosphere, ensuring residents can enjoy a high quality of life surrounded by lush greenery.",
-    images: ["gunjan-5", "gunjan-6", "gunjan-7", "gunjan-8", "gunjan-1", "gunjan-2", "gunjan-3", "gunjan-4"],
+    images: ["gunjan-5", "gunjan-6", "gunjan-7", "gunjan-8", "gunjan-1", "gunjan-3"],
   },
   {
     name: "KTVR Knowledge Park For Ad Technology",
@@ -44,7 +44,7 @@ export const projects: Project[] = [
     name: "Srivari Ekantam",
     slug: "srivari-villas",
     description: "Srivari Ekantam in Coimbatore is a premier residential enclave where nature meets luxury. Our landscape design for this community focuses on creating lush, private green spaces for each villa, fostering a deep connection with the outdoors. We utilized vertical gardening on terrace spaces and designed serene community lawns for social gatherings. By incorporating native trees and flowering shrubs, we've enhanced the ecological balance and aesthetic appeal of the property, providing residents with a tranquil, garden-centric lifestyle.",
-    images: ["srivari-1", "srivari-2", "srivari-3", "srivari-5", "srivari-6", "srivari-7"],
+    images: ["srivari-1", "srivari-6", "srivari-5", "srivari-7", "srivari-4", "srivari-2", "srivari-3"],
   },
   {
     name: "Abhasa Rehab and Wellness Sowripalayam",
@@ -62,6 +62,6 @@ export const projects: Project[] = [
     name: "Maheshwari Marbles",
     slug: "maheshwari-marbles",
     description: "Nestled in Coimbatore, the landscape design for Maheshwari Marbles reflects a sophisticated blend of industrial elegance and natural tranquility. Our team at Green Falls Garden Designer crafted a green oasis that complements the stone aesthetics of the property. The project features manicured lawns, sculptural plant arrangements, and soothing water elements that create a refreshing contrast to the marble structures. By integrating resilient native species and artistic hardscaping, we've transformed the commercial space into a welcoming and vibrant environment that leaves a lasting impression on visitors.",
-    images: ["maheshwari-1", "maheshwari-2", "maheshwari-3", "maheshwari-5", "maheshwari-6", "maheshwari-7", "maheshwari-8", "maheshwari-9"],
+    images: ["maheshwari-1", "maheshwari-2", "maheshwari-3", "maheshwari-5", "maheshwari-6", "maheshwari-7", "maheshwari-8", "maheshwari-9", "maheshwari-10", "maheshwari-11", "maheshwari-12"],
   },
 ];

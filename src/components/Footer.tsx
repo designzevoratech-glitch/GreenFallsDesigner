@@ -18,13 +18,13 @@ const Footer = () => {
             </p>
             <div className="flex items-center gap-4">
               {[
-                { icon: Facebook, label: "Facebook" },
-                { icon: Instagram, label: "Instagram" },
-                { icon: Youtube, label: "Youtube" },
+                { icon: Facebook, label: "Facebook", href: "https://www.facebook.com/greenfallsgarden" },
+                { icon: Instagram, label: "Instagram", href: "https://www.instagram.com/greenfallsgarden?utm_source=qr&igsh=MWg1bjMyNG4wbmZsMw==" },
+                { icon: Youtube, label: "Youtube", href: "#" },
               ].map((social) => (
                 <a
                   key={social.label}
-                  href="#"
+                  href={social.href}
                   className="w-10 h-10 rounded-full border border-primary-foreground/20 flex items-center justify-center hover:bg-primary-foreground hover:text-primary transition-all duration-300"
                   aria-label={social.label}
                 >

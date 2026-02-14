@@ -11,6 +11,10 @@ const SmoothScroll = ({ children }: SmoothScrollProps) => {
     const lenisRef = useRef<Lenis | null>(null);
 
     useEffect(() => {
+        // Force scroll to top on initial load/refresh to prevent browser restoration
+        window.history.scrollRestoration = 'manual';
+        window.scrollTo(0, 0);
+
         const lenis = new Lenis({
             duration: 1.2,
             easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
@@ -21,6 +25,8 @@ const SmoothScroll = ({ children }: SmoothScrollProps) => {
             touchMultiplier: 2,
             infinite: false,
         });
+
+        lenis.scrollTo(0, { immediate: true });
 
         lenisRef.current = lenis;
 

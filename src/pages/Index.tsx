@@ -8,7 +8,7 @@ import heroImg from "@/assets/hero_garden_comp.webp";
 import serviceLandscape from "@/assets/services/landscape/img4.png";
 import serviceTerrace from "@/assets/services/terrace/img3.png";
 import serviceLawn from "@/assets/services/lawn/img1.png";
-import serviceCommercial from "@/assets/services/commercial/dabf29889e115df79cb4a220c9a37905.webp";
+import serviceCommercial from "@/assets/services/commercial/img1.webp";
 import semmozhi4 from "@/assets/semozhi poonga/img4_comp.webp";
 import semmozhi2 from "@/assets/semozhi poonga/img2_comp.webp";
 import srivari1 from "@/assets/Srivari villas/img1_comp.webp";

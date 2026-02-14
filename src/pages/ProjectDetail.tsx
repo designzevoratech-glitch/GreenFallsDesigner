@@ -32,18 +32,17 @@ import abhasa1 from "@/assets/abhasa images/img1.webp";
 import abhasa2 from "@/assets/abhasa images/img2.webp";
 import abhasa3 from "@/assets/abhasa images/img3_comp.webp";
 import abhasa4jpg from "@/assets/abhasa images/img4.webp";
-import abhasa4png from "@/assets/abhasa images/img4.webp";
 import abhasa5 from "@/assets/abhasa images/img5_comp.webp";
 import abhasa6 from "@/assets/abhasa images/img6.webp";
 import abhasa7 from "@/assets/abhasa images/img7.webp";
 import abhasa8 from "@/assets/abhasa images/img8.webp";
 import abhasa9 from "@/assets/abhasa images/img9.webp";
+import abhasa10 from "@/assets/abhasa images/img10.png";
 import moongil1 from "@/assets/moogil kadu/img1_comp.webp";
 import moongil2 from "@/assets/moogil kadu/img2_comp.webp";
 import moongil3 from "@/assets/moogil kadu/moogil_3_comp.webp";
 import moongil4 from "@/assets/moogil kadu/img4_comp.webp";
-import moongil5 from "@/assets/moogil kadu/img5.png";
-import moongil6 from "@/assets/moogil kadu/img6.jpg";
+import moongil7 from "@/assets/moogil kadu/im7.png";
 import moongilVideo from "@/assets/moogil kadu/video_comp.mp4";
 import gunjan1 from "@/assets/Gunjan Builders/img1.webp";
 import gunjan2 from "@/assets/Gunjan Builders/img2.webp";
@@ -64,6 +63,7 @@ import ktvr8 from "@/assets/KTVR Knowledge Park For Ad Technology/img8.png";
 import srivari1 from "@/assets/Srivari villas/img1_comp.webp";
 import srivari2 from "@/assets/Srivari villas/img2_comp.webp";
 import srivari3 from "@/assets/Srivari villas/img3_comp.webp";
+import srivari4 from "@/assets/Srivari villas/img4_comp.webp";
 import srivari5 from "@/assets/Srivari villas/img5.png";
 import srivari6 from "@/assets/Srivari villas/img6.png";
 import srivari7 from "@/assets/Srivari villas/img7.png";
@@ -99,6 +99,7 @@ import maheshwari8 from "@/assets/Maheshwari marbles/img8.png";
 import maheshwari9 from "@/assets/Maheshwari marbles/img9.png";
 import maheshwari10 from "@/assets/Maheshwari marbles/img10_comp.webp";
 import maheshwari11 from "@/assets/Maheshwari marbles/img11_comp.webp";
+import maheshwari12 from "@/assets/Maheshwari marbles/img12.png";
 
 const imageMap: Record<string, string> = {
     "project-semmozhi": projectSemmozhi,
@@ -126,18 +127,17 @@ const imageMap: Record<string, string> = {
     "abhasa-2": abhasa2,
     "abhasa-3": abhasa3,
     "abhasa-4-jpg": abhasa4jpg,
-    "abhasa-4-png": abhasa4png,
     "abhasa-5": abhasa5,
     "abhasa-6": abhasa6,
     "abhasa-7": abhasa7,
     "abhasa-8": abhasa8,
     "abhasa-9": abhasa9,
+    "abhasa-10": abhasa10,
     "moongil-1": moongil1,
     "moongil-2": moongil2,
     "moongil-3": moongil3,
     "moongil-4": moongil4,
-    "moongil-5": moongil5,
-    "moongil-6": moongil6,
+    "moongil-7": moongil7,
     "gunjan-1": gunjan1,
     "gunjan-2": gunjan2,
     "gunjan-3": gunjan3,
@@ -157,6 +157,7 @@ const imageMap: Record<string, string> = {
     "srivari-1": srivari1,
     "srivari-2": srivari2,
     "srivari-3": srivari3,
+    "srivari-4": srivari4,
     "srivari-5": srivari5,
     "srivari-6": srivari6,
     "srivari-7": srivari7,
@@ -188,6 +189,7 @@ const imageMap: Record<string, string> = {
     "maheshwari-9": maheshwari9,
     "maheshwari-10": maheshwari10,
     "maheshwari-11": maheshwari11,
+    "maheshwari-12": maheshwari12,
 };
 
 const videoMap: Record<string, string> = {

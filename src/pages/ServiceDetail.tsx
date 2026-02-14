@@ -13,14 +13,18 @@ import landscape2 from "@/assets/services/landscape/img2.png";
 import landscape3 from "@/assets/services/landscape/img3.png";
 import landscape4 from "@/assets/services/landscape/img4.png";
 import landscape6 from "@/assets/services/landscape/img6.png";
+import landscape7 from "@/assets/services/landscape/img7.png";
+import landscape8 from "@/assets/services/landscape/img8.png";
 
 // Terrace Garden Assets
 import terrace1 from "@/assets/services/terrace/img1.jpeg";
 import terrace2 from "@/assets/services/terrace/img2.jpeg";
 import terrace3 from "@/assets/services/terrace/img3.png";
 import terrace4 from "@/assets/services/terrace/img4.png";
-import terrace5 from "@/assets/services/terrace/img5.png";
 import terrace6 from "@/assets/services/terrace/img6.png";
+import terrace7 from "@/assets/services/terrace/img7.png";
+import terrace8 from "@/assets/services/terrace/img8.png";
+import terrace9 from "@/assets/services/terrace/img9.png";
 
 // Lawn Assets
 import lawnCover from "@/assets/services/lawn/lawn_hero.webp";
@@ -28,7 +32,8 @@ import lawn1 from "@/assets/services/lawn/img1.png";
 import lawn2 from "@/assets/services/lawn/img2.png";
 import lawn3 from "@/assets/services/lawn/img3.png";
 import lawn4 from "@/assets/services/lawn/img4.png";
-import lawn5 from "@/assets/services/lawn/img5.png";
+import lawn6 from "@/assets/services/lawn/img6.png";
+import lawn7 from "@/assets/services/lawn/img7.png";
 
 // Vertical Garden Assets
 import vertical1 from "@/assets/services/vertical/img1.jpeg";
@@ -44,6 +49,8 @@ import water2 from "@/assets/services/water/img4.png";
 import water3 from "@/assets/services/water/img1.jpeg";
 import water4 from "@/assets/services/water/img2.jpeg";
 import water5 from "@/assets/services/water/09984fdac77e445b39667ed277b7c446.webp";
+import water6 from "@/assets/services/water/img5.png";
+import water7 from "@/assets/services/water/img6.jpg";
 
 
 // Gazebo Assets
@@ -51,6 +58,9 @@ import gazebo1 from "@/assets/services/gazebo/img1.png";
 import gazebo2 from "@/assets/services/gazebo/img2.png";
 import gazebo3 from "@/assets/services/gazebo/img3.png";
 import gazebo4 from "@/assets/services/gazebo/unnamed.webp";
+import gazebo5 from "@/assets/services/gazebo/unnamed (1).webp";
+import gazebo6 from "@/assets/services/gazebo/unnamed (2).webp";
+import gazebo7 from "@/assets/services/gazebo/unnamed (3).webp";
 
 // Commercial Assets
 import commercial1 from "@/assets/services/commercial/img1.webp";
@@ -62,28 +72,31 @@ import commercial6 from "@/assets/services/commercial/img6.webp";
 
 // Maintenance Assets
 import maintenanceCover from "@/assets/services/maintenance/main_hero.webp";
-import maintenance1 from "@/assets/services/maintenance/main_detail_1.webp";
-import maintenance3 from "@/assets/services/maintenance/main_detail_2.webp";
 import maintenance4 from "@/assets/services/maintenance/main_detail_3.webp";
 import maintenance5 from "@/assets/services/maintenance/main_detail_4.webp";
-import maintenancePark from "@/assets/services/maintenance/park_detail_1.webp";
 import maintenanceImg1 from "@/assets/services/maintenance/img1.png";
 import maintenanceImg2 from "@/assets/services/maintenance/img2.png";
 import maintenanceImg3 from "@/assets/services/maintenance/img3.png";
+import maintenanceImg4 from "@/assets/services/maintenance/img4.png";
+import maintenanceImg5 from "@/assets/services/maintenance/img5.png";
 
 // Rock Garden Assets
 import rock1 from "@/assets/services/rockgarden/img1.jpg";
-import rock2 from "@/assets/services/rockgarden/IMG_20250721_194833.jpg";
-import rock3 from "@/assets/services/rockgarden/Photo0566.jpg";
-import rock4 from "@/assets/services/rockgarden/sector438125_1440037421948.jpg";
-import rock5 from "@/assets/services/rockgarden/sector440557_1440037430447.jpg";
+import rock2 from "@/assets/services/rockgarden/img2.png";
+import rock3 from "@/assets/services/rockgarden/img3.png";
+import rock4 from "@/assets/services/rockgarden/img4.png";
+import rock5 from "@/assets/services/rockgarden/img5.png";
+import rock6 from "@/assets/services/rockgarden/img6.jpg";
 
 // Cascade Assets
 import cascade1 from "@/assets/services/cascade/img1.jpg";
 import cascade2 from "@/assets/services/cascade/img2.jpg";
-import cascade3 from "@/assets/services/cascade/img3.jpg"; // Corrected from IMG_20250721_194833.jpg
-import cascade4 from "@/assets/services/cascade/img4.png";  // Corrected
-import cascade5 from "@/assets/services/cascade/img5.jpg";  // Corrected
+import cascade4 from "@/assets/services/cascade/img4.png";
+import cascade5 from "@/assets/services/cascade/img5.jpg";
+import cascade6 from "@/assets/services/cascade/img6.png";
+import cascade7 from "@/assets/services/cascade/img7.png";
+import cascade8 from "@/assets/services/cascade/img8.png";
+import cascade9 from "@/assets/services/cascade/img9.png";
 
 const imageMap: Record<string, string> = {
   "landscape-1": landscape1,
@@ -91,18 +104,23 @@ const imageMap: Record<string, string> = {
   "landscape-3": landscape3,
   "landscape-4": landscape4,
   "landscape-6": landscape6,
+  "landscape-7": landscape7,
+  "landscape-8": landscape8,
   "terrace-1": terrace1,
   "terrace-2": terrace2,
   "terrace-3": terrace3,
   "terrace-4": terrace4,
-  "terrace-5": terrace5,
   "terrace-6": terrace6,
+  "terrace-7": terrace7,
+  "terrace-8": terrace8,
+  "terrace-9": terrace9,
   "lawn-cover": lawnCover,
   "lawn-1": lawn1,
   "lawn-2": lawn2,
   "lawn-3": lawn3,
   "lawn-4": lawn4,
-  "lawn-5": lawn5,
+  "lawn-6": lawn6,
+  "lawn-7": lawn7,
   "vertical-1": vertical1,
   "vertical-2": vertical2,
   "vertical-3": vertical3,
@@ -115,10 +133,15 @@ const imageMap: Record<string, string> = {
   "water-3": water3,
   "water-4": water4,
   "water-5": water5,
+  "water-6": water6,
+  "water-7": water7,
   "gazebo-1": gazebo1,
   "gazebo-2": gazebo2,
   "gazebo-3": gazebo3,
   "gazebo-4": gazebo4,
+  "gazebo-5": gazebo5,
+  "gazebo-6": gazebo6,
+  "gazebo-7": gazebo7,
   "commercial-1": commercial1,
   "commercial-2": commercial2,
   "commercial-3": commercial3,
@@ -126,24 +149,27 @@ const imageMap: Record<string, string> = {
   "commercial-5": commercial5,
   "commercial-6": commercial6,
   "maintenance-cover": maintenanceCover,
-  "maintenance-1": maintenance1,
-  "maintenance-3": maintenance3,
   "maintenance-4": maintenance4,
   "maintenance-5": maintenance5,
-  "maintenance-park": maintenancePark,
   "maintenance-img1": maintenanceImg1,
   "maintenance-img2": maintenanceImg2,
   "maintenance-img3": maintenanceImg3,
+  "maintenance-img4": maintenanceImg4,
+  "maintenance-img5": maintenanceImg5,
   "rock-1": rock1,
   "rock-2": rock2,
   "rock-3": rock3,
   "rock-4": rock4,
   "rock-5": rock5,
+  "rock-6": rock6,
   "cascade-1": cascade1,
   "cascade-2": cascade2,
-  "cascade-3": cascade3,
   "cascade-4": cascade4,
   "cascade-5": cascade5,
+  "cascade-6": cascade6,
+  "cascade-7": cascade7,
+  "cascade-8": cascade8,
+  "cascade-9": cascade9,
 };
 
 const videoMap: Record<string, string> = {
