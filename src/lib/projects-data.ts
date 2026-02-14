@@ -26,7 +26,7 @@ export const projects: Project[] = [
     name: "Abhasa Rehab and Wellness Thondamuthur",
     slug: "abhasa",
     description: "Abhasa Rehab and Wellness Thondamuthur is one of Coimbatore's premier luxury wellness destinations, where our landscape design fosters a deeply therapeutic atmosphere. Designed to maximize privacy and tranquility, the outdoor environment features lush tropical greenery, meditation gardens, and serene walking paths that support holistic healing. The landscape integrates native, drought-resistant plants with elegant hardscaping, creating a balanced and sustainable sanctuary nestled in nature. This project exemplifies Green Falls Garden's expertise in creating purpose-driven, restorative landscapes for healthcare and wellness facilities in Tamil Nadu.",
-    images: ["abhasa-1", "abhasa-2", "abhasa-3", "abhasa-4-jpg", "abhasa-4-png", "abhasa-5"],
+    images: ["abhasa-1", "abhasa-2", "abhasa-3", "abhasa-4-jpg", "abhasa-4-png", "abhasa-5", "abhasa-6", "abhasa-7", "abhasa-8", "abhasa-9"],
   },
   {
     name: "Gujan's Paripalana",
@@ -38,7 +38,7 @@ export const projects: Project[] = [
     name: "KTVR Knowledge Park For Ad Technology",
     slug: "ktvr-knowledge-park",
     description: "A flagship institutional landscape project for the KTVR Knowledge Park For Ad Technology in Coimbatore. This project features a modern, tech-inspired outdoor environment that balances functional academic spaces with serene natural retreats. The design incorporates high-durability green zones, architectural pathways, and sophisticated botanical arrangements that foster innovation and well-being within a high-performance educational campus.",
-    images: ["ktvr-1", "ktvr-2", "ktvr-3"],
+    images: ["ktvr-1", "ktvr-2", "ktvr-3", "ktvr-4", "ktvr-5", "ktvr-6", "ktvr-7", "ktvr-8"],
   },
   {
     name: "Srivari Ekantam",

@@ -24,6 +24,10 @@ import abhasa1 from "@/assets/abhasa images/img1.webp";
 import abhasa2 from "@/assets/abhasa images/img2.webp";
 import abhasa4 from "@/assets/abhasa images/img4.webp";
 import abhasa5 from "@/assets/abhasa images/img5_comp.webp";
+import abhasa6 from "@/assets/abhasa images/img6.webp";
+import abhasa7 from "@/assets/abhasa images/img7.webp";
+import abhasa8 from "@/assets/abhasa images/img8.webp";
+import abhasa9 from "@/assets/abhasa images/img9.webp";
 
 // Gunjan Builders (Community Development)
 import gunjan1 from "@/assets/Gunjan Builders/img1.webp";
@@ -42,11 +46,16 @@ import moongil4 from "@/assets/moogil kadu/img4_comp.webp";
 import ktvr1 from "@/assets/KTVR Knowledge Park For Ad Technology/img1.webp";
 import ktvr2 from "@/assets/KTVR Knowledge Park For Ad Technology/img2.webp";
 import ktvr3 from "@/assets/KTVR Knowledge Park For Ad Technology/img3.webp";
+import ktvr4 from "@/assets/KTVR Knowledge Park For Ad Technology/img4.png";
+import ktvr5 from "@/assets/KTVR Knowledge Park For Ad Technology/img5.png";
+import ktvr6 from "@/assets/KTVR Knowledge Park For Ad Technology/img6.png";
+import ktvr7 from "@/assets/KTVR Knowledge Park For Ad Technology/img7.png";
+import ktvr8 from "@/assets/KTVR Knowledge Park For Ad Technology/img8.png";
 
 // Maheshwari Marbles (Commercial)
-import maheshwari7 from "@/assets/Maheshwari marbles/img7_comp.webp";
-import maheshwari8 from "@/assets/Maheshwari marbles/img8_comp.webp";
-import maheshwari9 from "@/assets/Maheshwari marbles/img9_comp.webp";
+import maheshwari2 from "@/assets/Maheshwari marbles/img2.webp";
+import maheshwari3 from "@/assets/Maheshwari marbles/img3.webp";
+import maheshwari5 from "@/assets/Maheshwari marbles/img5.webp";
 
 // Aswath Associates (Mixed Use)
 import aswath1 from "@/assets/Aswath assocites/img1.webp";
@@ -70,16 +79,16 @@ const galleryImages = [
 
     // Luxury Projects
     srivari2, srivari3, srivari4, srivari5,
-    abhasa1, abhasa2, abhasa4,
+    abhasa1, abhasa2, abhasa4, abhasa6, abhasa7, abhasa8, abhasa9,
 
     // Public & Institutional
     semmozhi1, semmozhi2, semmozhi3, semmozhi6,
-    ktvr1, ktvr2, ktvr3,
+    ktvr1, ktvr2, ktvr3, ktvr4, ktvr5, ktvr6, ktvr7, ktvr8,
 
     // Community & Commercial
     gunjan1, gunjan2, gunjan3, gunjan5, gunjan7,
     moongil2, moongil3, moongil4,
-    maheshwari7, maheshwari8, maheshwari9,
+    maheshwari2, maheshwari3, maheshwari5,
     aswath1, aswath5,
 
     // Service Showcases

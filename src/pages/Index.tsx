@@ -10,6 +10,7 @@ import serviceTerrace from "@/assets/services/terrace/img3.png";
 import serviceLawn from "@/assets/services/lawn/img1.png";
 import serviceCommercial from "@/assets/services/commercial/dabf29889e115df79cb4a220c9a37905.webp";
 import semmozhi4 from "@/assets/semozhi poonga/img4_comp.webp";
+import semmozhi2 from "@/assets/semozhi poonga/img2_comp.webp";
 import srivari1 from "@/assets/Srivari villas/img1_comp.webp";
 import gunjan5 from "@/assets/Gunjan Builders/img5.png";
 import ktvr1 from "@/assets/KTVR Knowledge Park For Ad Technology/img1.webp";
@@ -63,7 +64,7 @@ const Index = () => {
         description="Green Falls Garden Designer – Premium garden design and landscaping services in Coimbatore and across Tamil Nadu. Trusted experts for garden work, lawn installation, and terrace gardens since 1975."
         canonical="/"
         preloadImage={heroImg}
-        keywords="garden work in coimbatore, best garden designer coimbatore, landscaping services tamil nadu, landscape designer coimbatore, garden design tiruppur, terrace garden designer theni, garden maintenance erode, best landscaper tamil nadu, lawn installation coimbatore"
+        keywords="garden work in coimbatore, garden designer rs puram coimbatore, landscaping gandhipuram coimbatore, garden design saibaba colony, terrace garden peelamedu, lawn installation race course coimbatore, garden vadavalli singanallur, landscaping pollachi mettupalayam, garden tiruppur erode, best landscaper tamil nadu"
         schema={{
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
@@ -91,6 +92,24 @@ const Index = () => {
             "opens": "09:00",
             "closes": "18:00"
           },
+          "areaServed": [
+            "RS Puram, Coimbatore",
+            "Gandhipuram, Coimbatore",
+            "Saibaba Colony, Coimbatore",
+            "Race Course, Coimbatore",
+            "Peelamedu, Coimbatore",
+            "Singanallur, Coimbatore",
+            "Vadavalli, Coimbatore",
+            "Kuniyamuthur, Coimbatore",
+            "Sowripalayam, Coimbatore",
+            "Coimbatore",
+            "Pollachi",
+            "Mettupalayam",
+            "Tiruppur",
+            "Erode",
+            "Nilgiris",
+            "Tamil Nadu"
+          ],
           "sameAs": [
             "https://www.facebook.com/greenfallsgarden",
             "https://www.instagram.com/greenfallsgarden"
@@ -127,7 +146,7 @@ const Index = () => {
               Best Garden Work in Coimbatore – Green Falls Garden Designer
             </h1>
             <p className="mt-6 text-lg text-background/85 font-body leading-relaxed">
-              Premium landscaping and garden design services available all over Tamil Nadu. Serving Coimbatore, Tiruppur, Theni, Erode, and all surrounding locations with trusted expertise since 1975.
+              Premium landscaping and garden design services across Coimbatore including RS Puram, Gandhipuram, Saibaba Colony, Race Course, Peelamedu, Vadavalli, and all areas. Also serving Pollachi, Mettupalayam, Tiruppur, Erode, and throughout Tamil Nadu with trusted expertise since 1975.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <Link
@@ -186,8 +205,9 @@ const Index = () => {
                   Why Choose <span className="text-primary">Green Falls</span> Garden Designers?
                 </h2>
                 <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                  We turn ordinary spaces into living, breathing landscapes suitable for all budgets. As the premier <span className="font-semibold text-foreground">Garden Designers in Coimbatore</span>, we serve Tiruppur, Theni, Erode, and all of Tamil Nadu with a legacy of horticultural excellence for over 50 years.
+                  We turn ordinary spaces into living, breathing landscapes suitable for all budgets. As the premier <span className="font-semibold text-foreground">Garden Designers in Coimbatore</span>, we serve RS Puram, Gandhipuram, Saibaba Colony, Peelamedu, and all Coimbatore areas, plus Pollachi, Mettupalayam, Tiruppur, Erode, and throughout Tamil Nadu with a legacy of horticultural excellence for over 50 years.
                 </p>
+
 
                 <div className="space-y-8">
                   <div className="flex gap-4">
@@ -226,9 +246,9 @@ const Index = () => {
               <div className="grid grid-cols-2 gap-4 relative">
                 <motion.img
                   style={{ y: whyY1 }}
-                  src={heroImg}
-                  alt="Beautiful residential garden design project in Coimbatore"
-                  title="Residential Garden Design"
+                  src={semmozhi2}
+                  alt="Semmozhi Poonga botanical garden with vibrant pink flowers - Premium landscaping by Green Falls"
+                  title="Semmozhi Poonga Botanical Garden"
                   loading="lazy"
                   decoding="async"
                   className="rounded-lg shadow-lg w-full h-64 object-cover transform translate-y-8 transform-gpu will-change-transform"

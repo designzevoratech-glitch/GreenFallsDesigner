@@ -34,6 +34,10 @@ import abhasa3 from "@/assets/abhasa images/img3_comp.webp";
 import abhasa4jpg from "@/assets/abhasa images/img4.webp";
 import abhasa4png from "@/assets/abhasa images/img4.webp";
 import abhasa5 from "@/assets/abhasa images/img5_comp.webp";
+import abhasa6 from "@/assets/abhasa images/img6.webp";
+import abhasa7 from "@/assets/abhasa images/img7.webp";
+import abhasa8 from "@/assets/abhasa images/img8.webp";
+import abhasa9 from "@/assets/abhasa images/img9.webp";
 import moongil1 from "@/assets/moogil kadu/img1_comp.webp";
 import moongil2 from "@/assets/moogil kadu/img2_comp.webp";
 import moongil3 from "@/assets/moogil kadu/moogil_3_comp.webp";
@@ -52,6 +56,11 @@ import gunjan8 from "@/assets/Gunjan Builders/img8.png";
 import ktvr1 from "@/assets/KTVR Knowledge Park For Ad Technology/img1.webp";
 import ktvr2 from "@/assets/KTVR Knowledge Park For Ad Technology/img2.webp";
 import ktvr3 from "@/assets/KTVR Knowledge Park For Ad Technology/img3.webp";
+import ktvr4 from "@/assets/KTVR Knowledge Park For Ad Technology/img4.png";
+import ktvr5 from "@/assets/KTVR Knowledge Park For Ad Technology/img5.png";
+import ktvr6 from "@/assets/KTVR Knowledge Park For Ad Technology/img6.png";
+import ktvr7 from "@/assets/KTVR Knowledge Park For Ad Technology/img7.png";
+import ktvr8 from "@/assets/KTVR Knowledge Park For Ad Technology/img8.png";
 import srivari1 from "@/assets/Srivari villas/img1_comp.webp";
 import srivari2 from "@/assets/Srivari villas/img2_comp.webp";
 import srivari3 from "@/assets/Srivari villas/img3_comp.webp";
@@ -119,6 +128,10 @@ const imageMap: Record<string, string> = {
     "abhasa-4-jpg": abhasa4jpg,
     "abhasa-4-png": abhasa4png,
     "abhasa-5": abhasa5,
+    "abhasa-6": abhasa6,
+    "abhasa-7": abhasa7,
+    "abhasa-8": abhasa8,
+    "abhasa-9": abhasa9,
     "moongil-1": moongil1,
     "moongil-2": moongil2,
     "moongil-3": moongil3,
@@ -136,6 +149,11 @@ const imageMap: Record<string, string> = {
     "ktvr-1": ktvr1,
     "ktvr-2": ktvr2,
     "ktvr-3": ktvr3,
+    "ktvr-4": ktvr4,
+    "ktvr-5": ktvr5,
+    "ktvr-6": ktvr6,
+    "ktvr-7": ktvr7,
+    "ktvr-8": ktvr8,
     "srivari-1": srivari1,
     "srivari-2": srivari2,
     "srivari-3": srivari3,
@@ -273,8 +291,30 @@ const ProjectDetail = () => {
                         subtitle={`A visual journey through our work at ${project.name}.`}
                     />
 
-                    {/* Dynamic Bento Grid Layout for Moongilkaadu or Default Grid */}
-                    {project.slug === "moongilkaadu" ? (
+                    {/* Dynamic Bento Grid Layout */}
+                    {project.slug === "abhasa" ? (
+                        /* Default Grid for Abhasa (will show all 10 images) */
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                            {project.images.map((imgKey, i) => (
+                                <motion.div
+                                    key={i}
+                                    initial={{ opacity: 0, y: 20 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    viewport={{ once: true }}
+                                    transition={{ delay: i * 0.1 }}
+                                    className="group relative rounded-xl overflow-hidden shadow-sm aspect-[4/3]"
+                                >
+                                    <img
+                                        src={imageMap[imgKey] || projectSemmozhi}
+                                        alt={`${project.name} gallery image ${i + 1}`}
+                                        loading="lazy"
+                                        decoding="async"
+                                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 transform-gpu"
+                                    />
+                                </motion.div>
+                            ))}
+                        </div>
+                    ) : project.slug === "moongilkaadu" ? (
                         <div className="flex flex-col gap-6">
                             {/* Main Bento Grid (Video + 4 Images) */}
                             <div className="grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 gap-4 h-auto md:h-[600px] lg:h-[700px]">
@@ -489,57 +529,84 @@ const ProjectDetail = () => {
                             )}
                         </div>
                     ) : project.slug === "ktvr-knowledge-park" ? (
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            {/* Image 1 - Top Full Width High Impact */}
-                            <motion.div
-                                initial={{ opacity: 0, y: 20 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                viewport={{ once: true }}
-                                className="md:col-span-2 relative rounded-2xl overflow-hidden shadow-xl group aspect-[21/9]"
-                            >
-                                <img
-                                    src={imageMap[project.images[0]] || projectSemmozhi}
-                                    alt="KTVR Showcase 1"
-                                    loading="lazy"
-                                    decoding="async"
-                                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                                />
-                                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                            </motion.div>
+                        <div className="flex flex-col gap-6">
+                            {/* Main Hero Layout */}
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                {/* Image 1 - Top Full Width High Impact */}
+                                <motion.div
+                                    initial={{ opacity: 0, y: 20 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    viewport={{ once: true }}
+                                    className="md:col-span-2 relative rounded-2xl overflow-hidden shadow-xl group aspect-[21/9]"
+                                >
+                                    <img
+                                        src={imageMap[project.images[0]] || projectSemmozhi}
+                                        alt="KTVR Showcase 1"
+                                        loading="lazy"
+                                        decoding="async"
+                                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                                    />
+                                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                                </motion.div>
 
-                            {/* Image 2 - Left Side */}
-                            <motion.div
-                                initial={{ opacity: 0, x: -20 }}
-                                whileInView={{ opacity: 1, x: 0 }}
-                                viewport={{ once: true }}
-                                transition={{ delay: 0.1 }}
-                                className="relative rounded-2xl overflow-hidden shadow-lg group aspect-[4/3]"
-                            >
-                                <img
-                                    src={imageMap[project.images[1]] || projectSemmozhi}
-                                    alt="KTVR Showcase 2"
-                                    loading="lazy"
-                                    decoding="async"
-                                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                                />
-                            </motion.div>
+                                {/* Image 2 - Left Side */}
+                                <motion.div
+                                    initial={{ opacity: 0, x: -20 }}
+                                    whileInView={{ opacity: 1, x: 0 }}
+                                    viewport={{ once: true }}
+                                    transition={{ delay: 0.1 }}
+                                    className="relative rounded-2xl overflow-hidden shadow-lg group aspect-[4/3]"
+                                >
+                                    <img
+                                        src={imageMap[project.images[1]] || projectSemmozhi}
+                                        alt="KTVR Showcase 2"
+                                        loading="lazy"
+                                        decoding="async"
+                                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                                    />
+                                </motion.div>
 
-                            {/* Image 3 - Right Side */}
-                            <motion.div
-                                initial={{ opacity: 0, x: 20 }}
-                                whileInView={{ opacity: 1, x: 0 }}
-                                viewport={{ once: true }}
-                                transition={{ delay: 0.2 }}
-                                className="relative rounded-2xl overflow-hidden shadow-lg group aspect-[4/3]"
-                            >
-                                <img
-                                    src={imageMap[project.images[2]] || projectSemmozhi}
-                                    alt="KTVR Showcase 3"
-                                    loading="lazy"
-                                    decoding="async"
-                                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                                />
-                            </motion.div>
+                                {/* Image 3 - Right Side */}
+                                <motion.div
+                                    initial={{ opacity: 0, x: 20 }}
+                                    whileInView={{ opacity: 1, x: 0 }}
+                                    viewport={{ once: true }}
+                                    transition={{ delay: 0.2 }}
+                                    className="relative rounded-2xl overflow-hidden shadow-lg group aspect-[4/3]"
+                                >
+                                    <img
+                                        src={imageMap[project.images[2]] || projectSemmozhi}
+                                        alt="KTVR Showcase 3"
+                                        loading="lazy"
+                                        decoding="async"
+                                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                                    />
+                                </motion.div>
+                            </div>
+
+                            {/* Additional Images Grid (for images beyond index 2) */}
+                            {project.images.length > 3 && (
+                                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                                    {project.images.slice(3).map((imgKey, i) => (
+                                        <motion.div
+                                            key={imgKey}
+                                            initial={{ opacity: 0, y: 20 }}
+                                            whileInView={{ opacity: 1, y: 0 }}
+                                            viewport={{ once: true }}
+                                            transition={{ delay: 0.2 + (i * 0.1) }}
+                                            className="relative rounded-2xl overflow-hidden shadow-lg group aspect-square md:aspect-video"
+                                        >
+                                            <img
+                                                src={imageMap[imgKey] || projectSemmozhi}
+                                                alt={`KTVR extra ${i + 1}`}
+                                                loading="lazy"
+                                                decoding="async"
+                                                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                                            />
+                                        </motion.div>
+                                    ))}
+                                </div>
+                            )}
                         </div>
                     ) : project.slug === "srivari-villas" ? (
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 h-auto">

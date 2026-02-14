@@ -1,19 +1,21 @@
-
-import heroImg from "@/assets/hero_garden_comp.webp";
-import serviceLandscape from "@/assets/services/landscape/landscape_hero.webp";
+// Eye-catching client work images for blog cards
+import srivariVilla2 from "@/assets/Srivari villas/img2_comp.webp";
+import srivariVilla3 from "@/assets/Srivari villas/img3_comp.webp";
+import maheshwariMarbles2 from "@/assets/Maheshwari marbles/img2.webp";
+import maheshwariMarbles3 from "@/assets/Maheshwari marbles/img3.webp";
+import serviceLandscape from "@/assets/services/landscape/img4.png";
 import serviceTerrace from "@/assets/services/terrace/terrace-garden.webp";
-import serviceLawn from "@/assets/services/lawn/lawn_index.webp";
-import serviceGazebo from "@/assets/services/gazebo/unnamed.webp";
-import serviceCommercial from "@/assets/services/commercial/dabf29889e115df79cb4a220c9a37905.webp";
 import semmozhi4 from "@/assets/semozhi poonga/img4_comp.webp";
+import semmozhi2 from "@/assets/semozhi poonga/img2_comp.webp";
 import serviceVertical from "@/assets/services/vertical/vertical.webp";
-import serviceWater from "@/assets/services/water/image.webp";
+import waterFeature from "@/assets/services/water/image.webp";
+import cascadeWater from "@/assets/services/cascade/img5.webp";
 
 export const blogs = [
     {
         id: 1,
         title: "Beginner’s Guide to Home Gardening",
-        image: heroImg,
+        image: srivariVilla2,
         category: "Gardening Tips",
         date: "February 10, 2026",
         content: "Home gardening is a wonderful way to bring nature into your daily life while improving your home’s beauty and environment. For beginners, starting a garden may feel overwhelming, but with the right approach, it becomes an enjoyable and rewarding experience.\n\nThe first step in home gardening is understanding your space. Observe how much sunlight your area receives, as most plants need adequate light to grow well. Choosing plants that suit your space—whether it’s a balcony, terrace, backyard, or indoor area—is essential for success. Beginners should start with easy-to-grow plants such as herbs, flowering plants, or hardy shrubs.\n\nSoil preparation plays a crucial role in plant health. Using nutrient-rich soil mixed with organic compost helps plants grow strong roots and improves overall growth. Proper drainage is equally important, as excess water can damage plants and cause root rot.\n\nWatering should be done regularly but carefully. Overwatering is a common mistake among beginners. It’s best to water early in the morning or evening to reduce evaporation. Pruning, fertilizing, and seasonal care help maintain plant health and encourage growth.\n\nStarting small and learning gradually allows you to understand plant needs better. A well-maintained home garden not only enhances your living space but also promotes relaxation, mental well-being, and a closer connection to nature."
@@ -29,7 +31,7 @@ export const blogs = [
     {
         id: 3,
         title: "How to Design a Small Backyard Garden",
-        image: serviceLawn,
+        image: serviceLandscape,
         category: "Garden Design",
         date: "February 5, 2026",
         content: "Designing a small backyard garden requires creativity and smart planning. Limited space does not mean limited beauty. With the right design approach, even compact backyards can become peaceful and functional outdoor retreats.\n\nThe key to small garden design is maximizing space without overcrowding. Vertical gardens, wall planters, and hanging pots allow you to add greenery without taking up valuable ground space. Using plants of varying heights creates depth and visual interest.\n\nChoosing compact and multi-purpose elements helps maintain balance. Seating areas with built-in planters, narrow pathways, and foldable furniture make the space more usable. Adding focal points such as a small water feature, decorative pot, or sculpture draws attention and enhances aesthetics.\n\nLighting plays a vital role in small gardens. Soft outdoor lighting highlights plants, improves safety, and allows the garden to be enjoyed during evenings. Light-colored surfaces and mirrors can make the space feel larger and more open.\n\nProper plant selection is essential. Avoid overcrowding plants and allow enough space for growth. With thoughtful planning and professional guidance, a small backyard can feel spacious, stylish, and inviting."
@@ -45,7 +47,7 @@ export const blogs = [
     {
         id: 5,
         title: "Benefits of Professional Landscaping",
-        image: serviceLandscape,
+        image: srivariVilla3,
         category: "Landscaping",
         date: "January 30, 2026",
         content: "Professional landscaping is more than just planting trees and grass—it is a strategic process that combines design, horticulture, and functionality. A professionally landscaped space enhances both beauty and usability.\n\nLandscape professionals understand soil quality, drainage systems, plant compatibility, and irrigation planning. This expertise prevents common issues such as waterlogging, poor plant growth, and uneven layouts. Proper planning ensures long-lasting results and reduces future maintenance costs.\n\nProfessionally designed landscapes increase property value and create a positive first impression. They also improve outdoor functionality by incorporating seating areas, pathways, lighting, and water features.\n\nAnother major benefit is sustainability. Experts choose climate-appropriate plants and efficient irrigation systems, reducing water usage and environmental impact.\n\nInvesting in professional landscaping ensures that your garden grows beautifully over time instead of requiring frequent corrections. It transforms outdoor spaces into well-organized, aesthetically pleasing, and sustainable environments."
@@ -53,7 +55,7 @@ export const blogs = [
     {
         id: 6,
         title: "Seasonal Gardening Tips – Summer, Monsoon & Winter",
-        image: serviceWater,
+        image: semmozhi2,
         category: "Gardening Tips",
         date: "January 25, 2026",
         content: "Seasonal gardening is essential to keep plants healthy throughout the year. Each season brings unique challenges and opportunities for garden care.\n\nDuring summer, plants require regular watering and protection from heat. Mulching helps retain moisture and prevents soil from drying out. Watering early in the morning or evening reduces evaporation.\n\nThe monsoon season promotes rapid growth but also increases the risk of pests and fungal diseases. Proper drainage is crucial to prevent waterlogging. Regular pruning and pest control help maintain plant health.\n\nWinter is the best time for pruning, soil enrichment, and planting seasonal flowers. Cooler temperatures allow plants to establish strong roots. It is also an ideal season to plan landscaping upgrades.\n\nUnderstanding seasonal needs ensures continuous growth and keeps your garden vibrant all year long."
@@ -61,7 +63,7 @@ export const blogs = [
     {
         id: 7,
         title: "Common Garden Mistakes Homeowners Make",
-        image: serviceWater,
+        image: maheshwariMarbles2,
         category: "Gardening Tips",
         date: "January 20, 2026",
         content: "Creating a beautiful garden requires more than just planting flowers and watering them regularly. Many homeowners unknowingly make simple mistakes that affect plant health, growth, and overall garden appearance. Understanding these common errors can help you maintain a thriving and long-lasting garden.\n\nOne of the most frequent mistakes is overwatering. While plants need water to survive, excessive watering can lead to root rot, fungal diseases, and weak root systems. It is important to understand the specific water requirements of each plant rather than following a fixed schedule. Similarly, underwatering can stress plants and stunt their growth.\n\nAnother common issue is choosing the wrong plants for the local climate or soil type. Not all plants thrive in every environment. Selecting plants that are unsuitable for your region can result in poor growth and high maintenance costs. Proper research or professional guidance ensures better plant selection.\n\nPoor soil preparation is another major factor. Healthy soil enriched with compost and proper nutrients provides a strong foundation for plant growth. Ignoring drainage systems can also cause waterlogging and damage roots.\n\nOvercrowding plants is a mistake many beginners make. Plants need adequate space for sunlight, airflow, and root expansion. Without spacing, diseases spread more easily.\n\nBy avoiding these common mistakes and planning carefully, homeowners can enjoy a healthier, greener, and more sustainable garden for years to come."
@@ -69,7 +71,7 @@ export const blogs = [
     {
         id: 8,
         title: "How Water Features Improve Garden Aesthetics",
-        image: serviceWater,
+        image: waterFeature,
         category: "Garden Design",
         date: "January 15, 2026",
         content: "Water features have the power to transform an ordinary garden into a serene and visually captivating outdoor space. Whether it is a simple fountain, a decorative pond, or a cascading waterfall, the presence of water instantly enhances the beauty and atmosphere of any landscape design.\n\nOne of the most noticeable benefits of water features is the sense of tranquility they create. The gentle sound of flowing water promotes relaxation and reduces stress, making the garden a peaceful retreat from daily life. In urban environments, water features can also help mask unwanted noise from traffic or surrounding areas.\n\nVisually, water adds movement and reflection to a garden. Unlike static elements such as plants or stones, flowing water introduces dynamic energy. It reflects sunlight during the day and garden lighting at night, creating a stunning visual effect. A well-placed water feature can serve as a focal point, drawing attention and enhancing the overall layout of the landscape.\n\nWater features also contribute to a healthier garden ecosystem. They attract birds, butterflies, and beneficial insects, increasing biodiversity. Additionally, they can help cool the surrounding area, improving the microclimate of the garden.\n\nWhen professionally designed and installed, water features blend seamlessly with plants, pathways, and seating areas. They elevate the elegance of the space while adding both aesthetic and functional value, turning your garden into a luxurious and inviting environment."
@@ -85,7 +87,7 @@ export const blogs = [
     {
         id: 10,
         title: "Landscaping Ideas for Indian Homes",
-        image: serviceGazebo,
+        image: maheshwariMarbles3,
         category: "Landscaping",
         date: "January 5, 2026",
         content: "Landscaping plays a vital role in enhancing the beauty, comfort, and functionality of Indian homes. With the right design approach, outdoor spaces can become natural extensions of indoor living areas, offering both relaxation and visual appeal.\n\nOne popular landscaping idea for Indian homes is creating a courtyard garden. Courtyards allow natural light and ventilation while adding greenery to the heart of the home. Incorporating flowering plants, small trees, or a central water feature can make the space peaceful and inviting.\n\nStone pathways and natural materials such as granite, sandstone, and brick blend beautifully with Indian architecture. These elements add texture and structure while maintaining durability in varying weather conditions. Raised planters and decorative pots can help organize greenery neatly, especially in compact spaces.\n\nFor larger homes, lawns combined with shaded seating areas create perfect spots for family gatherings and outdoor activities. Pergolas, gazebos, and wooden decks provide shade while enhancing aesthetic appeal. Adding soft garden lighting further elevates the ambiance during evenings.\n\nWater features such as fountains or small ponds bring elegance and tranquility. Native and climate-friendly plants ensure sustainability and reduce maintenance needs. Incorporating rainwater harvesting systems and efficient irrigation methods also supports eco-friendly landscaping.\n\nThoughtful landscaping not only increases property value but also improves daily living. By blending traditional elements with modern design, Indian homes can enjoy outdoor spaces that are both beautiful and practical throughout the year."
