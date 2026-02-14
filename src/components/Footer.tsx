@@ -57,7 +57,6 @@ const Footer = () => {
             <h4 className="font-display text-lg font-semibold mb-4">Services</h4>
             <div className="flex flex-col gap-2">
               {[
-<<<<<<< HEAD
                 { label: "Landscape Design", to: "/services/landscape-design" },
                 { label: "Terrace Garden", to: "/services/terrace-garden" },
                 { label: "Lawn Installation", to: "/services/lawn-installation" },
@@ -66,16 +65,6 @@ const Footer = () => {
               ].map((s) => (
                 <Link key={s.to} to={s.to} className="text-sm opacity-80 hover:opacity-100 transition-opacity">
                   {s.label}
-=======
-                "Landscape Design",
-                "Terrace Garden",
-                "Lawn Installation",
-                "Vertical Garden",
-                "Commercial Landscaping",
-              ].map((s) => (
-                <Link key={s} to="/services" className="text-sm opacity-80 hover:opacity-100 transition-opacity">
-                  {s}
->>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
                 </Link>
               ))}
             </div>

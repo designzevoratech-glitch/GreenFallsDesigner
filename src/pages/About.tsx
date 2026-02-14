@@ -7,10 +7,7 @@ import heroImg from "@/assets/hero_garden_comp.webp";
 import semmozhi4 from "@/assets/semozhi poonga/img4_comp.webp";
 import serviceLandscape from "@/assets/services/landscape/landscape_hero.webp";
 import founderImg from "@/assets/founder.webp";
-<<<<<<< HEAD
 import srikumarImg from "@/assets/srikumar.png";
-=======
->>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
 
 const highlights = [
   { icon: TreePine, label: "50+ Years Experience" },
@@ -109,7 +106,6 @@ const About = () => {
       {/* Professional Profile */}
       <section className="py-20 lg:py-28 bg-secondary">
         <div className="container mx-auto px-4 lg:px-8 max-w-6xl">
-<<<<<<< HEAD
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
               {/* Image Section - Left (Mirrored from Founder) */}
               <motion.div
@@ -172,51 +168,6 @@ const About = () => {
                 </div>
               </motion.div>
             </div>
-=======
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-          >
-            <h2 className="font-display text-4xl font-bold text-foreground mb-2 text-center">Professional Leadership</h2>
-            <p className="text-primary font-bold mb-16 text-center text-xl tracking-wide uppercase">S. Srikumar — 23+ Years of Excellence</p>
-
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
-              <div className="lg:col-span-7 space-y-8 text-muted-foreground leading-relaxed text-lg">
-                <p>
-                  Leading the legacy since 2003, <span className="text-foreground font-bold">S. Srikumar</span> blends traditional gardening wisdom with modern innovation. Mentored by his father, he carries over two decades of hands-on mastery and a deep-rooted commitment to professional excellence.
-                </p>
-                <p>
-                  With the support of skilled workers and a dedicated team, he has transformed the family profession into a design-driven landscape service. Certified by <span className="text-foreground font-bold">Tamil Nadu Agricultural University (TNAU)</span>, his approach combines scientific horticulture with a passion for creating sustainable green sanctuaries.
-                </p>
-              </div>
-
-              <div className="lg:col-span-5">
-                <div className="bg-card p-10 rounded-[2rem] border border-border shadow-sm h-full relative overflow-hidden">
-                  <div className="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-full -mr-16 -mt-16 blur-3xl" />
-                  <h3 className="font-display text-2xl font-bold text-foreground mb-8 text-center lg:text-left">Our Specialization</h3>
-                  <ul className="grid grid-cols-1 gap-y-3 text-base text-muted-foreground">
-                    {[
-                      "Luxury Villas & Private Residences",
-                      "Resorts & Hospitality Properties",
-                      "Schools, Colleges & Healthcare",
-                      "Corporate IT Parks & Offices",
-                      "Public Parks & Recreational Spaces",
-                      "Industrial Facilities & Factories",
-                      "Apartments & Gated Communities",
-                      "Terrace & Specialized Gardens",
-                    ].map((item) => (
-                      <li key={item} className="flex items-start gap-3">
-                        <div className="w-2 h-2 rounded-full bg-primary mt-2 shrink-0" />
-                        <span>{item}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </motion.div>
->>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
         </div>
       </section>
 

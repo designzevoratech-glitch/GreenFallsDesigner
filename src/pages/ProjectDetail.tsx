@@ -19,7 +19,6 @@ import semmozhi3 from "@/assets/semozhi poonga/img3.webp";
 import semmozhi4 from "@/assets/semozhi poonga/img4_comp.webp";
 import semmozhi5 from "@/assets/semozhi poonga/img5.webp";
 import semmozhi6 from "@/assets/semozhi poonga/img6.webp";
-<<<<<<< HEAD
 import semmozhi7 from "@/assets/semozhi poonga/img7.png";
 import semmozhi8 from "@/assets/semozhi poonga/img8.png";
 import semmozhi9 from "@/assets/semozhi poonga/img9.png";
@@ -29,8 +28,6 @@ import semmozhi12 from "@/assets/semozhi poonga/img12.png";
 import semmozhi13 from "@/assets/semozhi poonga/img13.png";
 import semmozhi14 from "@/assets/semozhi poonga/img14.png";
 import semmozhi15 from "@/assets/semozhi poonga/img15.png";
-=======
->>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
 import abhasa1 from "@/assets/abhasa images/img1.webp";
 import abhasa2 from "@/assets/abhasa images/img2.webp";
 import abhasa3 from "@/assets/abhasa images/img3_comp.webp";
@@ -41,30 +38,23 @@ import moongil1 from "@/assets/moogil kadu/img1_comp.webp";
 import moongil2 from "@/assets/moogil kadu/img2_comp.webp";
 import moongil3 from "@/assets/moogil kadu/moogil_3_comp.webp";
 import moongil4 from "@/assets/moogil kadu/img4_comp.webp";
-<<<<<<< HEAD
 import moongil5 from "@/assets/moogil kadu/img5.png";
 import moongil6 from "@/assets/moogil kadu/img6.jpg";
-=======
->>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
 import moongilVideo from "@/assets/moogil kadu/video_comp.mp4";
 import gunjan1 from "@/assets/Gunjan Builders/img1.webp";
 import gunjan2 from "@/assets/Gunjan Builders/img2.webp";
 import gunjan3 from "@/assets/Gunjan Builders/img3_comp.webp";
 import gunjan4 from "@/assets/Gunjan Builders/img4.webp";
-<<<<<<< HEAD
 import gunjan5 from "@/assets/Gunjan Builders/img5.png";
 import gunjan6 from "@/assets/Gunjan Builders/img6.png";
 import gunjan7 from "@/assets/Gunjan Builders/img7.png";
 import gunjan8 from "@/assets/Gunjan Builders/img8.png";
-=======
->>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
 import ktvr1 from "@/assets/KTVR Knowledge Park For Ad Technology/img1.webp";
 import ktvr2 from "@/assets/KTVR Knowledge Park For Ad Technology/img2.webp";
 import ktvr3 from "@/assets/KTVR Knowledge Park For Ad Technology/img3.webp";
 import srivari1 from "@/assets/Srivari villas/img1_comp.webp";
 import srivari2 from "@/assets/Srivari villas/img2_comp.webp";
 import srivari3 from "@/assets/Srivari villas/img3_comp.webp";
-<<<<<<< HEAD
 import srivari5 from "@/assets/Srivari villas/img5.png";
 import srivari6 from "@/assets/Srivari villas/img6.png";
 import srivari7 from "@/assets/Srivari villas/img7.png";
@@ -100,10 +90,6 @@ import maheshwari8 from "@/assets/Maheshwari marbles/img8.png";
 import maheshwari9 from "@/assets/Maheshwari marbles/img9.png";
 import maheshwari10 from "@/assets/Maheshwari marbles/img10_comp.webp";
 import maheshwari11 from "@/assets/Maheshwari marbles/img11_comp.webp";
-=======
-import srivari4 from "@/assets/Srivari villas/img4_comp.webp";
-import srivari5 from "@/assets/Srivari villas/srivari.avif";
->>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
 
 const imageMap: Record<string, string> = {
     "project-semmozhi": projectSemmozhi,
@@ -118,7 +104,6 @@ const imageMap: Record<string, string> = {
     "semmozhi-4": semmozhi4,
     "semmozhi-5": semmozhi5,
     "semmozhi-6": semmozhi6,
-<<<<<<< HEAD
     "semmozhi-7": semmozhi7,
     "semmozhi-8": semmozhi8,
     "semmozhi-9": semmozhi9,
@@ -128,8 +113,6 @@ const imageMap: Record<string, string> = {
     "semmozhi-13": semmozhi13,
     "semmozhi-14": semmozhi14,
     "semmozhi-15": semmozhi15,
-=======
->>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
     "abhasa-1": abhasa1,
     "abhasa-2": abhasa2,
     "abhasa-3": abhasa3,
@@ -140,29 +123,22 @@ const imageMap: Record<string, string> = {
     "moongil-2": moongil2,
     "moongil-3": moongil3,
     "moongil-4": moongil4,
-<<<<<<< HEAD
     "moongil-5": moongil5,
     "moongil-6": moongil6,
-=======
->>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
     "gunjan-1": gunjan1,
     "gunjan-2": gunjan2,
     "gunjan-3": gunjan3,
     "gunjan-4": gunjan4,
-<<<<<<< HEAD
     "gunjan-5": gunjan5,
     "gunjan-6": gunjan6,
     "gunjan-7": gunjan7,
     "gunjan-8": gunjan8,
-=======
->>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
     "ktvr-1": ktvr1,
     "ktvr-2": ktvr2,
     "ktvr-3": ktvr3,
     "srivari-1": srivari1,
     "srivari-2": srivari2,
     "srivari-3": srivari3,
-<<<<<<< HEAD
     "srivari-5": srivari5,
     "srivari-6": srivari6,
     "srivari-7": srivari7,
@@ -194,12 +170,6 @@ const imageMap: Record<string, string> = {
     "maheshwari-9": maheshwari9,
     "maheshwari-10": maheshwari10,
     "maheshwari-11": maheshwari11,
-=======
-    "srivari-4": srivari4,
-    "srivari-5": srivari5,
-    "restro-1": serviceCommercial,
-    "villa-1": heroImg,
->>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
 };
 
 const videoMap: Record<string, string> = {
@@ -305,7 +275,6 @@ const ProjectDetail = () => {
 
                     {/* Dynamic Bento Grid Layout for Moongilkaadu or Default Grid */}
                     {project.slug === "moongilkaadu" ? (
-<<<<<<< HEAD
                         <div className="flex flex-col gap-6">
                             {/* Main Bento Grid (Video + 4 Images) */}
                             <div className="grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 gap-4 h-auto md:h-[600px] lg:h-[700px]">
@@ -427,102 +396,6 @@ const ProjectDetail = () => {
                             )}
                         </div>
                     ) : project.slug === "gujans-paripalana" ? (
-=======
-                        <div className="grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 gap-4 h-auto md:h-[600px] lg:h-[700px]">
-                            {/* Featured Video - Large Block */}
-                            {project.video && videoMap[project.video] && (
-                                <motion.div
-                                    initial={{ opacity: 0, scale: 0.95 }}
-                                    whileInView={{ opacity: 1, scale: 1 }}
-                                    viewport={{ once: true }}
-                                    className="md:col-span-2 md:row-span-2 relative rounded-2xl overflow-hidden shadow-2xl group border-2 border-primary/10"
-                                >
-                                    <video
-                                        src={videoMap[project.video]}
-                                        autoPlay
-                                        muted
-                                        loop
-                                        playsInline
-                                        preload="metadata"
-                                        className="w-full h-full object-cover transform-gpu"
-                                    />
-                                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                                    <div className="absolute bottom-4 left-4 text-white font-display font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                                        Project Cinematic
-                                    </div>
-                                </motion.div>
-                            )}
-
-                            {/* Image 1 & 2 - Top/Bottom Right Slot 1 */}
-                            <div className="md:col-span-1 md:row-span-2 grid grid-rows-2 gap-4">
-                                <motion.div
-                                    initial={{ opacity: 0, x: 20 }}
-                                    whileInView={{ opacity: 1, x: 0 }}
-                                    viewport={{ once: true }}
-                                    transition={{ delay: 0.1 }}
-                                    className="relative rounded-2xl overflow-hidden shadow-lg group"
-                                >
-                                    <img
-                                        src={imageMap[project.images[0]] || projectSemmozhi}
-                                        alt="Showcase 1"
-                                        loading="lazy"
-                                        decoding="async"
-                                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 transform-gpu will-change-transform"
-                                    />
-                                </motion.div>
-                                <motion.div
-                                    initial={{ opacity: 0, x: 20 }}
-                                    whileInView={{ opacity: 1, x: 0 }}
-                                    viewport={{ once: true }}
-                                    transition={{ delay: 0.2 }}
-                                    className="relative rounded-2xl overflow-hidden shadow-lg group transform-gpu"
-                                >
-                                    <img
-                                        src={imageMap[project.images[1]] || projectSemmozhi}
-                                        alt="Showcase 2"
-                                        loading="lazy"
-                                        decoding="async"
-                                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 transform-gpu will-change-transform"
-                                    />
-                                </motion.div>
-                            </div>
-
-                            {/* Image 3 & 4 - Top/Bottom Right Slot 2 */}
-                            <div className="md:col-span-1 md:row-span-2 grid grid-rows-2 gap-4">
-                                <motion.div
-                                    initial={{ opacity: 0, x: 20 }}
-                                    whileInView={{ opacity: 1, x: 0 }}
-                                    viewport={{ once: true }}
-                                    transition={{ delay: 0.3 }}
-                                    className="relative rounded-2xl overflow-hidden shadow-lg group"
-                                >
-                                    <img
-                                        src={imageMap[project.images[2]] || projectSemmozhi}
-                                        alt="Showcase 3"
-                                        loading="lazy"
-                                        decoding="async"
-                                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                                    />
-                                </motion.div>
-                                <motion.div
-                                    initial={{ opacity: 0, x: 20 }}
-                                    whileInView={{ opacity: 1, x: 0 }}
-                                    viewport={{ once: true }}
-                                    transition={{ delay: 0.4 }}
-                                    className="relative rounded-2xl overflow-hidden shadow-lg group"
-                                >
-                                    <img
-                                        src={imageMap[project.images[3]] || projectSemmozhi}
-                                        alt="Showcase 4"
-                                        loading="lazy"
-                                        decoding="async"
-                                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                                    />
-                                </motion.div>
-                            </div>
-                        </div>
-                    ) : project.slug === "gunjan-builders" ? (
->>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                             {/* Image 1 - Large Wide */}
                             <motion.div
@@ -590,7 +463,6 @@ const ProjectDetail = () => {
                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                                 />
                             </motion.div>
-<<<<<<< HEAD
 
                             {/* Additional Images Grid (for images beyond index 3) */}
                             {project.images.length > 4 && (
@@ -615,8 +487,6 @@ const ProjectDetail = () => {
                                     ))}
                                 </div>
                             )}
-=======
->>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
                         </div>
                     ) : project.slug === "ktvr-knowledge-park" ? (
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -757,7 +627,6 @@ const ProjectDetail = () => {
                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                                 />
                             </motion.div>
-<<<<<<< HEAD
 
                             {/* Additional Images Grid (for images beyond index 4) */}
                             {project.images.length > 5 && (
@@ -782,8 +651,6 @@ const ProjectDetail = () => {
                                     ))}
                                 </div>
                             )}
-=======
->>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
                         </div>
                     ) : (
                         /* Default Grid for other projects */

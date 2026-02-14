@@ -6,7 +6,6 @@ import SEO from "@/components/SEO";
 import { services } from "@/lib/services-data";
 
 // Authentic Service Thumbnails
-<<<<<<< HEAD
 import serviceLandscape from "@/assets/services/landscape/img4.png";
 import serviceTerrace from "@/assets/services/terrace/img3.png";
 import serviceLawn from "@/assets/services/lawn/img1.png";
@@ -45,27 +44,6 @@ const imageMap: Record<string, string> = {
   "cascade-3": serviceCascade,
   "cascade-4": serviceCascade,
   "cascade-5": serviceCascade,
-=======
-import serviceLandscape from "@/assets/services/landscape/landscape_hero.webp";
-import serviceTerrace from "@/assets/services/terrace/terrace-garden.webp";
-import serviceLawn from "@/assets/services/lawn/lawn_index.webp";
-import serviceVertical from "@/assets/services/vertical/vertical.webp";
-import serviceWater from "@/assets/services/water/image.webp";
-import serviceGazebo from "@/assets/services/gazebo/unnamed.webp";
-import serviceCommercial from "@/assets/services/commercial/dabf29889e115df79cb4a220c9a37905.webp";
-import serviceMaintenance from "@/assets/services/maintenance/main_hero.webp";
-
-const imageMap: Record<string, string> = {
-  "landscape-1": serviceLandscape,
-  "terrace-1": serviceTerrace,
-  "lawn-cover": serviceLawn,
-  "vertical-1": serviceVertical,
-  "water-cover": serviceWater,
-  "gazebo-1": serviceGazebo,
-  "commercial-1": serviceCommercial,
-  "maintenance-cover": serviceMaintenance,
-  "rock": serviceWater, // Reusing water for rock
->>>>>>> 00082cb5a620b2df868860d4a1728f0cb124c023
 };
 
 const Services = () => {
