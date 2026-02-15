@@ -202,14 +202,14 @@ const ServiceDetail = () => {
   return (
     <main className="pt-20">
       <SEO
-        title={service.title}
-        description={`${service.shortDesc} Expert landscaping and garden design in Coimbatore and across Tamil Nadu.`}
+        title={`${service.title} in Coimbatore`}
+        description={`Professional ${service.title} services in Coimbatore. ${service.shortDesc} We provide expert landscape work, garden maintenance, and design in Coimbatore, Tiruppur, and Tamil Nadu.`}
         canonical={`/services/${slug}`}
-        keywords={`${service.title} coimbatore, best ${service.title} tamil nadu, garden work coimbatore, green falls garden designer`}
+        keywords={`${service.title} coimbatore, ${service.title} work coimbatore, ${service.keywords.join(", ")}`}
         schema={{
           "@context": "https://schema.org",
           "@type": "Service",
-          "name": service.title,
+          "name": `${service.title} in Coimbatore`,
           "description": service.description,
           "provider": {
             "@type": "LocalBusiness",
@@ -229,7 +229,7 @@ const ServiceDetail = () => {
           style={{ y }}
           className="absolute inset-0 transform-gpu will-change-transform"
         >
-          <img src={featuredImg} alt={service.title} className="w-full h-full object-cover" loading="eager" />
+          <img src={featuredImg} alt={`${service.title} service in Coimbatore by Green Falls Garden Designer`} className="w-full h-full object-cover" loading="eager" />
           <div className="absolute inset-0 bg-foreground/60" />
         </motion.div>
         <div className="relative container mx-auto px-4 lg:px-8">
@@ -323,7 +323,7 @@ const ServiceDetail = () => {
                 >
                   <img
                     src={imageMap[imgKey] || landscape1}
-                    alt={`${service.title} showcase ${i + 1}`}
+                    alt={`${service.title} work in Coimbatore - showcase ${i + 1}`}
                     loading="lazy"
                     decoding="async"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out will-change-transform"

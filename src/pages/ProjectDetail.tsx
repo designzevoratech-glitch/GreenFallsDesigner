@@ -28,6 +28,7 @@ import semmozhi12 from "@/assets/semozhi poonga/img12.webp";
 import semmozhi13 from "@/assets/semozhi poonga/img13.webp";
 import semmozhi14 from "@/assets/semozhi poonga/img14.webp";
 import semmozhi15 from "@/assets/semozhi poonga/img15.webp";
+import semmozhi16 from "@/assets/semozhi poonga/img16.webp";
 import abhasa1 from "@/assets/abhasa images/img1.webp";
 import abhasa2 from "@/assets/abhasa images/img2.webp";
 import abhasa3 from "@/assets/abhasa images/img3_comp.webp";
@@ -120,6 +121,7 @@ const imageMap: Record<string, string> = {
     "semmozhi-13": semmozhi13,
     "semmozhi-14": semmozhi14,
     "semmozhi-15": semmozhi15,
+    "semmozhi-16": semmozhi16,
     "abhasa-1": abhasa1,
     "abhasa-2": abhasa2,
     "abhasa-3": abhasa3,
@@ -217,8 +219,8 @@ const ProjectDetail = () => {
     return (
         <main className="pt-20 text-foreground">
             <SEO
-                title={`${project.name} – Signature Project`}
-                description={`Explore ${project.name}, a signature landscaping project by Green Falls Garden Designer in Coimbatore. ${project.description.substring(0, 100)}...`}
+                title={`${project.name} – Landscape Work in Coimbatore`}
+                description={`View our ${project.name} project. ${project.description.slice(0, 120)}... We provide professional landscape work, garden design, and maintenance in Coimbatore.`}
                 canonical={`/projects/${slug}`}
                 keywords={`${project.name} coimbatore, landscaping project tamil nadu, garden design showcase, green falls portfolio`}
                 preloadImage={featuredImg}
@@ -244,7 +246,7 @@ const ProjectDetail = () => {
                     style={{ y }}
                     className="absolute inset-0 transform-gpu will-change-transform"
                 >
-                    <img src={featuredImg} alt={project.name} className="w-full h-full object-cover" loading="eager" />
+                    <img src={featuredImg} alt={`${project.name} - Professional Landscape Design in Coimbatore`} className="w-full h-full object-cover" loading="eager" />
                     <div className="absolute inset-0 bg-foreground/60" />
                 </motion.div>
                 <div className="relative container mx-auto px-4 lg:px-8">
@@ -276,6 +278,13 @@ const ProjectDetail = () => {
                 <div className="container mx-auto px-4 lg:px-8 max-w-4xl">
                     <h2 className="font-display text-2xl font-bold text-foreground mb-6">About the Project</h2>
                     <p className="text-lg text-muted-foreground leading-relaxed">{project.description}</p>
+                    {project.relatedService && (
+                        <div className="mt-8 pt-6 border-t border-border/40">
+                            <p className="text-muted-foreground font-medium">
+                                Service Provided: <Link to={`/services/${project.relatedService}`} className="text-primary font-bold hover:underline decoration-2 underline-offset-4 ml-1">{project.relatedServiceName}</Link>
+                            </p>
+                        </div>
+                    )}
                 </div>
             </section>
 

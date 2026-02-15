@@ -18,7 +18,7 @@ export const services: Service[] = [
     description: "Our landscape design services combine artistic vision with horticultural expertise. We create stunning outdoor environments that blend seamlessly with Tamil Nadu's tropical climate, incorporating native plants, stone pathways, and custom layouts tailored to your space.",
     image: "landscape-4",
     galleryImages: ["landscape-4", "landscape-1", "landscape-6", "landscape-7", "landscape-8", "landscape-2", "landscape-3"],
-    keywords: ["landscape design coimbatore", "garden design installation coimbatore", "landscape designer tiruppur", "landscape contractor theni"],
+    keywords: ["landscape design coimbatore", "landscape service in coimbatore", "landscape designer in coimbatore", "landscape work in coimbatore", "best landscaper coimbatore", "garden design installation coimbatore", "landscape designer tiruppur", "landscape contractor theni"],
     gallery: [
       { title: "Villa Garden Landscape", description: "Designed a complete garden layout for a 5000 sq ft villa compound with tropical plants, stepping stones, and border plantations suited for Coimbatore climate." },
       { title: "Residential Courtyard Design", description: "Created an elegant courtyard garden with ornamental plants, decorative stones, and a compact lawn area for a modern residence in Tamil Nadu." },
@@ -32,7 +32,7 @@ export const services: Service[] = [
     description: "We specialize in creating beautiful terrace gardens optimized for Tamil Nadu's climate. Our designs incorporate proper drainage, lightweight containers, and plants that thrive in rooftop conditions, turning unused spaces into green sanctuaries.",
     image: "terrace-3",
     galleryImages: ["terrace-3", "terrace-6", "terrace-4", "terrace-7", "terrace-8", "terrace-9", "terrace-1", "terrace-2"],
-    keywords: ["terrace garden design coimbatore", "rooftop garden coimbatore", "terrace garden designer erode"],
+    keywords: ["terrace garden design coimbatore", "terrace garden service coimbatore", "terrace garden work in coimbatore", "rooftop garden coimbatore", "terrace garden designer erode", "roof garden makers coimbatore"],
     gallery: [
       { title: "Modern Terrace Garden", description: "Designed rooftop garden with tropical plants suitable for Tamil Nadu climate, incorporating drainage solutions and easy maintenance layouts." },
       { title: "Apartment Terrace Makeover", description: "Transformed a bare concrete terrace into a green retreat with potted palms, flowering plants, and a small seating nook." },
@@ -46,7 +46,7 @@ export const services: Service[] = [
     description: "We provide expert lawn installation services using premium turf varieties that thrive in Coimbatore's climate. From soil preparation to turf laying and aftercare, we ensure your lawn stays lush and green year-round.",
     image: "lawn-1",
     galleryImages: ["lawn-1", "lawn-6", "lawn-7", "lawn-4", "lawn-2", "lawn-3"],
-    keywords: ["lawn installation service coimbatore", "turf laying coimbatore"],
+    keywords: ["lawn installation service coimbatore", "lawn grass coimbatore", "mexican lawn coimbatore", "turf laying coimbatore", "lawn maintenance coimbatore", "landscape grass coimbatore"],
     gallery: [
       { title: "Residential Lawn Installation", description: "Installed premium quality turf for a residential garden with automated irrigation, creating a carpet-like green lawn." },
       { title: "Sports Ground Turf Laying", description: "Professional turf installation for a recreational ground with proper grading and drainage for all-weather playability." },
@@ -60,7 +60,7 @@ export const services: Service[] = [
     description: "Our vertical garden solutions are perfect for urban spaces. Using modular systems and carefully selected plant species, we create stunning living walls for both indoor and outdoor applications.",
     image: "vertical-3",
     galleryImages: ["vertical-3", "vertical-6", "vertical-2", "vertical-4", "vertical-5", "vertical-1"],
-    keywords: ["vertical garden designer coimbatore", "green wall coimbatore"],
+    keywords: ["vertical garden designer coimbatore", "vertical garden work in coimbatore", "green wall coimbatore", "bio wall coimbatore", "indoor vertical garden coimbatore", "outdoor green wall"],
     gallery: [
       { title: "Commercial Building Green Wall", description: "Installed a 200 sq ft living wall on a commercial building facade using drought-resistant tropical plants." },
       { title: "Indoor Vertical Garden", description: "Created an interior living wall for a corporate office lobby, improving air quality and aesthetics." },
@@ -74,7 +74,7 @@ export const services: Service[] = [
     description: "We design and install stunning water features including natural rock waterfalls, garden fountains, koi ponds, and stream-style water channels. Each installation is custom-designed to complement your garden's style.",
     image: "water-1",
     galleryImages: ["water-1", "water-2", "water-3", "water-4", "water-5", "water-6", "water-7"],
-    keywords: ["waterfall garden design coimbatore", "garden fountain coimbatore"],
+    keywords: ["waterfall garden design coimbatore", "garden water features coimbatore", "garden fountain coimbatore", "fountains in coimbatore", "koi pond construction coimbatore"],
     gallery: [
       { title: "Natural Rock Waterfall", description: "Constructed a multi-tier natural rock waterfall with recirculating pump system and surrounding tropical plants." },
       { title: "Koi Pond Garden Feature", description: "Designed and installed a decorative koi pond with filtration system, water lilies, and border landscaping." },
@@ -88,7 +88,7 @@ export const services: Service[] = [
     description: "We design and build beautiful outdoor structures including wooden gazebos, pergolas, arbors, and garden shelters that seamlessly integrate with your landscape.",
     image: "gazebo-1",
     galleryImages: ["gazebo-1", "gazebo-5", "gazebo-6", "gazebo-2", "gazebo-7", "gazebo-3", "gazebo-4"],
-    keywords: ["gazebo garden design coimbatore", "outdoor structure coimbatore"],
+    keywords: ["gazebo garden design coimbatore", "garden gazebo makers coimbatore", "outdoor structure coimbatore", "pergola design coimbatore", "wooden gazebo coimbatore"],
     gallery: [
       { title: "Wooden Pavilion Gazebo", description: "Built a traditional wooden gazebo with teak finishing, surrounded by flowering plants and climbing jasmine." },
       { title: "Garden Pergola", description: "Installed a modern pergola with integrated lighting and climbing plants for a shaded outdoor dining area." },
@@ -102,7 +102,7 @@ export const services: Service[] = [
     description: "We provide comprehensive landscaping solutions for commercial properties, educational institutions, hotels, and luxury villas. Our team handles large-scale projects with professional precision and aesthetic excellence.",
     image: "commercial-1",
     galleryImages: ["commercial-1", "commercial-5", "commercial-2", "commercial-6", "commercial-3", "commercial-4"],
-    keywords: ["commercial landscaping coimbatore", "villa garden landscaping coimbatore", "commercial landscape tamil nadu"],
+    keywords: ["commercial landscaping coimbatore", "factory garden design coimbatore", "school landscaping coimbatore", "villa garden landscaping coimbatore", "commercial landscape tamil nadu", "corporate garden maintenance"],
     gallery: [
       { title: "College Campus Landscaping", description: "Complete landscaping of a 10-acre college campus with lawns, gardens, pathways, and ornamental tree planting." },
       { title: "Hotel Garden Design", description: "Designed premium garden spaces for a hotel property including themed gardens, water features, and ambient lighting." },
@@ -116,7 +116,7 @@ export const services: Service[] = [
     description: "Our maintenance services ensure your garden stays beautiful year-round. We offer comprehensive AMC packages including lawn mowing, pruning, fertilizing, pest control, and seasonal planting.",
     image: "maintenance-img1",
     galleryImages: ["maintenance-img1", "maintenance-img3", "maintenance-img2", "maintenance-img4", "maintenance-img5", "maintenance-4", "maintenance-5", "maintenance-cover"],
-    keywords: ["garden maintenance coimbatore", "gardening AMC coimbatore"],
+    keywords: ["garden maintenance coimbatore", "garden cleaning service coimbatore", "landscape maintenance coimbatore", "gardening AMC coimbatore", "gardener service coimbatore"],
     gallery: [
       { title: "Residential Garden Maintenance", description: "Ongoing monthly maintenance of a residential garden including lawn care, pruning, fertilizing, and seasonal planting." },
       { title: "Commercial Property AMC", description: "Annual maintenance contract for a commercial property covering all landscaping needs including pest control and irrigation management." },
@@ -130,7 +130,7 @@ export const services: Service[] = [
     description: "Transform your landscape with our artistic rock garden designs. We combine natural boulders, pebbles, and drought-resistant plants to create stunning, low-maintenance landscapes that mimic rugged natural terrain. Perfect for adding texture and dimension to any garden.",
     image: "rock-1",
     galleryImages: ["rock-1", "rock-2", "rock-3", "rock-4", "rock-5", "rock-6"],
-    keywords: ["rock garden design coimbatore", "dry garden landscaping", "xeriscape garden tamil nadu"],
+    keywords: ["rock garden design coimbatore", "pebble garden design coimbatore", "dry garden landscaping", "xeriscape garden tamil nadu", "japanese garden coimbatore"],
     gallery: [
       { title: "Zen Rock Garden", description: "Minimalist design with white gravel and feature rocks, creating a meditative space." },
       { title: "Alpine Rockery", description: "Vibrant succulents and alpine plants thriving amongst naturally arranged stones." },
@@ -144,7 +144,7 @@ export const services: Service[] = [
     description: "Experience the tranquility of flowing water with our custom-designed artificial cascades. Whether it's a dramatic waterfall for a pool or a gentle stream for a quiet corner, we engineer natural-looking water features that become the centerpiece of your outdoor space.",
     image: "cascade-2",
     galleryImages: ["cascade-6", "cascade-1", "cascade-9", "cascade-2", "cascade-7", "cascade-8", "cascade-4", "cascade-5"],
-    keywords: ["artificial waterfall construction", "garden cascade design coimbatore", "water feature construction"],
+    keywords: ["artificial waterfall construction", "artificial waterfall coimbatore", "garden cascade design coimbatore", "water feature construction", "swimming pool waterfall coimbatore"],
     gallery: [
       { title: "Poolside Cascade", description: "Large artificial waterfall seamlessly integrating with a swimming pool." },
       { title: "Garden Stream Cascade", description: "Multi-level stream flowing through landscaped gardens, creating soothing water sounds." },
