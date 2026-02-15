@@ -497,6 +497,7 @@ const Index = () => {
               <a
                 href="tel:+919342358544"
                 className="bg-background text-foreground px-7 py-3 rounded-md font-semibold hover:bg-background/90 transition-colors flex items-center gap-2"
+                onClick={() => window.gtag('event', 'phone_click')}
               >
                 <Phone size={18} /> Call Now
               </a>

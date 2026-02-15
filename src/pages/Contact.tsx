@@ -49,6 +49,7 @@ const Contact = () => {
       // With no-cors, we can't reliably read the JSON response, 
       // but we assume success if no error is thrown
       setIsSuccess(true);
+      window.gtag("event", "form_submit");
       toast({
         title: "Enquiry Sent Successfully!",
         description: "Your details have been saved. We will reach out to you soon.",
@@ -90,7 +91,7 @@ const Contact = () => {
             >
               <h2 className="font-display text-2xl font-bold text-foreground mb-8">Serving Coimbatore & Tamil Nadu Since 1975</h2>
               <div className="space-y-6">
-                <a href="tel:+919342358544" className="flex items-start gap-4 group">
+                <a href="tel:+919342358544" className="flex items-start gap-4 group" onClick={() => window.gtag("event", "phone_click")}>
                   <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
                     <Phone size={20} className="text-primary" />
                   </div>
@@ -160,6 +161,7 @@ const Contact = () => {
                 <a
                   href="tel:+919342358544"
                   className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-4 py-2 rounded-full text-sm font-semibold hover:bg-primary/90 transition-colors w-fit"
+                  onClick={() => window.gtag("event", "phone_click")}
                 >
                   <Phone size={14} /> Call Now
                 </a>

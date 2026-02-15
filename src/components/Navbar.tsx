@@ -68,6 +68,7 @@ const Navbar = () => {
             <a
               href="tel:+919342358544"
               className="bg-primary text-primary-foreground px-5 py-2.5 rounded-md text-sm font-semibold hover:bg-primary/90 transition-all shadow-sm hover:shadow-md flex items-center gap-2 active:scale-95"
+              onClick={() => window.gtag('event', 'phone_click')}
             >
               <Phone size={16} />
               Call Now
@@ -103,6 +104,7 @@ const Navbar = () => {
             <a
               href="tel:+919342358544"
               className="bg-primary text-primary-foreground px-5 py-3 rounded-md text-base font-semibold text-center mt-4 flex items-center justify-center gap-2"
+              onClick={() => window.gtag('event', 'phone_click')}
             >
               <Phone size={18} />
               Call Now

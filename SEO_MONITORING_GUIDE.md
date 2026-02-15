@@ -41,8 +41,9 @@ We have injected these keywords into your code. Use these exact phrases if you w
 *   Landscape design in Coimbatore
 *   Garden work in Coimbatore
 *   Best landscaper Tamil Nadu
-*   Landscape contractor Theni/Tiruppur
+*   Landscape contractor Tiruppur
 *   Corporate garden maintenance
+
 
 ### **Terrace & Vertical**
 *   Terrace garden design Coimbatore

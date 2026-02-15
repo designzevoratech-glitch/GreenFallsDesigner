@@ -8,6 +8,7 @@ const WhatsAppButton = () => {
       rel="noopener noreferrer"
       className="fixed bottom-6 right-6 z-50 bg-[#25D366] hover:bg-[#20bd5a] text-[#fff] rounded-full p-4 shadow-lg hover:shadow-xl transition-all hover:scale-110"
       aria-label="Chat on WhatsApp"
+      onClick={() => window.gtag('event', 'whatsapp_click')}
     >
       <MessageCircle size={28} fill="currentColor" />
     </a>

@@ -74,7 +74,7 @@ const Footer = () => {
           <div>
             <h4 className="font-display text-lg font-semibold mb-4">Contact Us</h4>
             <div className="flex flex-col gap-3">
-              <a href="tel:+919342358544" className="flex items-center gap-2 text-sm opacity-80 hover:opacity-100">
+              <a href="tel:+919342358544" className="flex items-center gap-2 text-sm opacity-80 hover:opacity-100" onClick={() => window.gtag('event', 'phone_click')}>
                 <Phone size={16} /> +91 93423 58544
               </a>
               <a href="mailto:greenfallsgardendesigner@gmail.com" className="flex items-center gap-2 text-sm opacity-80 hover:opacity-100">
