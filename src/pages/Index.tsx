@@ -64,7 +64,7 @@ const Index = () => {
         description="Premium garden design & landscaping experts in Coimbatore. Terrace gardens, lawns, & maintenance since 1975. Serving all Tamil Nadu. Trusted by 500+ clients."
         canonical="/"
         preloadImage={heroImg}
-        keywords="garden work in coimbatore, garden designer rs puram coimbatore, landscaping gandhipuram coimbatore, garden design saibaba colony, terrace garden peelamedu, lawn installation race course coimbatore, garden vadavalli singanallur, landscaping pollachi mettupalayam, garden tiruppur erode, best landscaper tamil nadu"
+        keywords="garden work coimbatore, garden designer tamil nadu, landscaping services, terrace garden design, lawn installation, landscape architecture, garden maintenance, best landscaper coimbatore"
         schema={{
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
@@ -146,7 +146,7 @@ const Index = () => {
               Best Garden Work in Coimbatore – Green Falls Garden Designer
             </h1>
             <p className="mt-6 text-lg text-background/85 font-body leading-relaxed">
-              Premium landscaping and garden design services across Coimbatore including RS Puram, Gandhipuram, Saibaba Colony, Race Course, Peelamedu, Vadavalli, and all areas. Also serving Pollachi, Mettupalayam, Tiruppur, Erode, and throughout Tamil Nadu with trusted expertise since 1975.
+              Premium landscaping and garden design services serving prime neighborhoods across Coimbatore, including RS Puram and Race Course, as well as broader regions like Pollachi, Tiruppur, Erode, and throughout Tamil Nadu with trusted expertise since 1975.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <Link

@@ -92,9 +92,14 @@ const Footer = () => {
           <p className="text-sm opacity-70">
             © {new Date().getFullYear()} Green Falls Garden Designer. All rights reserved. | Coimbatore, Tamil Nadu
           </p>
-          <div className="flex gap-6">
-            <Link to="/privacy" className="text-sm opacity-70 hover:opacity-100 transition-opacity">Privacy Policy</Link>
-            <Link to="/terms" className="text-sm opacity-70 hover:opacity-100 transition-opacity">Terms of Use</Link>
+          <div className="flex flex-col md:flex-row gap-6 items-center md:pr-20">
+            <div className="flex gap-6">
+              <Link to="/privacy" className="text-sm opacity-70 hover:opacity-100 transition-opacity">Privacy Policy</Link>
+              <Link to="/terms" className="text-sm opacity-70 hover:opacity-100 transition-opacity">Terms of Use</Link>
+            </div>
+            <p className="text-sm opacity-70">
+              Designed by <a href="https://www.zevora.work" target="_blank" rel="noopener noreferrer" className="opacity-100 font-bold hover:text-white hover:underline transition-all">Zevora</a>
+            </p>
           </div>
         </div>
       </div>
