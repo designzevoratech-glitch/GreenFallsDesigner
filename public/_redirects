@@ -1,1 +1,6 @@
+# Canonical Redirects
+http://greenfallsgardendesigner.com/*  https://www.greenfallsgardendesigner.com/:splat  301!
+https://greenfallsgardendesigner.com/* https://www.greenfallsgardendesigner.com/:splat  301!
+http://www.greenfallsgardendesigner.com/* https://www.greenfallsgardendesigner.com/:splat 301!
+
 /*    /index.html   200

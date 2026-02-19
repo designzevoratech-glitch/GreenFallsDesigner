@@ -42,7 +42,7 @@ const SEO = ({ title, description, keywords, canonical, preloadImage, schema }: 
         // Update Canonical URL
         if (canonical) {
             let linkCanonical = document.querySelector('link[rel="canonical"]');
-            const fullUrl = canonical.startsWith('http') ? canonical : `https://greenfallsgardendesigner.com${canonical}`;
+            const fullUrl = canonical.startsWith('http') ? canonical : `https://www.greenfallsgardendesigner.com${canonical}`;
             if (linkCanonical) {
                 linkCanonical.setAttribute("href", fullUrl);
             } else {
@@ -86,15 +86,15 @@ const SEO = ({ title, description, keywords, canonical, preloadImage, schema }: 
         updateMeta("og:type", "website");
 
         if (canonical) {
-            const fullUrl = canonical.startsWith('http') ? canonical : `https://greenfallsgardendesigner.com${canonical}`;
+            const fullUrl = canonical.startsWith('http') ? canonical : `https://www.greenfallsgardendesigner.com${canonical}`;
             updateMeta("og:url", fullUrl);
         }
 
         if (preloadImage) {
-            updateMeta("og:image", preloadImage.startsWith('http') ? preloadImage : `https://greenfallsgardendesigner.com${preloadImage}`);
+            updateMeta("og:image", preloadImage.startsWith('http') ? preloadImage : `https://www.greenfallsgardendesigner.com${preloadImage}`);
         } else {
             // Fallback default share image if none provided
-            updateMeta("og:image", "https://greenfallsgardendesigner.com/og-image.jpg");
+            updateMeta("og:image", "https://www.greenfallsgardendesigner.com/og-image.jpg");
         }
 
         // Update Schema (JSON-LD)

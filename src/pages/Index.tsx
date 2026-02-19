@@ -69,9 +69,9 @@ const Index = () => {
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
           "name": "Green Falls Garden Designer",
-          "image": "https://greenfallsgardendesigner.com/favicon.png",
-          "@id": "https://greenfallsgardendesigner.com",
-          "url": "https://greenfallsgardendesigner.com",
+          "image": "https://www.greenfallsgardendesigner.com/favicon.png",
+          "@id": "https://www.greenfallsgardendesigner.com",
+          "url": "https://www.greenfallsgardendesigner.com",
           "telephone": "+919342358544",
           "address": {
             "@type": "PostalAddress",

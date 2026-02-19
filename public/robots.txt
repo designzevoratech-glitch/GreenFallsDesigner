@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://greenfallsgardendesigner.com/sitemap.xml
+Sitemap: https://www.greenfallsgardendesigner.com/sitemap.xml

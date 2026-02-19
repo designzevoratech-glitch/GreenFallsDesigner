@@ -1,4 +1,33 @@
 {
+    "redirects": [
+        {
+            "source": "/:path*",
+            "has": [
+                {
+                    "type": "host",
+                    "value": "greenfallsgardendesigner.com"
+                }
+            ],
+            "destination": "https://www.greenfallsgardendesigner.com/:path*",
+            "statusCode": 301
+        },
+        {
+            "source": "/:path*",
+            "has": [
+                {
+                    "type": "host",
+                    "value": "www.greenfallsgardendesigner.com"
+                },
+                {
+                    "type": "header",
+                    "key": "x-forwarded-proto",
+                    "value": "http"
+                }
+            ],
+            "destination": "https://www.greenfallsgardendesigner.com/:path*",
+            "statusCode": 301
+        }
+    ],
     "rewrites": [
         {
             "source": "/(.*)",
