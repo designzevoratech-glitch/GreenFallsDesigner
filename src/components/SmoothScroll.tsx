@@ -15,6 +15,15 @@ const SmoothScroll = ({ children }: SmoothScrollProps) => {
         window.history.scrollRestoration = 'manual';
         window.scrollTo(0, 0);
 
+        // Disable Lenis for mobile devices to drastically improve PageSpeed Performance score
+        const isMobile = window.matchMedia("(max-width: 768px)").matches ||
+            ('ontouchstart' in window) ||
+            (navigator.maxTouchPoints > 0);
+
+        if (isMobile) {
+            return;
+        }
+
         const lenis = new Lenis({
             duration: 1.2,
             easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),

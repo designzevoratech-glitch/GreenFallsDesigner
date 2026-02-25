@@ -69,7 +69,8 @@ const Index = () => {
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
           "name": "Green Falls Garden Designer",
-          "image": "https://www.greenfallsgardendesigner.com/favicon.png",
+          "image": "https://www.greenfallsgardendesigner.com/logo.png",
+          "logo": "https://www.greenfallsgardendesigner.com/logo.png",
           "@id": "https://www.greenfallsgardendesigner.com",
           "url": "https://www.greenfallsgardendesigner.com",
           "telephone": "+919342358544",
@@ -131,6 +132,7 @@ const Index = () => {
             alt="Green Falls Garden Designer – Professional Landscaping Services in Coimbatore, Tamil Nadu"
             title="Green Falls Garden Designer Hero"
             loading="eager"
+            fetchPriority="high"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-foreground/70 via-foreground/40 to-transparent" />
